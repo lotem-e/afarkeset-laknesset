@@ -1,0 +1,40 @@
+/* =========================================================
+   Group tokens - the Knesset parties
+   =========================================================
+   One color per faction of the 25th Knesset. These drive the
+   hemicycle ( seat map ) on the statistics page and any place
+   a party needs its own color.
+
+   Convention ( Canon reads this file ): each token line ends
+   with the party's Hebrew label in a trailing comment on the
+   SAME line - that comment is how Canon knows the label.
+
+   Palette logic: coalition parties sit in the blue family
+   ( echoing the brand navy ) with alternating lightness so
+   neighbors in the arc stay distinct; opposition parties get
+   warmer / distinct hues, Arab parties greens.
+
+   VALIDATED with the dataviz palette validator ( seat-map
+   adjacency order, light surface #FBFAF7 ): lightness band,
+   chroma floor, colorblind separation, and normal-vision
+   floor all PASS. The light steps carry a contrast warning -
+   relieved by the legend with names + counts next to the map.
+   If you change a value, re-run the validator.
+   ========================================================= */
+:root {
+  /* Coalition ( arc order, right side of the map ) */
+  --group-likud: #3565C8;            /* הליכוד */
+  --group-shas: #7FA7F5;             /* ש״ס */
+  --group-rzp: #2F45AC;              /* הציונות הדתית */
+  --group-utj: #5E85E2;              /* יהדות התורה */
+  --group-otzma: #27568F;            /* עוצמה יהודית */
+  --group-noam: #97ACF2;             /* נעם */
+
+  /* Opposition ( arc order continues to the left side ) */
+  --group-yisrael-beiteinu: #B8843C; /* ישראל ביתנו */
+  --group-national-unity: #7D82C9;   /* המחנה הממלכתי */
+  --group-labor: #C93030;            /* העבודה */
+  --group-yesh-atid: #35A2DE;        /* יש עתיד */
+  --group-raam: #1F7A55;             /* רע״ם */
+  --group-hadash-taal: #7BC98A;      /* חד״ש-תע״ל */
+}

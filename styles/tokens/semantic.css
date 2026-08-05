@@ -1,0 +1,101 @@
+/* =========================================================
+   Semantic color tokens - the roles
+   =========================================================
+   The middle layer. Each token is named by its JOB in the UI
+   ( --primary, --card, --stage-done ), and its value points at
+   a primitive from primitives.css. Components read ONLY this
+   layer: a bill card reads --card, never --cream-200.
+
+   Why two layers: the role stays the same while the color
+   behind it can change. Re-point one role here and every
+   component that uses it updates at once. It is also what
+   makes dark mode possible - the .dark block below points the
+   same roles at darker primitives.
+
+   Two groups below:
+   1. the standard shadcn roles every component library expects,
+   2. project roles that exist only in this product ( legislation
+      stage states, the completed-bill card, discussion tiles ).
+   ========================================================= */
+:root {
+  /* ─── Standard roles ─────────────────────────────────────── */
+  --background: var(--stone-50);              /* the page background */
+  --foreground: var(--navy-800);              /* default text color */
+  --card: var(--cream-200);                   /* bill card surface ( active bills ) */
+  --card-foreground: var(--navy-800);         /* text on cards */
+  --popover: var(--stone-0);                  /* dropdowns / popovers */
+  --popover-foreground: var(--navy-800);
+  --primary: var(--navy-700);                 /* main action color, titles */
+  --primary-foreground: var(--stone-50);      /* text on primary */
+  --secondary: var(--cream-300);              /* beige chips, filter pill */
+  --secondary-foreground: var(--navy-700);    /* text on beige */
+  --muted: var(--stone-100);                  /* sidebar, quiet surfaces */
+  --muted-foreground: var(--gray-500);        /* quiet text ( counts, hints ) */
+  --accent: var(--indigo-600);                /* badges, active highlights */
+  --accent-foreground: var(--stone-0);        /* text on accent */
+  --destructive: var(--red-500);              /* errors, "voted against" */
+  --border: var(--stone-300);                 /* lines and dividers */
+  --input: var(--stone-300);                  /* input field borders */
+  --ring: var(--indigo-600);                  /* keyboard focus ring */
+
+  /* ─── Project roles - the legislation pipeline ───────────── */
+  --stage-done: var(--green-100);             /* stage completed - chip bg */
+  --stage-done-foreground: var(--green-700);  /* stage completed - chip text */
+  --stage-active: var(--yellow-100);          /* stage in progress - chip bg */
+  --stage-active-foreground: var(--yellow-700);
+  --stage-pending: var(--gray-100);           /* stage not reached - chip bg */
+  --stage-pending-foreground: var(--gray-600);
+
+  /* ─── Project roles - surfaces and details ───────────────── */
+  --card-completed: var(--indigo-200);        /* completed-legislation card surface */
+  --panel-proposed: var(--indigo-100);        /* "ההצעה" comparison panel */
+  --panel-current: var(--stone-100);          /* "המצב הקיים" comparison panel */
+  --tile-discussion: var(--orange-100);       /* discussion date tiles */
+  --tile-discussion-foreground: var(--orange-700);
+  --role-note: var(--brown-600);              /* the MK role line under a name */
+  --ribbon: var(--navy-700);                  /* "התעדכן לאחרונה" corner ribbon */
+  --ribbon-foreground: var(--stone-50);
+  --text-highlight: var(--indigo-100);        /* highlighted phrases in bill intros */
+}
+
+/* ─── Dark theme ─────────────────────────────────────────────
+   The SAME roles, re-pointed at darker primitives. No dark
+   toggle ships in the app yet, but the mapping stays coherent
+   ( and Canon documents it ). */
+.dark {
+  --background: var(--navy-950);
+  --foreground: var(--stone-50);
+  --card: var(--navy-800);
+  --card-foreground: var(--stone-50);
+  --popover: var(--navy-800);
+  --popover-foreground: var(--stone-50);
+  --primary: var(--stone-50);
+  --primary-foreground: var(--navy-800);
+  --secondary: var(--navy-700);
+  --secondary-foreground: var(--stone-50);
+  --muted: var(--navy-800);
+  --muted-foreground: var(--navy-400);
+  --accent: var(--indigo-600);
+  --accent-foreground: var(--stone-0);
+  --destructive: var(--red-400);
+  --border: var(--overlay-10);
+  --input: var(--overlay-15);
+  --ring: var(--indigo-600);
+
+  --stage-done: var(--green-700);
+  --stage-done-foreground: var(--green-100);
+  --stage-active: var(--yellow-700);
+  --stage-active-foreground: var(--yellow-100);
+  --stage-pending: var(--navy-700);
+  --stage-pending-foreground: var(--navy-400);
+
+  --card-completed: var(--navy-700);
+  --panel-proposed: var(--navy-700);
+  --panel-current: var(--navy-800);
+  --tile-discussion: var(--orange-700);
+  --tile-discussion-foreground: var(--orange-100);
+  --role-note: var(--orange-600);
+  --ribbon: var(--indigo-600);
+  --ribbon-foreground: var(--stone-0);
+  --text-highlight: var(--navy-700);
+}

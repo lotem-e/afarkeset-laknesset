@@ -1,0 +1,161 @@
+/* =========================================================
+   Afarkeset LaKnesset - Globals ( the entry stylesheet )
+   =========================================================
+   The single CSS file the app loads ( src/main.tsx imports it ).
+   It holds almost no design decisions - those live in tokens/.
+   This file's job is setup: pull everything in and connect the
+   tokens to Tailwind so utility classes exist.
+
+   Top to bottom:
+   1. loads Tailwind and the design-token files,
+   2. clears the browser's built-in styling ( the "reset" ),
+   3. registers the tokens with Tailwind, so classes like
+      bg-primary, bg-stage-done, and text-h1 come to exist,
+   4. sets page-wide defaults ( background, text, font ).
+
+   The Heebo font itself is loaded in index.html from Google
+   Fonts; here we only declare that it is the app's font.
+
+   Note: @import lines must come before any other CSS rule.
+   ========================================================= */
+
+/* ─── Tailwind ────────────────────────────────────────────── */
+@import "tailwindcss";
+
+/* ─── Design tokens ───────────────────────────────────────────
+   The actual design system, split by job:
+   - primitives.css : the raw palette ( --navy-700, --cream-200 ).
+   - semantic.css   : roles pointing at primitives ( --primary,
+     --card, --stage-done ... ), for light and dark.
+   - groups.css     : one color per Knesset party ( hemicycle ).
+   - typography.css : the named text roles ( text-h1 ... text-tiny ).
+   Components only ever read the role layers, never raw values. */
+@import "./tokens/primitives.css";
+@import "./tokens/semantic.css";
+@import "./tokens/groups.css";
+@import "./tokens/typography.css";
+
+/* shadcn extras: ready-made animations + shadcn base styles. */
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/* Dark mode plumbing: classes written as dark:bg-... take
+   effect inside any element that has the class "dark". */
+@custom-variant dark (&:is(.dark *));
+
+/* ─── Reset ───────────────────────────────────────────────────
+   Clears the browser's built-in styling so our tokens are the
+   only thing deciding how anything looks. Lives inside
+   "@layer base" so Tailwind utilities always win over it. */
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;   /* set width includes padding and border */
+    margin: 0;
+    padding: 0;
+  }
+
+  img, svg, video {
+    display: block;
+    max-width: 100%;
+  }
+
+  button, input, select, textarea {
+    font: inherit;            /* form controls use the page font */
+    color: inherit;
+    background: none;
+    border: none;
+  }
+}
+
+/* ─── Registering tokens with Tailwind ────────────────────────
+   "@theme inline" tells Tailwind about a variable so it builds
+   matching utility classes. Each line
+       --color-<name>: var(--<name>);
+   creates bg-<name>, text-<name>, border-<name> ... reading the
+   token. Change the token once, every class updates. */
+@theme inline {
+  /* The typeface. Heebo everywhere - the design uses a single
+     family and lets size / weight do the hierarchy. */
+  --font-sans: 'Heebo', system-ui, sans-serif;
+  --font-heading: var(--font-sans);
+
+  /* Standard roles ( from semantic.css ) */
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+
+  /* Project roles ( from semantic.css ) - the legislation
+     pipeline states and this product's special surfaces. */
+  --color-stage-done: var(--stage-done);
+  --color-stage-done-foreground: var(--stage-done-foreground);
+  --color-stage-active: var(--stage-active);
+  --color-stage-active-foreground: var(--stage-active-foreground);
+  --color-stage-pending: var(--stage-pending);
+  --color-stage-pending-foreground: var(--stage-pending-foreground);
+  --color-card-completed: var(--card-completed);
+  --color-panel-proposed: var(--panel-proposed);
+  --color-panel-current: var(--panel-current);
+  --color-tile-discussion: var(--tile-discussion);
+  --color-tile-discussion-foreground: var(--tile-discussion-foreground);
+  --color-role-note: var(--role-note);
+  --color-ribbon: var(--ribbon);
+  --color-ribbon-foreground: var(--ribbon-foreground);
+  --color-text-highlight: var(--text-highlight);
+
+  /* The radius scale - one base knob ( --radius, below ) drives
+     every step. Bill cards use rounded-3xl. */
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* The spacing base - every gap / padding is a multiple of
+     this ( p-4 = 4 x --spacing ). 0.25rem = 4px. */
+  --spacing: 0.25rem;
+
+  /* The shadow scale ( elevation ). */
+  --shadow-xs: 0 1px 2px 0 rgb(21 23 43 / 0.05);
+  --shadow-sm: 0 1px 3px 0 rgb(21 23 43 / 0.08), 0 1px 2px -1px rgb(21 23 43 / 0.08);
+  --shadow-md: 0 4px 6px -1px rgb(21 23 43 / 0.08), 0 2px 4px -2px rgb(21 23 43 / 0.08);
+  --shadow-lg: 0 10px 15px -3px rgb(21 23 43 / 0.08), 0 4px 6px -4px rgb(21 23 43 / 0.08);
+  --shadow-xl: 0 20px 25px -5px rgb(21 23 43 / 0.08), 0 8px 10px -6px rgb(21 23 43 / 0.08);
+}
+
+/* ─── Base values ─────────────────────────────────────────────
+   The one base radius knob. The main palette is NOT here - it
+   lives in tokens/semantic.css. */
+:root {
+  --radius: 0.625rem;   /* 10px - chips and buttons; cards multiply it */
+}
+
+/* ─── Page defaults ──────────────────────────────────────────
+   "@apply" lets us use Tailwind utility classes inside CSS. */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}

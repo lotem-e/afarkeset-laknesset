@@ -1,0 +1,72 @@
+/* =========================================================
+   Typography roles
+   =========================================================
+   The named text styles of the design system. A component
+   never picks a raw size like "14px" - it uses a role by name
+   ( text-h1, text-small ), and the role decides size, weight,
+   and line spacing together. Change a role here once and every
+   place that uses it updates.
+
+   Based on shadcn's typography scale, with two deliberate
+   changes for this project:
+   - letter-spacing is 0 everywhere. Hebrew has no lowercase
+     and its glyphs sit tighter than Latin; the negative
+     "tracking-tight" that suits English headings squeezes
+     Hebrew and hurts readability.
+   - heading weight caps at 700 ( bold ). We load Heebo in
+     400 / 500 / 700, and Hebrew bold at 800+ starts to clog.
+
+   Jargon:
+   - @theme is the Tailwind block that turns each token into a
+     usable class. --text-h1 here creates the class text-h1.
+   - rem is relative to the root font size: 1rem = 16px.
+   - the double-dash modifier ( --text-h1--line-height ) is how
+     Tailwind attaches line-height / weight / tracking to a text
+     token, so one class sets all of them at once.
+   ========================================================= */
+@theme {
+  /* ─── Headings ────────────────────────────────────────────
+     h1 is the page title ( "הצעות חוק על סדר היום" ), h2 a
+     section title on the bill page, h3 a bill card title,
+     h4 a small block title inside sections. */
+  --text-h1: 2.25rem;                 /* 36px */
+  --text-h1--line-height: 2.75rem;    /* roomier than Latin - Hebrew needs air */
+  --text-h1--font-weight: 700;
+  --text-h1--letter-spacing: 0;
+
+  --text-h2: 1.5rem;                  /* 24px */
+  --text-h2--line-height: 2.1rem;
+  --text-h2--font-weight: 700;
+  --text-h2--letter-spacing: 0;
+
+  --text-h3: 1.375rem;                /* 22px - bill card titles */
+  --text-h3--line-height: 1.9rem;
+  --text-h3--font-weight: 700;
+  --text-h3--letter-spacing: 0;
+
+  --text-h4: 1.125rem;                /* 18px - block titles */
+  --text-h4--line-height: 1.6rem;
+  --text-h4--font-weight: 700;
+  --text-h4--letter-spacing: 0;
+
+  /* ─── Body and variants ──────────────────────────────────── */
+  --text-p: 1rem;                     /* 16px - default paragraph */
+  --text-p--line-height: 1.75rem;
+  --text-p--font-weight: 400;
+
+  --text-lead: 1.125rem;              /* 18px - page subtitle line */
+  --text-lead--line-height: 1.8rem;
+  --text-lead--font-weight: 400;
+
+  --text-large: 1.125rem;             /* 18px - emphasized body */
+  --text-large--line-height: 1.75rem;
+  --text-large--font-weight: 700;
+
+  --text-small: 0.875rem;             /* 14px - chips, meta lines, buttons */
+  --text-small--line-height: 1.25rem; /* not 1: Hebrew descenders need room */
+  --text-small--font-weight: 500;
+
+  --text-tiny: 0.8125rem;             /* 13px - party / bloc line under names */
+  --text-tiny--line-height: 1.15rem;
+  --text-tiny--font-weight: 400;
+}
