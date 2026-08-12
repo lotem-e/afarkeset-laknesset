@@ -6,7 +6,6 @@
 // the frame is written once and every route reuses it.
 import { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
-import { FeedbackWidget } from "./FeedbackWidget";
 import { Sidebar } from "./Sidebar";
 import { UserChip } from "./UserChip";
 
@@ -30,7 +29,11 @@ export function AppLayout() {
         <Outlet />
       </main>
       <UserChip />
-      <FeedbackWidget />
+      {/* FeedbackWidget is deliberately not rendered ( Lotem,
+          2026-08-12 ): the thumbs store nothing yet, and the site
+          is public now - no collecting clicks into the void. The
+          component stays in layout/FeedbackWidget.tsx, to return
+          once feedback has a real home to be written to. */}
     </div>
   );
 }
