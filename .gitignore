@@ -3,8 +3,3 @@ dist
 dist-ssr
 *.local
 .DS_Store
-
-# Lotem's nested side-project ( הכנסת לדורותיה ), deliberately
-# inside this folder. Kept out of git until we decide how to
-# include it; its node_modules must never enter either way.
-Knesset-History/

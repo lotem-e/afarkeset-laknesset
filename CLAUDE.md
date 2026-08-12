@@ -69,6 +69,12 @@ PAST the hurdle, so a bill rejected at its preliminary discussion never enters
   ( key `knesset.trackedBillIds` ), exposed via React context.
 - `styles/tokens/` - primitives → semantic → groups ( party colors ) →
   typography. Canon-compatible authoring ( same conventions as sample-project ).
+- `Knesset-History/` - a nested, independent sub-app: Lotem's
+  "הכנסת לדורותיה" landing page reviewing all 25 Knessets as hemicycle
+  infographics. It has its own CLAUDE.md, package.json and dev server
+  ( port 5186, `knesset-history` in the workspace launch registry ); only its
+  sources are tracked here. Whether it becomes a page of this site is an open
+  product decision.
 
 ## The legislation pipeline ( the data spine )
 

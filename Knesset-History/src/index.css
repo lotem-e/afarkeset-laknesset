@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+/* =========================================================
+   Design tokens - one place for every color and surface.
+   The chart itself gets its colors from src/content/palette.ts
+   ( party colors are data, not theme ), while everything on
+   this page - paper, ink, hairlines - lives here.
+   ========================================================= */
+:root {
+  /* Surfaces: warm paper page, near-white cards ( the chart surface ) */
+  --paper: #f4f1ea;
+  --surface: #fdfcf9;
+
+  /* Ink scale - text never wears a party color, only ink */
+  --ink: #191c22;
+  --ink-2: #4b5160;
+  --ink-3: #878c99;
+
+  /* Chrome */
+  --hairline: rgba(20, 22, 30, 0.1);
+  --hairline-strong: rgba(20, 22, 30, 0.16);
+  --coalition-ring: #14161f; /* the outline that marks a coalition seat */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Heebo", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Numbers inside Hebrew text read left-to-right */
+.ltr-nums {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* =========================================================
+   Page building blocks
+   ========================================================= */
+
+.knesset-card {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  box-shadow: 0 1px 2px rgba(20, 22, 30, 0.04), 0 8px 24px rgba(20, 22, 30, 0.05);
+}
+
+/* Small pill used for dates, badges and government rows */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 0.15rem 0.7rem;
+  font-size: 0.8rem;
+  color: var(--ink-2);
+  background: color-mix(in srgb, var(--surface) 60%, transparent);
+}
+
+/* The sticky timeline navigation chips ( 25 ... 1 ) */
+.timeline-nav {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.timeline-chip {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  min-width: 3.1rem;
+  padding: 0.3rem 0.45rem 0.35rem;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  color: var(--ink-2);
+  line-height: 1.1;
+  text-decoration: none;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+.timeline-chip:hover {
+  background: color-mix(in srgb, var(--ink) 6%, transparent);
+}
+
+.timeline-chip.active {
+  background: var(--surface);
+  border-color: var(--hairline-strong);
+  color: var(--ink);
+}
+
+.timeline-chip .n {
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.timeline-chip .y {
+  font-size: 0.65rem;
+  color: var(--ink-3);
+}
+
+/* Legend swatch: a small rounded square in the party color.
+   A coalition party gets the same dark ring its seats get. */
+.swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  flex: none;
+  border: 1px solid rgba(20, 22, 30, 0.15);
+}
+
+.swatch.in-coalition {
+  border: 2px solid var(--coalition-ring);
+}
+
+/* Seat hover: enlarge slightly so the tooltip target is obvious */
+.seat {
+  transition: transform 100ms ease;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.seat:hover {
+  transform: scale(1.35);
+}

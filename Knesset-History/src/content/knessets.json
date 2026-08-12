@@ -1,0 +1,2814 @@
+[
+  {
+    "n": 1,
+    "electionDate": "1949-01-25",
+    "parties": [
+      {
+        "name": "מפא\"י",
+        "slug": "mapai",
+        "family": "labor",
+        "seats": 46
+      },
+      {
+        "name": "מפ\"ם",
+        "slug": "mapam",
+        "family": "left",
+        "seats": 19
+      },
+      {
+        "name": "החזית הדתית המאוחדת",
+        "slug": "united-religious-front",
+        "family": "religious-zionist",
+        "seats": 16
+      },
+      {
+        "name": "תנועת החרות",
+        "slug": "herut",
+        "family": "likud",
+        "seats": 14
+      },
+      {
+        "name": "הציונים הכלליים",
+        "slug": "general-zionists",
+        "family": "liberal",
+        "seats": 7
+      },
+      {
+        "name": "המפלגה הפרוגרסיבית",
+        "slug": "progressive-party",
+        "family": "liberal",
+        "seats": 5
+      },
+      {
+        "name": "ספרדים ועדות המזרח",
+        "slug": "sephardim",
+        "family": "other",
+        "seats": 4
+      },
+      {
+        "name": "מק\"י",
+        "slug": "maki",
+        "family": "communist",
+        "seats": 4
+      },
+      {
+        "name": "הרשימה הדמוקרטית של נצרת",
+        "slug": "nazareth-democratic-list",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "רשימת הלוחמים",
+        "slug": "fighters-list",
+        "family": "right",
+        "seats": 1
+      },
+      {
+        "name": "ויצו",
+        "slug": "wizo",
+        "family": "other",
+        "seats": 1
+      },
+      {
+        "name": "התאחדות התימנים",
+        "slug": "yemenite-association",
+        "family": "other",
+        "seats": 1
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 1,
+      "pm": "דוד בן-גוריון",
+      "formed": "1949-03-10",
+      "coalition": [
+        {
+          "slug": "mapai"
+        },
+        {
+          "slug": "united-religious-front"
+        },
+        {
+          "slug": "progressive-party"
+        },
+        {
+          "slug": "sephardim"
+        },
+        {
+          "slug": "nazareth-democratic-list"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 1,
+        "pm": "דוד בן-גוריון",
+        "formed": "1949-03-10",
+        "ended": "1950-11-01"
+      },
+      {
+        "govNumber": 2,
+        "pm": "דוד בן-גוריון",
+        "formed": "1950-11-01",
+        "ended": "1951-10-08"
+      }
+    ],
+    "notes": "האספה המכוננת נבחרה כגוף מכונן והפכה לכנסת הראשונה. הכנסת התפזרה מוקדם לאחר שהממשלה השנייה נפלה בתחילת 1951 במשבר סביב החינוך במחנות העולים."
+  },
+  {
+    "n": 2,
+    "electionDate": "1951-07-30",
+    "parties": [
+      {
+        "name": "מפא\"י",
+        "slug": "mapai",
+        "family": "labor",
+        "seats": 45
+      },
+      {
+        "name": "הציונים הכלליים",
+        "slug": "general-zionists",
+        "family": "liberal",
+        "seats": 20
+      },
+      {
+        "name": "מפ\"ם",
+        "slug": "mapam",
+        "family": "left",
+        "seats": 15
+      },
+      {
+        "name": "הפועל המזרחי",
+        "slug": "hapoel-hamizrachi",
+        "family": "religious-zionist",
+        "seats": 8
+      },
+      {
+        "name": "תנועת החרות",
+        "slug": "herut",
+        "family": "likud",
+        "seats": 8
+      },
+      {
+        "name": "מק\"י",
+        "slug": "maki",
+        "family": "communist",
+        "seats": 5
+      },
+      {
+        "name": "המפלגה הפרוגרסיבית",
+        "slug": "progressive-party",
+        "family": "liberal",
+        "seats": 4
+      },
+      {
+        "name": "אגודת ישראל",
+        "slug": "agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 3
+      },
+      {
+        "name": "הרשימה הדמוקרטית לערביי ישראל",
+        "slug": "democratic-list-israeli-arabs",
+        "family": "arab",
+        "seats": 3
+      },
+      {
+        "name": "ספרדים ועדות המזרח",
+        "slug": "sephardim",
+        "family": "other",
+        "seats": 2
+      },
+      {
+        "name": "פועלי אגודת ישראל",
+        "slug": "poalei-agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 2
+      },
+      {
+        "name": "המזרחי",
+        "slug": "mizrachi",
+        "family": "religious-zionist",
+        "seats": 2
+      },
+      {
+        "name": "קידמה ועבודה",
+        "slug": "kidma-veavoda",
+        "family": "arab",
+        "seats": 1
+      },
+      {
+        "name": "התאחדות התימנים",
+        "slug": "yemenite-association",
+        "family": "other",
+        "seats": 1
+      },
+      {
+        "name": "חקלאות ופיתוח",
+        "slug": "haklaut-vepituah",
+        "family": "arab",
+        "seats": 1
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 3,
+      "pm": "דוד בן-גוריון",
+      "formed": "1951-10-08",
+      "coalition": [
+        {
+          "slug": "mapai"
+        },
+        {
+          "slug": "hapoel-hamizrachi"
+        },
+        {
+          "slug": "agudat-yisrael"
+        },
+        {
+          "slug": "poalei-agudat-yisrael"
+        },
+        {
+          "slug": "mizrachi"
+        },
+        {
+          "slug": "democratic-list-israeli-arabs"
+        },
+        {
+          "slug": "kidma-veavoda"
+        },
+        {
+          "slug": "haklaut-vepituah"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 3,
+        "pm": "דוד בן-גוריון",
+        "formed": "1951-10-08",
+        "ended": "1952-12-24"
+      },
+      {
+        "govNumber": 4,
+        "pm": "דוד בן-גוריון",
+        "formed": "1952-12-24",
+        "ended": "1954-01-26"
+      },
+      {
+        "govNumber": 5,
+        "pm": "משה שרת",
+        "formed": "1954-01-26",
+        "ended": "1955-06-29"
+      },
+      {
+        "govNumber": 6,
+        "pm": "משה שרת",
+        "formed": "1955-06-29",
+        "ended": "1955-11-03",
+        "note": "ממשלת מעבר"
+      }
+    ],
+    "notes": "בספטמבר 1952 פרשו אגודת ישראל ופועלי אגודת ישראל מהקואליציה על רקע גיוס בנות לשירות לאומי, ובדצמבר 1952 צורפו הציונים הכלליים לממשלה הרביעית. בסוף 1953 פרש בן-גוריון לשדה בוקר ומשה שרת עמד בראש שתי הממשלות הבאות."
+  },
+  {
+    "n": 3,
+    "electionDate": "1955-07-26",
+    "parties": [
+      {
+        "name": "מפא\"י",
+        "slug": "mapai",
+        "family": "labor",
+        "seats": 40
+      },
+      {
+        "name": "תנועת החרות",
+        "slug": "herut",
+        "family": "likud",
+        "seats": 15
+      },
+      {
+        "name": "הציונים הכלליים",
+        "slug": "general-zionists",
+        "family": "liberal",
+        "seats": 13
+      },
+      {
+        "name": "חזית דתית לאומית",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 11
+      },
+      {
+        "name": "אחדות העבודה - פועלי ציון",
+        "slug": "ahdut-haavoda",
+        "family": "labor",
+        "seats": 10
+      },
+      {
+        "name": "מפ\"ם",
+        "slug": "mapam",
+        "family": "left",
+        "seats": 9
+      },
+      {
+        "name": "חזית דתית תורתית",
+        "slug": "torah-religious-front",
+        "family": "haredi-ashkenazi",
+        "seats": 6
+      },
+      {
+        "name": "מק\"י",
+        "slug": "maki",
+        "family": "communist",
+        "seats": 6
+      },
+      {
+        "name": "המפלגה הפרוגרסיבית",
+        "slug": "progressive-party",
+        "family": "liberal",
+        "seats": 5
+      },
+      {
+        "name": "הרשימה הדמוקרטית לערביי ישראל",
+        "slug": "democratic-list-israeli-arabs",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "קידמה ועבודה",
+        "slug": "kidma-veavoda",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "חקלאות ופיתוח",
+        "slug": "haklaut-vepituah",
+        "family": "arab",
+        "seats": 1
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 7,
+      "pm": "דוד בן-גוריון",
+      "formed": "1955-11-03",
+      "coalition": [
+        {
+          "slug": "mapai"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "ahdut-haavoda"
+        },
+        {
+          "slug": "mapam"
+        },
+        {
+          "slug": "progressive-party"
+        },
+        {
+          "slug": "democratic-list-israeli-arabs"
+        },
+        {
+          "slug": "kidma-veavoda"
+        },
+        {
+          "slug": "haklaut-vepituah"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 7,
+        "pm": "דוד בן-גוריון",
+        "formed": "1955-11-03",
+        "ended": "1958-01-07"
+      },
+      {
+        "govNumber": 8,
+        "pm": "דוד בן-גוריון",
+        "formed": "1958-01-07",
+        "ended": "1959-12-17"
+      }
+    ],
+    "notes": "בן-גוריון התפטר בסוף 1957 בעקבות הדלפות מישיבות הממשלה והקים את הממשלה השמינית באותה קואליציה. ביולי 1958 פרשה המפלגה הדתית לאומית מהממשלה על רקע שאלת 'מיהו יהודי'."
+  },
+  {
+    "n": 4,
+    "electionDate": "1959-11-03",
+    "parties": [
+      {
+        "name": "מפא\"י",
+        "slug": "mapai",
+        "family": "labor",
+        "seats": 47
+      },
+      {
+        "name": "תנועת החרות",
+        "slug": "herut",
+        "family": "likud",
+        "seats": 17
+      },
+      {
+        "name": "חזית לאומית דתית",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 12
+      },
+      {
+        "name": "מפ\"ם",
+        "slug": "mapam",
+        "family": "left",
+        "seats": 9
+      },
+      {
+        "name": "הציונים הכלליים",
+        "slug": "general-zionists",
+        "family": "liberal",
+        "seats": 8
+      },
+      {
+        "name": "אחדות העבודה - פועלי ציון",
+        "slug": "ahdut-haavoda",
+        "family": "labor",
+        "seats": 7
+      },
+      {
+        "name": "חזית דתית תורתית",
+        "slug": "torah-religious-front",
+        "family": "haredi-ashkenazi",
+        "seats": 6
+      },
+      {
+        "name": "המפלגה הפרוגרסיבית",
+        "slug": "progressive-party",
+        "family": "liberal",
+        "seats": 6
+      },
+      {
+        "name": "מק\"י",
+        "slug": "maki",
+        "family": "communist",
+        "seats": 3
+      },
+      {
+        "name": "קידמה ופיתוח",
+        "slug": "kidma-vepituah",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "שיתוף ואחווה",
+        "slug": "shituf-veahva",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "חקלאות ופיתוח",
+        "slug": "haklaut-vepituah",
+        "family": "arab",
+        "seats": 1
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 9,
+      "pm": "דוד בן-גוריון",
+      "formed": "1959-12-17",
+      "coalition": [
+        {
+          "slug": "mapai"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "mapam"
+        },
+        {
+          "slug": "ahdut-haavoda"
+        },
+        {
+          "slug": "progressive-party"
+        },
+        {
+          "slug": "kidma-vepituah"
+        },
+        {
+          "slug": "shituf-veahva"
+        },
+        {
+          "slug": "haklaut-vepituah"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 9,
+        "pm": "דוד בן-גוריון",
+        "formed": "1959-12-17",
+        "ended": "1961-11-02"
+      }
+    ],
+    "notes": "ביולי 1960 הצטרפו פועלי אגודת ישראל לקואליציה. הכנסת התפזרה מוקדם בעקבות פרשת לבון: בן-גוריון התפטר בינואר 1961, לא הורכבה ממשלה חדשה והוקדמו הבחירות."
+  },
+  {
+    "n": 5,
+    "electionDate": "1961-08-15",
+    "parties": [
+      {
+        "name": "מפא\"י",
+        "slug": "mapai",
+        "family": "labor",
+        "seats": 42
+      },
+      {
+        "name": "תנועת החרות",
+        "slug": "herut",
+        "family": "likud",
+        "seats": 17
+      },
+      {
+        "name": "המפלגה הליברלית",
+        "slug": "liberal-party",
+        "family": "liberal",
+        "seats": 17
+      },
+      {
+        "name": "חזית דתית לאומית",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 12
+      },
+      {
+        "name": "מפ\"ם",
+        "slug": "mapam",
+        "family": "left",
+        "seats": 9
+      },
+      {
+        "name": "אחדות העבודה - פועלי ציון",
+        "slug": "ahdut-haavoda",
+        "family": "labor",
+        "seats": 8
+      },
+      {
+        "name": "מק\"י",
+        "slug": "maki",
+        "family": "communist",
+        "seats": 5
+      },
+      {
+        "name": "אגודת ישראל",
+        "slug": "agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 4
+      },
+      {
+        "name": "פועלי אגודת ישראל",
+        "slug": "poalei-agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 2
+      },
+      {
+        "name": "קידמה ופיתוח",
+        "slug": "kidma-vepituah",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "שיתוף ואחווה",
+        "slug": "shituf-veahva",
+        "family": "arab",
+        "seats": 2
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 10,
+      "pm": "דוד בן-גוריון",
+      "formed": "1961-11-02",
+      "coalition": [
+        {
+          "slug": "mapai"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "ahdut-haavoda"
+        },
+        {
+          "slug": "poalei-agudat-yisrael"
+        },
+        {
+          "slug": "shituf-veahva"
+        },
+        {
+          "slug": "kidma-vepituah"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 10,
+        "pm": "דוד בן-גוריון",
+        "formed": "1961-11-02",
+        "ended": "1963-06-26"
+      },
+      {
+        "govNumber": 11,
+        "pm": "לוי אשכול",
+        "formed": "1963-06-26",
+        "ended": "1964-12-22"
+      },
+      {
+        "govNumber": 12,
+        "pm": "לוי אשכול",
+        "formed": "1964-12-22",
+        "ended": "1966-01-12"
+      }
+    ],
+    "notes": "בן-גוריון התפטר ביוני 1963 מטעמים אישיים ולוי אשכול הקים את הממשלה ה-11 באותה קואליציה. בדצמבר 1964 התפטר אשכול על רקע פרשת לבון והקים מיד את הממשלה ה-12."
+  },
+  {
+    "n": 6,
+    "electionDate": "1965-11-02",
+    "parties": [
+      {
+        "name": "המערך",
+        "slug": "alignment",
+        "family": "labor",
+        "seats": 45
+      },
+      {
+        "name": "גח\"ל",
+        "slug": "gahal",
+        "family": "likud",
+        "seats": 26
+      },
+      {
+        "name": "מפד\"ל",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 11
+      },
+      {
+        "name": "רפ\"י",
+        "slug": "rafi",
+        "family": "labor",
+        "seats": 10
+      },
+      {
+        "name": "מפ\"ם",
+        "slug": "mapam",
+        "family": "left",
+        "seats": 8
+      },
+      {
+        "name": "הליברלים העצמאיים",
+        "slug": "independent-liberals",
+        "family": "liberal",
+        "seats": 5
+      },
+      {
+        "name": "אגודת ישראל",
+        "slug": "agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 4
+      },
+      {
+        "name": "רק\"ח",
+        "slug": "rakah",
+        "family": "communist",
+        "seats": 3
+      },
+      {
+        "name": "פועלי אגודת ישראל",
+        "slug": "poalei-agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 2
+      },
+      {
+        "name": "קידמה ופיתוח",
+        "slug": "progress-and-development",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "שיתוף ואחווה",
+        "slug": "cooperation-and-brotherhood",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "העולם הזה - כוח חדש",
+        "slug": "haolam-hazeh",
+        "family": "left",
+        "seats": 1
+      },
+      {
+        "name": "מק\"י",
+        "slug": "maki",
+        "family": "communist",
+        "seats": 1
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 13,
+      "pm": "לוי אשכול",
+      "formed": "1966-01-12",
+      "coalition": [
+        {
+          "slug": "alignment"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "mapam"
+        },
+        {
+          "slug": "independent-liberals"
+        },
+        {
+          "slug": "poalei-agudat-yisrael"
+        },
+        {
+          "slug": "progress-and-development"
+        },
+        {
+          "slug": "cooperation-and-brotherhood"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 13,
+        "pm": "לוי אשכול",
+        "formed": "1966-01-12",
+        "ended": "1969-03-17"
+      },
+      {
+        "govNumber": 14,
+        "pm": "גולדה מאיר",
+        "formed": "1969-03-17",
+        "ended": "1969-12-15"
+      }
+    ],
+    "notes": "ביוני 1967, ערב מלחמת ששת הימים, צורפו גח\"ל ורפ\"י לממשלה והוקמה ממשלת ליכוד לאומי. לוי אשכול נפטר בפברואר 1969, וגולדה מאיר עמדה בראש הממשלה הארבע עשרה שהוקמה במרץ 1969."
+  },
+  {
+    "n": 7,
+    "electionDate": "1969-10-28",
+    "parties": [
+      {
+        "name": "המערך",
+        "slug": "alignment",
+        "family": "labor",
+        "seats": 56
+      },
+      {
+        "name": "גח\"ל",
+        "slug": "gahal",
+        "family": "likud",
+        "seats": 26
+      },
+      {
+        "name": "מפד\"ל",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 12
+      },
+      {
+        "name": "אגודת ישראל",
+        "slug": "agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 4
+      },
+      {
+        "name": "הליברלים העצמאיים",
+        "slug": "independent-liberals",
+        "family": "liberal",
+        "seats": 4
+      },
+      {
+        "name": "הרשימה הממלכתית",
+        "slug": "state-list",
+        "family": "center",
+        "seats": 4
+      },
+      {
+        "name": "רק\"ח",
+        "slug": "rakah",
+        "family": "communist",
+        "seats": 3
+      },
+      {
+        "name": "קידמה ופיתוח",
+        "slug": "progress-and-development",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "שיתוף ואחווה",
+        "slug": "cooperation-and-brotherhood",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "פועלי אגודת ישראל",
+        "slug": "poalei-agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 2
+      },
+      {
+        "name": "העולם הזה - כוח חדש",
+        "slug": "haolam-hazeh",
+        "family": "left",
+        "seats": 2
+      },
+      {
+        "name": "המרכז החופשי",
+        "slug": "free-centre",
+        "family": "right",
+        "seats": 2
+      },
+      {
+        "name": "מק\"י",
+        "slug": "maki",
+        "family": "communist",
+        "seats": 1
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 15,
+      "pm": "גולדה מאיר",
+      "formed": "1969-12-15",
+      "coalition": [
+        {
+          "slug": "alignment"
+        },
+        {
+          "slug": "gahal"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "independent-liberals"
+        },
+        {
+          "slug": "progress-and-development"
+        },
+        {
+          "slug": "cooperation-and-brotherhood"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 15,
+        "pm": "גולדה מאיר",
+        "formed": "1969-12-15",
+        "ended": "1974-03-10",
+        "note": "ממשלת אחדות לאומית"
+      }
+    ],
+    "notes": "הממשלה החמש עשרה הוקמה כממשלת אחדות לאומית עם גח\"ל. גח\"ל פרשה באוגוסט 1970 במחאה על קבלת יוזמת רוג'רס, והקואליציה ירדה מ-102 ל-76 חברי כנסת."
+  },
+  {
+    "n": 8,
+    "electionDate": "1973-12-31",
+    "parties": [
+      {
+        "name": "המערך",
+        "slug": "alignment",
+        "family": "labor",
+        "seats": 51
+      },
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 39
+      },
+      {
+        "name": "מפד\"ל",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 10
+      },
+      {
+        "name": "חזית דתית תורתית",
+        "slug": "torah-religious-front",
+        "family": "haredi-ashkenazi",
+        "seats": 5
+      },
+      {
+        "name": "הליברלים העצמאיים",
+        "slug": "independent-liberals",
+        "family": "liberal",
+        "seats": 4
+      },
+      {
+        "name": "רק\"ח",
+        "slug": "rakah",
+        "family": "communist",
+        "seats": 4
+      },
+      {
+        "name": "התנועה לזכויות האזרח",
+        "slug": "ratz",
+        "family": "left",
+        "seats": 3
+      },
+      {
+        "name": "קידמה ופיתוח",
+        "slug": "progress-and-development",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "מוקד",
+        "slug": "moked",
+        "family": "left",
+        "seats": 1
+      },
+      {
+        "name": "הרשימה הערבית לבדואים וכפריים",
+        "slug": "arab-list-bedouin",
+        "family": "arab",
+        "seats": 1
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 16,
+      "pm": "גולדה מאיר",
+      "formed": "1974-03-10",
+      "coalition": [
+        {
+          "slug": "alignment"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "independent-liberals"
+        },
+        {
+          "slug": "progress-and-development"
+        },
+        {
+          "slug": "arab-list-bedouin"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 16,
+        "pm": "גולדה מאיר",
+        "formed": "1974-03-10",
+        "ended": "1974-06-03"
+      },
+      {
+        "govNumber": 17,
+        "pm": "יצחק רבין",
+        "formed": "1974-06-03",
+        "ended": "1977-06-20"
+      }
+    ],
+    "notes": "גולדה מאיר התפטרה באפריל 1974 בעקבות דוח ועדת אגרנט, וביוני הוקמה ממשלת רבין שנשענה על 61 חברי כנסת בלבד. מפד\"ל הצטרפה לממשלת רבין באוקטובר 1974, והתנועה לזכויות האזרח פרשה בעקבות זאת."
+  },
+  {
+    "n": 9,
+    "electionDate": "1977-05-17",
+    "parties": [
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 43
+      },
+      {
+        "name": "המערך",
+        "slug": "alignment",
+        "family": "labor",
+        "seats": 32
+      },
+      {
+        "name": "ד\"ש",
+        "slug": "dash",
+        "family": "center",
+        "seats": 15
+      },
+      {
+        "name": "מפד\"ל",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 12
+      },
+      {
+        "name": "חד\"ש",
+        "slug": "hadash",
+        "family": "communist",
+        "seats": 5
+      },
+      {
+        "name": "אגודת ישראל",
+        "slug": "agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 4
+      },
+      {
+        "name": "שלומציון",
+        "slug": "shlomtzion",
+        "family": "right",
+        "seats": 2
+      },
+      {
+        "name": "של\"י",
+        "slug": "sheli",
+        "family": "left",
+        "seats": 2
+      },
+      {
+        "name": "רשימת פלאטו שרון",
+        "slug": "flatto-sharon",
+        "family": "other",
+        "seats": 1
+      },
+      {
+        "name": "הרשימה הערבית המאוחדת",
+        "slug": "united-arab-list",
+        "family": "arab",
+        "seats": 1
+      },
+      {
+        "name": "פועלי אגודת ישראל",
+        "slug": "poalei-agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 1
+      },
+      {
+        "name": "התנועה לזכויות האזרח",
+        "slug": "ratz",
+        "family": "left",
+        "seats": 1
+      },
+      {
+        "name": "הליברלים העצמאיים",
+        "slug": "independent-liberals",
+        "family": "liberal",
+        "seats": 1
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 18,
+      "pm": "מנחם בגין",
+      "formed": "1977-06-20",
+      "coalition": [
+        {
+          "slug": "likud"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "agudat-yisrael"
+        },
+        {
+          "slug": "shlomtzion"
+        },
+        {
+          "slug": "alignment",
+          "seatsInCoalition": 1
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 18,
+        "pm": "מנחם בגין",
+        "formed": "1977-06-20",
+        "ended": "1981-08-05"
+      }
+    ],
+    "notes": "משה דיין פרש מהמערך והצטרף לממשלת בגין כשר החוץ, ושלומציון התמזגה בליכוד סמוך לאחר הבחירות. ד\"ש הצטרפה לקואליציה רק באוקטובר 1977 והתפלגה בספטמבר 1978."
+  },
+  {
+    "n": 10,
+    "electionDate": "1981-06-30",
+    "parties": [
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 48
+      },
+      {
+        "name": "המערך",
+        "slug": "alignment",
+        "family": "labor",
+        "seats": 47
+      },
+      {
+        "name": "מפד\"ל",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 6
+      },
+      {
+        "name": "אגודת ישראל",
+        "slug": "agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 4
+      },
+      {
+        "name": "חד\"ש",
+        "slug": "hadash",
+        "family": "communist",
+        "seats": 4
+      },
+      {
+        "name": "התחיה",
+        "slug": "tehiya",
+        "family": "far-right",
+        "seats": 3
+      },
+      {
+        "name": "תמ\"י",
+        "slug": "tami",
+        "family": "religious-zionist",
+        "seats": 3
+      },
+      {
+        "name": "תל\"ם",
+        "slug": "telem",
+        "family": "center",
+        "seats": 2
+      },
+      {
+        "name": "שינוי",
+        "slug": "shinui",
+        "family": "center",
+        "seats": 2
+      },
+      {
+        "name": "התנועה לזכויות האזרח",
+        "slug": "ratz",
+        "family": "left",
+        "seats": 1
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 19,
+      "pm": "מנחם בגין",
+      "formed": "1981-08-05",
+      "coalition": [
+        {
+          "slug": "likud"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "agudat-yisrael"
+        },
+        {
+          "slug": "tami"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 19,
+        "pm": "מנחם בגין",
+        "formed": "1981-08-05",
+        "ended": "1983-10-10"
+      },
+      {
+        "govNumber": 20,
+        "pm": "יצחק שמיר",
+        "formed": "1983-10-10",
+        "ended": "1984-09-13"
+      }
+    ],
+    "notes": "תל\"ם והתחיה הצטרפו לקואליציה ביולי 1982, לאחר פרוץ מלחמת לבנון. בגין הודיע על התפטרותו באוגוסט 1983, ובאוקטובר הרכיב יצחק שמיר את הממשלה העשרים."
+  },
+  {
+    "n": 11,
+    "electionDate": "1984-07-23",
+    "parties": [
+      {
+        "name": "המערך",
+        "slug": "alignment",
+        "family": "labor",
+        "seats": 44
+      },
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 41
+      },
+      {
+        "name": "התחיה - צומת",
+        "slug": "tehiya-tzomet",
+        "family": "far-right",
+        "seats": 5
+      },
+      {
+        "name": "מפד\"ל",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 4
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 4
+      },
+      {
+        "name": "חד\"ש",
+        "slug": "hadash",
+        "family": "communist",
+        "seats": 4
+      },
+      {
+        "name": "רץ",
+        "slug": "ratz",
+        "family": "left",
+        "seats": 3
+      },
+      {
+        "name": "יחד",
+        "slug": "yahad-weizman",
+        "family": "center",
+        "seats": 3
+      },
+      {
+        "name": "שינוי",
+        "slug": "shinui",
+        "family": "center",
+        "seats": 3
+      },
+      {
+        "name": "הרשימה המתקדמת לשלום",
+        "slug": "progressive-list-for-peace",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "אגודת ישראל",
+        "slug": "agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 2
+      },
+      {
+        "name": "מורשה",
+        "slug": "morasha",
+        "family": "religious-zionist",
+        "seats": 2
+      },
+      {
+        "name": "תמ\"י",
+        "slug": "tami",
+        "family": "religious-zionist",
+        "seats": 1
+      },
+      {
+        "name": "כך",
+        "slug": "kach",
+        "family": "far-right",
+        "seats": 1
+      },
+      {
+        "name": "אומץ",
+        "slug": "ometz",
+        "family": "center",
+        "seats": 1
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 21,
+      "pm": "שמעון פרס",
+      "formed": "1984-09-13",
+      "coalition": [
+        {
+          "slug": "alignment",
+          "seatsInCoalition": 37
+        },
+        {
+          "slug": "likud"
+        },
+        {
+          "slug": "yahad-weizman"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "shas"
+        },
+        {
+          "slug": "shinui"
+        },
+        {
+          "slug": "agudat-yisrael"
+        },
+        {
+          "slug": "morasha"
+        },
+        {
+          "slug": "ometz"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 21,
+        "pm": "שמעון פרס",
+        "formed": "1984-09-13",
+        "ended": "1986-10-20",
+        "note": "ממשלת אחדות, רוטציה"
+      },
+      {
+        "govNumber": 22,
+        "pm": "יצחק שמיר",
+        "formed": "1986-10-20",
+        "ended": "1988-12-22",
+        "note": "רוטציה"
+      }
+    ],
+    "notes": "הוקמה ממשלת אחדות לאומית רחבה עם הסכם רוטציה: שמעון פרס כיהן כראש הממשלה בשנתיים הראשונות, וב-1986 התחלף עם יצחק שמיר. מפ\"ם ויוסי שריד פרשו מהמערך במחאה על הקמת ממשלת האחדות, יחד בראשות עזר ויצמן הצטרפה למערך, ושינוי עזבה את הממשלה ב-1987."
+  },
+  {
+    "n": 12,
+    "electionDate": "1988-11-01",
+    "parties": [
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 40
+      },
+      {
+        "name": "המערך",
+        "slug": "alignment",
+        "family": "labor",
+        "seats": 39
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 6
+      },
+      {
+        "name": "אגודת ישראל",
+        "slug": "agudat-yisrael",
+        "family": "haredi-ashkenazi",
+        "seats": 5
+      },
+      {
+        "name": "רץ",
+        "slug": "ratz",
+        "family": "left",
+        "seats": 5
+      },
+      {
+        "name": "מפד\"ל",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 5
+      },
+      {
+        "name": "חד\"ש",
+        "slug": "hadash",
+        "family": "communist",
+        "seats": 4
+      },
+      {
+        "name": "התחיה",
+        "slug": "tehiya",
+        "family": "far-right",
+        "seats": 3
+      },
+      {
+        "name": "מפ\"ם",
+        "slug": "mapam",
+        "family": "left",
+        "seats": 3
+      },
+      {
+        "name": "צומת",
+        "slug": "tzomet",
+        "family": "right",
+        "seats": 2
+      },
+      {
+        "name": "מולדת",
+        "slug": "moledet",
+        "family": "far-right",
+        "seats": 2
+      },
+      {
+        "name": "שינוי",
+        "slug": "shinui",
+        "family": "center",
+        "seats": 2
+      },
+      {
+        "name": "דגל התורה",
+        "slug": "degel-hatorah",
+        "family": "haredi-ashkenazi",
+        "seats": 2
+      },
+      {
+        "name": "הרשימה המתקדמת לשלום",
+        "slug": "progressive-list-for-peace",
+        "family": "arab",
+        "seats": 1
+      },
+      {
+        "name": "מד\"ע",
+        "slug": "mada",
+        "family": "arab",
+        "seats": 1
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 23,
+      "pm": "יצחק שמיר",
+      "formed": "1988-12-22",
+      "coalition": [
+        {
+          "slug": "likud"
+        },
+        {
+          "slug": "alignment"
+        },
+        {
+          "slug": "shas"
+        },
+        {
+          "slug": "agudat-yisrael"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "degel-hatorah"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 23,
+        "pm": "יצחק שמיר",
+        "formed": "1988-12-22",
+        "ended": "1990-06-11",
+        "note": "ממשלת אחדות"
+      },
+      {
+        "govNumber": 24,
+        "pm": "יצחק שמיר",
+        "formed": "1990-06-11",
+        "ended": "1992-07-13",
+        "note": "ממשלה צרה"
+      }
+    ],
+    "notes": "ממשלת אחדות נוספת של הליכוד והמערך קמה בסוף 1988. במרץ 1990 פרש המערך בעקבות ניסיון כושל להפיל את הממשלה ולהקים ממשלה חלופית (\"התרגיל המסריח\"), וביוני 1990 הקים שמיר ממשלה צרה עם מפלגות הימין והמפלגות החרדיות."
+  },
+  {
+    "n": 13,
+    "electionDate": "1992-06-23",
+    "parties": [
+      {
+        "name": "העבודה",
+        "slug": "labor",
+        "family": "labor",
+        "seats": 44
+      },
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 32
+      },
+      {
+        "name": "מרצ",
+        "slug": "meretz",
+        "family": "left",
+        "seats": 12
+      },
+      {
+        "name": "צומת",
+        "slug": "tzomet",
+        "family": "right",
+        "seats": 8
+      },
+      {
+        "name": "מפד\"ל",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 6
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 6
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 4
+      },
+      {
+        "name": "חד\"ש",
+        "slug": "hadash",
+        "family": "communist",
+        "seats": 3
+      },
+      {
+        "name": "מולדת",
+        "slug": "moledet",
+        "family": "far-right",
+        "seats": 3
+      },
+      {
+        "name": "מד\"ע",
+        "slug": "mada",
+        "family": "arab",
+        "seats": 2
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 25,
+      "pm": "יצחק רבין",
+      "formed": "1992-07-13",
+      "coalition": [
+        {
+          "slug": "labor"
+        },
+        {
+          "slug": "meretz"
+        },
+        {
+          "slug": "shas"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 25,
+        "pm": "יצחק רבין",
+        "formed": "1992-07-13",
+        "ended": "1995-11-22"
+      },
+      {
+        "govNumber": 26,
+        "pm": "שמעון פרס",
+        "formed": "1995-11-22",
+        "ended": "1996-06-18",
+        "note": "לאחר רצח רבין"
+      }
+    ],
+    "notes": "רבין הקים קואליציה של 62 חברי כנסת עם מרצ וש\"ס, שנשענה גם על תמיכה חיצונית של חד\"ש ומד\"ע. ש\"ס פרשה מהקואליציה ב-1993, ולאחר רצח רבין בנובמבר 1995 הקים שמעון פרס את הממשלה ה-26."
+  },
+  {
+    "n": 14,
+    "electionDate": "1996-05-29",
+    "parties": [
+      {
+        "name": "העבודה",
+        "slug": "labor",
+        "family": "labor",
+        "seats": 34
+      },
+      {
+        "name": "הליכוד - גשר - צומת",
+        "slug": "likud-gesher-tzomet",
+        "family": "likud",
+        "seats": 32
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 10
+      },
+      {
+        "name": "מפד\"ל",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 9
+      },
+      {
+        "name": "מרצ",
+        "slug": "meretz",
+        "family": "left",
+        "seats": 9
+      },
+      {
+        "name": "ישראל בעלייה",
+        "slug": "yisrael-baaliyah",
+        "family": "center",
+        "seats": 7
+      },
+      {
+        "name": "חד\"ש - בל\"ד",
+        "slug": "hadash",
+        "family": "communist",
+        "seats": 5
+      },
+      {
+        "name": "הדרך השלישית",
+        "slug": "third-way",
+        "family": "center",
+        "seats": 4
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 4
+      },
+      {
+        "name": "רע\"מ",
+        "slug": "raam",
+        "family": "arab",
+        "seats": 4
+      },
+      {
+        "name": "מולדת",
+        "slug": "moledet",
+        "family": "far-right",
+        "seats": 2
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 27,
+      "pm": "בנימין נתניהו",
+      "formed": "1996-06-18",
+      "coalition": [
+        {
+          "slug": "likud-gesher-tzomet"
+        },
+        {
+          "slug": "shas"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "yisrael-baaliyah"
+        },
+        {
+          "slug": "utj"
+        },
+        {
+          "slug": "third-way"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 27,
+        "pm": "בנימין נתניהו",
+        "formed": "1996-06-18",
+        "ended": "1999-07-06"
+      }
+    ],
+    "notes": "בבחירה הישירה הראשונה לראשות הממשלה ניצח בנימין נתניהו את שמעון פרס, אף שהעבודה הייתה הרשימה הגדולה בכנסת. גשר פרשה מהקואליציה בפברואר 1999, והממשלה סיימה את דרכה בהקדמת הבחירות."
+  },
+  {
+    "n": 15,
+    "electionDate": "1999-05-17",
+    "parties": [
+      {
+        "name": "ישראל אחת",
+        "slug": "one-israel",
+        "family": "labor",
+        "seats": 26
+      },
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 19
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 17
+      },
+      {
+        "name": "מרצ",
+        "slug": "meretz",
+        "family": "left",
+        "seats": 10
+      },
+      {
+        "name": "ישראל בעלייה",
+        "slug": "yisrael-baaliyah",
+        "family": "center",
+        "seats": 6
+      },
+      {
+        "name": "שינוי",
+        "slug": "shinui",
+        "family": "center",
+        "seats": 6
+      },
+      {
+        "name": "מפלגת המרכז",
+        "slug": "center-party",
+        "family": "center",
+        "seats": 6
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 5
+      },
+      {
+        "name": "מפד\"ל",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 5
+      },
+      {
+        "name": "רע\"מ",
+        "slug": "raam",
+        "family": "arab",
+        "seats": 5
+      },
+      {
+        "name": "האיחוד הלאומי",
+        "slug": "national-union",
+        "family": "far-right",
+        "seats": 4
+      },
+      {
+        "name": "ישראל ביתנו",
+        "slug": "yisrael-beiteinu",
+        "family": "right",
+        "seats": 4
+      },
+      {
+        "name": "חד\"ש",
+        "slug": "hadash",
+        "family": "communist",
+        "seats": 3
+      },
+      {
+        "name": "בל\"ד",
+        "slug": "balad",
+        "family": "arab",
+        "seats": 2
+      },
+      {
+        "name": "עם אחד",
+        "slug": "am-ehad",
+        "family": "labor",
+        "seats": 2
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 28,
+      "pm": "אהוד ברק",
+      "formed": "1999-07-06",
+      "coalition": [
+        {
+          "slug": "one-israel"
+        },
+        {
+          "slug": "shas"
+        },
+        {
+          "slug": "meretz"
+        },
+        {
+          "slug": "yisrael-baaliyah"
+        },
+        {
+          "slug": "center-party"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "utj"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 28,
+        "pm": "אהוד ברק",
+        "formed": "1999-07-06",
+        "ended": "2001-03-07"
+      },
+      {
+        "govNumber": 29,
+        "pm": "אריאל שרון",
+        "formed": "2001-03-07",
+        "ended": "2003-02-28",
+        "note": "ממשלת אחדות"
+      }
+    ],
+    "notes": "אהוד ברק ניצח בבחירה הישירה והקים קואליציה רחבה של 75 חברי כנסת שהתפרקה בהדרגה: יהדות התורה פרשה כבר בספטמבר 1999, וביולי 2000 עזבו ש\"ס, מפד\"ל וישראל בעלייה. בפברואר 2001 נערכה בחירה מיוחדת לראשות הממשלה בלבד, בלי בחירות לכנסת, אריאל שרון ניצח בה והקים ממשלת אחדות רחבה."
+  },
+  {
+    "n": 16,
+    "electionDate": "2003-01-28",
+    "parties": [
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 38
+      },
+      {
+        "name": "העבודה-מימד",
+        "slug": "labor-meimad",
+        "family": "labor",
+        "seats": 19
+      },
+      {
+        "name": "שינוי",
+        "slug": "shinui",
+        "family": "liberal",
+        "seats": 15
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 11
+      },
+      {
+        "name": "האיחוד הלאומי",
+        "slug": "national-union",
+        "family": "far-right",
+        "seats": 7
+      },
+      {
+        "name": "מרצ",
+        "slug": "meretz",
+        "family": "left",
+        "seats": 6
+      },
+      {
+        "name": "מפד\"ל",
+        "slug": "nrp",
+        "family": "religious-zionist",
+        "seats": 6
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 5
+      },
+      {
+        "name": "עם אחד",
+        "slug": "am-ehad",
+        "family": "labor",
+        "seats": 3
+      },
+      {
+        "name": "חד\"ש-תע\"ל",
+        "slug": "hadash-taal",
+        "family": "communist",
+        "seats": 3
+      },
+      {
+        "name": "בל\"ד",
+        "slug": "balad",
+        "family": "arab",
+        "seats": 3
+      },
+      {
+        "name": "ישראל בעלייה",
+        "slug": "yisrael-baaliyah",
+        "family": "right",
+        "seats": 2
+      },
+      {
+        "name": "רע\"מ",
+        "slug": "raam",
+        "family": "arab",
+        "seats": 2
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 30,
+      "pm": "אריאל שרון",
+      "formed": "2003-02-28",
+      "coalition": [
+        {
+          "slug": "likud"
+        },
+        {
+          "slug": "shinui"
+        },
+        {
+          "slug": "national-union"
+        },
+        {
+          "slug": "nrp"
+        },
+        {
+          "slug": "yisrael-baaliyah"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 30,
+        "pm": "אריאל שרון",
+        "formed": "2003-02-28",
+        "ended": "2006-05-04",
+        "note": "מינואר 2006 אהוד אולמרט מ\"מ ראש הממשלה"
+      }
+    ],
+    "notes": "ישראל בעלייה התמזגה בליכוד מיד לאחר הבחירות. סביב תוכנית ההתנתקות עזבו האיחוד הלאומי, המפד\"ל ושינוי את הקואליציה והעבודה-מימד הצטרפה, ובנובמבר 2005 פרש אריאל שרון מהליכוד והקים את קדימה."
+  },
+  {
+    "n": 17,
+    "electionDate": "2006-03-28",
+    "parties": [
+      {
+        "name": "קדימה",
+        "slug": "kadima",
+        "family": "center",
+        "seats": 29
+      },
+      {
+        "name": "העבודה-מימד",
+        "slug": "labor-meimad",
+        "family": "labor",
+        "seats": 19
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 12
+      },
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 12
+      },
+      {
+        "name": "ישראל ביתנו",
+        "slug": "yisrael-beiteinu",
+        "family": "right",
+        "seats": 11
+      },
+      {
+        "name": "האיחוד הלאומי-מפד\"ל",
+        "slug": "national-union-nrp",
+        "family": "religious-zionist",
+        "seats": 9
+      },
+      {
+        "name": "גיל",
+        "slug": "gil",
+        "family": "other",
+        "seats": 7
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 6
+      },
+      {
+        "name": "מרצ",
+        "slug": "meretz",
+        "family": "left",
+        "seats": 5
+      },
+      {
+        "name": "רע\"מ-תע\"ל",
+        "slug": "raam-taal",
+        "family": "arab",
+        "seats": 4
+      },
+      {
+        "name": "חד\"ש",
+        "slug": "hadash",
+        "family": "communist",
+        "seats": 3
+      },
+      {
+        "name": "בל\"ד",
+        "slug": "balad",
+        "family": "arab",
+        "seats": 3
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 31,
+      "pm": "אהוד אולמרט",
+      "formed": "2006-05-04",
+      "coalition": [
+        {
+          "slug": "kadima"
+        },
+        {
+          "slug": "labor-meimad"
+        },
+        {
+          "slug": "shas"
+        },
+        {
+          "slug": "gil"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 31,
+        "pm": "אהוד אולמרט",
+        "formed": "2006-05-04",
+        "ended": "2009-03-31"
+      }
+    ],
+    "notes": "ישראל ביתנו הצטרפה לקואליציה באוקטובר 2006 ופרשה ממנה בינואר 2008."
+  },
+  {
+    "n": 18,
+    "electionDate": "2009-02-10",
+    "parties": [
+      {
+        "name": "קדימה",
+        "slug": "kadima",
+        "family": "center",
+        "seats": 28
+      },
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 27
+      },
+      {
+        "name": "ישראל ביתנו",
+        "slug": "yisrael-beiteinu",
+        "family": "right",
+        "seats": 15
+      },
+      {
+        "name": "העבודה",
+        "slug": "labor",
+        "family": "labor",
+        "seats": 13
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 11
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 5
+      },
+      {
+        "name": "רע\"מ-תע\"ל",
+        "slug": "raam-taal",
+        "family": "arab",
+        "seats": 4
+      },
+      {
+        "name": "האיחוד הלאומי",
+        "slug": "national-union",
+        "family": "far-right",
+        "seats": 4
+      },
+      {
+        "name": "חד\"ש",
+        "slug": "hadash",
+        "family": "communist",
+        "seats": 4
+      },
+      {
+        "name": "התנועה החדשה - מרצ",
+        "slug": "meretz",
+        "family": "left",
+        "seats": 3
+      },
+      {
+        "name": "הבית היהודי",
+        "slug": "jewish-home",
+        "family": "religious-zionist",
+        "seats": 3
+      },
+      {
+        "name": "בל\"ד",
+        "slug": "balad",
+        "family": "arab",
+        "seats": 3
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 32,
+      "pm": "בנימין נתניהו",
+      "formed": "2009-03-31",
+      "coalition": [
+        {
+          "slug": "likud"
+        },
+        {
+          "slug": "yisrael-beiteinu"
+        },
+        {
+          "slug": "labor"
+        },
+        {
+          "slug": "shas"
+        },
+        {
+          "slug": "utj"
+        },
+        {
+          "slug": "jewish-home"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 32,
+        "pm": "בנימין נתניהו",
+        "formed": "2009-03-31",
+        "ended": "2013-03-18"
+      }
+    ],
+    "notes": "בינואר 2011 התפלגה העבודה - סיעת העצמאות בראשות אהוד ברק נשארה בקואליציה ויתר חברי העבודה עברו לאופוזיציה. קדימה הצטרפה לקואליציה במאי 2012 ופרשה ממנה ביולי 2012."
+  },
+  {
+    "n": 19,
+    "electionDate": "2013-01-22",
+    "parties": [
+      {
+        "name": "הליכוד ישראל ביתנו",
+        "slug": "likud-beiteinu",
+        "family": "likud",
+        "seats": 31
+      },
+      {
+        "name": "יש עתיד",
+        "slug": "yesh-atid",
+        "family": "center",
+        "seats": 19
+      },
+      {
+        "name": "העבודה",
+        "slug": "labor",
+        "family": "labor",
+        "seats": 15
+      },
+      {
+        "name": "הבית היהודי",
+        "slug": "jewish-home",
+        "family": "religious-zionist",
+        "seats": 12
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 11
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 7
+      },
+      {
+        "name": "התנועה",
+        "slug": "hatnua",
+        "family": "center",
+        "seats": 6
+      },
+      {
+        "name": "מרצ",
+        "slug": "meretz",
+        "family": "left",
+        "seats": 6
+      },
+      {
+        "name": "רע\"מ-תע\"ל-מד\"ע",
+        "slug": "raam-taal-mada",
+        "family": "arab",
+        "seats": 4
+      },
+      {
+        "name": "חד\"ש",
+        "slug": "hadash",
+        "family": "communist",
+        "seats": 4
+      },
+      {
+        "name": "בל\"ד",
+        "slug": "balad",
+        "family": "arab",
+        "seats": 3
+      },
+      {
+        "name": "קדימה",
+        "slug": "kadima",
+        "family": "center",
+        "seats": 2
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 33,
+      "pm": "בנימין נתניהו",
+      "formed": "2013-03-18",
+      "coalition": [
+        {
+          "slug": "likud-beiteinu"
+        },
+        {
+          "slug": "yesh-atid"
+        },
+        {
+          "slug": "jewish-home"
+        },
+        {
+          "slug": "hatnua"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 33,
+        "pm": "בנימין נתניהו",
+        "formed": "2013-03-18",
+        "ended": "2015-05-14"
+      }
+    ],
+    "notes": "המפלגות החרדיות נותרו מחוץ לקואליציה לראשונה מזה שני עשורים. ביולי 2014 התפצלה סיעת הליכוד ישראל ביתנו לשתי סיעות, ובדצמבר 2014 פיטר נתניהו את לפיד ולבני והוכרזו בחירות מוקדמות."
+  },
+  {
+    "n": 20,
+    "electionDate": "2015-03-17",
+    "parties": [
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 30
+      },
+      {
+        "name": "המחנה הציוני",
+        "slug": "zionist-union",
+        "family": "labor",
+        "seats": 24
+      },
+      {
+        "name": "הרשימה המשותפת",
+        "slug": "joint-list",
+        "family": "arab",
+        "seats": 13
+      },
+      {
+        "name": "יש עתיד",
+        "slug": "yesh-atid",
+        "family": "center",
+        "seats": 11
+      },
+      {
+        "name": "כולנו",
+        "slug": "kulanu",
+        "family": "center",
+        "seats": 10
+      },
+      {
+        "name": "הבית היהודי",
+        "slug": "jewish-home",
+        "family": "religious-zionist",
+        "seats": 8
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 7
+      },
+      {
+        "name": "ישראל ביתנו",
+        "slug": "yisrael-beiteinu",
+        "family": "right",
+        "seats": 6
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 6
+      },
+      {
+        "name": "מרצ",
+        "slug": "meretz",
+        "family": "left",
+        "seats": 5
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 34,
+      "pm": "בנימין נתניהו",
+      "formed": "2015-05-14",
+      "coalition": [
+        {
+          "slug": "likud"
+        },
+        {
+          "slug": "kulanu"
+        },
+        {
+          "slug": "jewish-home"
+        },
+        {
+          "slug": "shas"
+        },
+        {
+          "slug": "utj"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 34,
+        "pm": "בנימין נתניהו",
+        "formed": "2015-05-14",
+        "ended": "2020-05-17"
+      }
+    ],
+    "notes": "הממשלה הושבעה בקואליציה של 61 חברי כנסת בלבד. במאי 2016 הצטרפה ישראל ביתנו וליברמן מונה לשר הביטחון, ובנובמבר 2018 פרשה המפלגה מהקואליציה."
+  },
+  {
+    "n": 21,
+    "electionDate": "2019-04-09",
+    "parties": [
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 35
+      },
+      {
+        "name": "כחול לבן",
+        "slug": "blue-white",
+        "family": "center",
+        "seats": 35
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 8
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 8
+      },
+      {
+        "name": "חד\"ש-תע\"ל",
+        "slug": "hadash-taal",
+        "family": "communist",
+        "seats": 6
+      },
+      {
+        "name": "העבודה",
+        "slug": "labor",
+        "family": "labor",
+        "seats": 6
+      },
+      {
+        "name": "ישראל ביתנו",
+        "slug": "yisrael-beiteinu",
+        "family": "right",
+        "seats": 5
+      },
+      {
+        "name": "איחוד מפלגות הימין",
+        "slug": "united-right-parties",
+        "family": "religious-zionist",
+        "seats": 5
+      },
+      {
+        "name": "מרצ",
+        "slug": "meretz",
+        "family": "left",
+        "seats": 4
+      },
+      {
+        "name": "כולנו",
+        "slug": "kulanu",
+        "family": "center",
+        "seats": 4
+      },
+      {
+        "name": "רע\"ם-בל\"ד",
+        "slug": "raam-balad",
+        "family": "arab",
+        "seats": 4
+      }
+    ],
+    "firstGovernment": null,
+    "governments": [],
+    "notes": "לראשונה בתולדות המדינה לא הורכבה ממשלה לאחר הבחירות: נתניהו לא הצליח לגבש קואליציה, והכנסת התפזרה כחודש בלבד לאחר השבעתה. ממשלת המעבר ה-34 המשיכה לכהן וישראל יצאה לבחירות חוזרות."
+  },
+  {
+    "n": 22,
+    "electionDate": "2019-09-17",
+    "parties": [
+      {
+        "name": "כחול לבן",
+        "slug": "blue-white",
+        "family": "center",
+        "seats": 33
+      },
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 32
+      },
+      {
+        "name": "הרשימה המשותפת",
+        "slug": "joint-list",
+        "family": "arab",
+        "seats": 13
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 9
+      },
+      {
+        "name": "ישראל ביתנו",
+        "slug": "yisrael-beiteinu",
+        "family": "right",
+        "seats": 8
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 7
+      },
+      {
+        "name": "ימינה",
+        "slug": "yamina",
+        "family": "right",
+        "seats": 7
+      },
+      {
+        "name": "העבודה-גשר",
+        "slug": "labor-gesher",
+        "family": "labor",
+        "seats": 6
+      },
+      {
+        "name": "המחנה הדמוקרטי",
+        "slug": "democratic-camp",
+        "family": "left",
+        "seats": 5
+      }
+    ],
+    "firstGovernment": null,
+    "governments": [],
+    "notes": "גם לאחר בחירות אלה לא הורכבה ממשלה - נתניהו וגנץ נכשלו שניהם בגיבוש קואליציה. הכנסת התפזרה בדצמבר 2019, וישראל יצאה למערכת בחירות שלישית בתוך פחות משנה."
+  },
+  {
+    "n": 23,
+    "electionDate": "2020-03-02",
+    "parties": [
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 36
+      },
+      {
+        "name": "כחול לבן",
+        "slug": "blue-white",
+        "family": "center",
+        "seats": 33
+      },
+      {
+        "name": "הרשימה המשותפת",
+        "slug": "joint-list",
+        "family": "arab",
+        "seats": 15
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 9
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 7
+      },
+      {
+        "name": "העבודה-גשר-מרצ",
+        "slug": "labor-gesher-meretz",
+        "family": "labor",
+        "seats": 7
+      },
+      {
+        "name": "ישראל ביתנו",
+        "slug": "yisrael-beiteinu",
+        "family": "right",
+        "seats": 7
+      },
+      {
+        "name": "ימינה",
+        "slug": "yamina",
+        "family": "right",
+        "seats": 6
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 35,
+      "pm": "בנימין נתניהו",
+      "formed": "2020-05-17",
+      "coalition": [
+        {
+          "slug": "likud"
+        },
+        {
+          "slug": "blue-white",
+          "seatsInCoalition": 17
+        },
+        {
+          "slug": "shas"
+        },
+        {
+          "slug": "utj"
+        },
+        {
+          "slug": "labor-gesher-meretz",
+          "seatsInCoalition": 3
+        },
+        {
+          "slug": "yamina",
+          "seatsInCoalition": 1
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 35,
+        "pm": "בנימין נתניהו",
+        "formed": "2020-05-17",
+        "ended": "2021-06-13",
+        "note": "רוטציה שלא מומשה"
+      }
+    ],
+    "notes": "ממשלת חירום עם הסכם רוטציה בין נתניהו לגנץ, שלא מומש - הכנסת התפזרה בדצמבר 2020 בשל אי העברת תקציב. כחול לבן התפצלה וסיעת גנץ הצטרפה לקואליציה בעוד יש עתיד-תל\"ם עברו לאופוזיציה; הצטרפו גם דרך ארץ (פרישה מתל\"ם), רפי פרץ (הבית היהודי, פרש מימינה) ושני ח\"כים מהעבודה יחד עם גשר, ומרצ נותרה באופוזיציה."
+  },
+  {
+    "n": 24,
+    "electionDate": "2021-03-23",
+    "parties": [
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 30
+      },
+      {
+        "name": "יש עתיד",
+        "slug": "yesh-atid",
+        "family": "center",
+        "seats": 17
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 9
+      },
+      {
+        "name": "כחול לבן",
+        "slug": "blue-white",
+        "family": "center",
+        "seats": 8
+      },
+      {
+        "name": "ימינה",
+        "slug": "yamina",
+        "family": "right",
+        "seats": 7
+      },
+      {
+        "name": "העבודה",
+        "slug": "labor",
+        "family": "labor",
+        "seats": 7
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 7
+      },
+      {
+        "name": "ישראל ביתנו",
+        "slug": "yisrael-beiteinu",
+        "family": "right",
+        "seats": 7
+      },
+      {
+        "name": "הציונות הדתית",
+        "slug": "religious-zionism",
+        "family": "religious-zionist",
+        "seats": 6
+      },
+      {
+        "name": "הרשימה המשותפת",
+        "slug": "joint-list",
+        "family": "arab",
+        "seats": 6
+      },
+      {
+        "name": "תקווה חדשה",
+        "slug": "new-hope",
+        "family": "right",
+        "seats": 6
+      },
+      {
+        "name": "מרצ",
+        "slug": "meretz",
+        "family": "left",
+        "seats": 6
+      },
+      {
+        "name": "רע\"ם",
+        "slug": "raam",
+        "family": "arab",
+        "seats": 4
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 36,
+      "pm": "נפתלי בנט",
+      "formed": "2021-06-13",
+      "coalition": [
+        {
+          "slug": "yesh-atid"
+        },
+        {
+          "slug": "blue-white"
+        },
+        {
+          "slug": "labor"
+        },
+        {
+          "slug": "yisrael-beiteinu"
+        },
+        {
+          "slug": "yamina",
+          "seatsInCoalition": 6
+        },
+        {
+          "slug": "new-hope"
+        },
+        {
+          "slug": "meretz"
+        },
+        {
+          "slug": "raam"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 36,
+        "pm": "נפתלי בנט",
+        "formed": "2021-06-13",
+        "ended": "2022-12-29",
+        "note": "רוטציה - לפיד מיולי 2022"
+      }
+    ],
+    "notes": "ממשלת בנט-לפיד: קואליציה של שמונה מפלגות שכללה לראשונה מפלגה ערבית עצמאית (רע\"ם), בהסכם רוטציה. עמיחי שיקלי מימינה לא הצטרף לקואליציה, ועם פיזור הכנסת החליף לפיד את בנט כראש הממשלה ביולי 2022."
+  },
+  {
+    "n": 25,
+    "electionDate": "2022-11-01",
+    "parties": [
+      {
+        "name": "הליכוד",
+        "slug": "likud",
+        "family": "likud",
+        "seats": 32
+      },
+      {
+        "name": "יש עתיד",
+        "slug": "yesh-atid",
+        "family": "center",
+        "seats": 24
+      },
+      {
+        "name": "הציונות הדתית",
+        "slug": "religious-zionism",
+        "family": "religious-zionist",
+        "seats": 14
+      },
+      {
+        "name": "המחנה הממלכתי",
+        "slug": "state-camp",
+        "family": "center",
+        "seats": 12
+      },
+      {
+        "name": "ש\"ס",
+        "slug": "shas",
+        "family": "haredi-sephardi",
+        "seats": 11
+      },
+      {
+        "name": "יהדות התורה",
+        "slug": "utj",
+        "family": "haredi-ashkenazi",
+        "seats": 7
+      },
+      {
+        "name": "ישראל ביתנו",
+        "slug": "yisrael-beiteinu",
+        "family": "right",
+        "seats": 6
+      },
+      {
+        "name": "רע\"ם",
+        "slug": "raam",
+        "family": "arab",
+        "seats": 5
+      },
+      {
+        "name": "חד\"ש-תע\"ל",
+        "slug": "hadash-taal",
+        "family": "communist",
+        "seats": 5
+      },
+      {
+        "name": "העבודה",
+        "slug": "labor",
+        "family": "labor",
+        "seats": 4
+      }
+    ],
+    "firstGovernment": {
+      "govNumber": 37,
+      "pm": "בנימין נתניהו",
+      "formed": "2022-12-29",
+      "coalition": [
+        {
+          "slug": "likud"
+        },
+        {
+          "slug": "religious-zionism"
+        },
+        {
+          "slug": "shas"
+        },
+        {
+          "slug": "utj"
+        }
+      ]
+    },
+    "governments": [
+      {
+        "govNumber": 37,
+        "pm": "בנימין נתניהו",
+        "formed": "2022-12-29",
+        "ended": null
+      }
+    ],
+    "notes": "רשימת הציונות הדתית רצה כרשימה אחת והתפצלה בכנסת לשלוש סיעות קואליציוניות: הציונות הדתית, עוצמה יהודית ונעם. עוצמה יהודית פרשה מהממשלה בינואר 2025 על רקע עסקת שחרור החטופים ושבה אליה במרץ 2025."
+  }
+]
