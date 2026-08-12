@@ -57,7 +57,9 @@ Editorial rules Lotem decided on 2026-08-04: a bill enters the site once it
 clears its first real hurdle ( preliminary reading for private bills, first
 reading for government and committee bills, which skip the preliminary ); and a
 bill that leaves the pipeline stays on the site with an explanation rather than
-disappearing.
+disappearing. Sharpened 2026-08-12: "clears" requires evidence the bill moved
+PAST the hurdle, so a bill rejected at its preliminary discussion never enters
+( see SYNC-PLAN.md §3 ).
 - `src/components/` - grouped one level: `ui/` ( shadcn ), `layout/`, `shared/`,
   `bills/`, `bill-page/`, `discussion/`, `filters/`, `stats/`.
 - `src/pages/` - one file per route. Routes: `/`, `/bill/:id`,

@@ -11,8 +11,13 @@
 // different ids ( 101 and 108 are both "הכנה לקריאה ראשונה" ).
 // So we decide, once, here.
 //
-// NOTE for Lotem: this is a draft that needs your approval,
-// especially the OFF_PIPELINE list at the bottom.
+// Reviewed and approved by Lotem on 2026-08-12, including the
+// three judgement calls: 115 maps a bill BACK into the second-
+// third preparation, 106/142 ( committee not yet assigned )
+// count as first-reading preparation, and a pending merge or
+// split request already counts as off-pipeline. The Hebrew
+// labels in OFF_PIPELINE still await her editorial pass - that
+// is wording, not mapping.
 
 // Our five stations, in order.
 export const STAGE_ORDER = [
@@ -59,21 +64,23 @@ export const STATUS_TO_STAGE = {
 // belong on the חקיקה שהושלמה page.
 export const STATUS_PASSED = 118;
 
-// The statuses that mean the bill cleared a preliminary
-// reading. Lotem's editorial rule ( "only bills past their
-// preliminary reading enter the site" ) is measured against
-// these.
-export const PRELIMINARY_PASSED_STATUSES = [150];
+// Note there is deliberately NO "passed the preliminary" status
+// list here: the entry rule ( which bills make it onto the site )
+// cannot be read off a single status. It is derived from the
+// bill's history in passesEditorialRule() in sync-bill.mjs.
+// Decided by Lotem on 2026-08-12: a bill enters only with
+// evidence it moved PAST its first hurdle, so a bill rejected
+// at its preliminary discussion never enters the site.
 
 // ─── Off the pipeline ──────────────────────────────────────
 // Real legislative life does not fit a straight line. These
 // statuses describe a bill leaving the track, and the UI needs
 // a decision for each. The value is the label we would show.
 //
-// NEEDS LOTEM'S RULING: does a bill in one of these states
-// disappear from the site, or stay with a note explaining what
-// happened to it? My recommendation is the second - a reader
-// who followed a bill deserves to learn why it vanished.
+// Lotem's ruling ( 2026-08-04 ): a bill in one of these states
+// STAYS on the site, with a note explaining what happened -
+// a reader who followed a bill deserves to learn why it
+// vanished. `Bill.offPipelineReason` carries the label below.
 export const OFF_PIPELINE = {
   122: "מוזגה עם הצעת חוק אחרת",
   126: "לאישור מיזוג בוועדת הכנסת",

@@ -78,6 +78,17 @@ against the 25th Knesset:
 
 The rule removes 61% of the corpus as noise, which is exactly its job.
 
+**Sharpened 2026-08-12, Lotem's ruling.** "Cleared" means evidence the bill
+moved PAST the hurdle - a later stage reached by milestone, committee
+session, or current status. A bill discussed at its preliminary reading and
+rejected there never enters: it died at the door, it did not leave the
+pipeline mid-way. The spike-era check in `sync-bill.mjs` reads "at least as
+far as the hurdle"; `sync-all` must implement the strict version, and the
+~1,800 estimate may shift slightly because of boundary bills. On the same
+day Lotem approved the status map itself ( `scripts/status-map.mjs` ),
+including its three judgement calls; only the Hebrew off-pipeline labels
+still await her wording pass.
+
 **Which bills get a full page.** Everything that passes the rule syncs as a
 card. Only a curated few carry hand-written explainers - the `sections` field is
 optional precisely for this. The curation rule itself is still open ( see §7 ).
