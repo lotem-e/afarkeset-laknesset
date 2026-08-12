@@ -155,9 +155,16 @@ commit. Still open from the original idea: the change log - stamping each
 bill with what changed and when, so "הרשמה לעדכונים" means something without
 a backend ( the browser remembers when you last looked ).
 
-**Phase 5 - the derived statistics.** Once everything syncs, the illustrative
-numbers in `src/content/stats.ts` get computed instead of hardcoded, and the
-comment at the top of that file finally comes off.
+**Phase 5 - the derived statistics. DONE 2026-08-12.** `src/content/stats.ts`
+now computes every aggregate from the synced corpus at build time - header
+counts ( 459 / 573 / 1310 ), bills per committee, active bills per station,
+bloc submission counts, party affiliation, top initiators. The exports kept
+their names so no consumer moved. Honest method note in the file: initiator
+stats count the LEAD initiators the sync stores ( up to three per long-tail
+bill ), so collaboration counts cross-bloc lead teams, not every co-signer.
+The real numbers retired two illustrative fictions loudly: the opposition
+submits far more than the demo's "9" ( 231 entered bills ), and the busiest
+initiator is Kroizer, not Son Har-Melech.
 
 ---
 

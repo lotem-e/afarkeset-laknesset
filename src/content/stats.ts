@@ -1,14 +1,25 @@
 // =========================================================
-// Display aggregates - ILLUSTRATIVE numbers from the Figma.
+// Display aggregates - COMPUTED from the synced corpus.
 // =========================================================
-// We seed ~12 bills, but the design shows totals like "513
-// bills on the agenda". Deriving totals from the seeds would
-// make every screen contradict the Figma, so the design's
-// numbers live here verbatim, clearly marked as illustrative
-// until a real Knesset API feeds the site.
+// Until 2026-08-12 these were the Figma's illustrative numbers,
+// kept while only a dozen seeded bills existed. Now every figure
+// derives from the real 1,310-bill corpus at build time - the
+// exports kept their names, so consumers did not move.
 //
-// The ONE exception: the tracking page derives its counts LIVE
-// from the bills the user actually follows - never from here.
+// Two honest footnotes on method:
+// - "Initiators" are the lead initiators the sync stores ( up to
+//   three per long-tail bill ), so bloc collaboration counts
+//   cross-bloc LEAD teams, not every last co-signer.
+// - Party seats are NOT derived here - they live in parties.ts
+//   and drive the hemicycle.
+//
+// The tracking page still derives its counts LIVE from the bills
+// the user follows - never from here.
+import { bills } from "./bills";
+import { committees } from "./committees";
+import { parties } from "./parties";
+import { STAGES, STAGE_ORDER } from "./stages";
+import type { Bloc, StageKey } from "./types";
 
 // One labeled number - the shape every bar list consumes.
 export interface StatItem {
@@ -16,62 +27,75 @@ export interface StatItem {
   count: number;
 }
 
-// Header counts ( "הצעות חוק על סדר היום / 513" )
+const agendaBills = bills.filter((b) => b.status === "agenda");
+const completedBills = bills.filter((b) => b.status === "completed");
+
+// Header counts ( "הצעות חוק על סדר היום / 459" )
 export const headerCounts = {
-  agenda: 513,
-  completed: 374,
-  stats: 513,
+  agenda: agendaBills.length,
+  completed: completedBills.length,
+  // The statistics page surveys the whole site.
+  stats: bills.length,
 };
 
-// סטטיסטיקות - bills per handling committee.
-export const billsPerCommittee: StatItem[] = [
-  { label: "חוקה, חוק ומשפט", count: 101 },
-  { label: "כלכלה", count: 65 },
-  { label: "עבודה ורווחה", count: 64 },
-  { label: "פנים והגנת הסביבה", count: 60 },
-  { label: "כספים", count: 45 },
-  { label: "חוץ וביטחון", count: 38 },
-  { label: "חינוך, תרבות וספורט", count: 35 },
-  { label: "בריאות", count: 32 },
-  { label: "ביטחון לאומי", count: 28 },
-  { label: "קידום מעמד האישה ושוויון מגדרי", count: 5 },
-  { label: "מדע וטכנולוגיה", count: 1 },
-  { label: "עלייה, קליטה ותפוצות", count: 0 },
-];
+// סטטיסטיקות - bills per handling committee, busiest first.
+export const billsPerCommittee: StatItem[] = committees
+  .map((committee) => ({
+    label: committee.shortName,
+    count: bills.filter((b) => b.committeeId === committee.id).length,
+  }))
+  .sort((a, b) => b.count - a.count);
 
-// סטטיסטיקות - bills per pipeline status.
-export const billsPerStatus: StatItem[] = [
-  { label: "בהכנה לקריאה ראשונה", count: 313 },
-  { label: "הונחה לקריאה ראשונה", count: 23 },
-  { label: "בהכנה לקריאה שנייה ושלישית", count: 167 },
-  { label: "הונחה לקריאה שנייה ושלישית", count: 10 },
-];
+// סטטיסטיקות - where the ACTIVE bills stand right now: each
+// agenda bill's in-progress station, in pipeline order.
+export const billsPerStatus: StatItem[] = STAGE_ORDER.map((key: StageKey) => ({
+  label: STAGES[key].fullLabel,
+  count: agendaBills.filter(
+    (b) => b.stages.find((s) => s.state === "inProgress")?.stage === key,
+  ).length,
+})).filter((item) => item.count > 0);
 
-// סטטיסטיקות - who submits bills.
-export const blocCounts = {
-  coalition: 399,
-  opposition: 9,
-  collaborations: 105, // שיתופי פעולה
-};
+// סטטיסטיקות - who submits: private bills by their lead team's
+// bloc. A team drawn from both blocs counts as a collaboration.
+const blocOf = new Map(parties.map((p) => [p.id, p.bloc]));
 
-// סטטיסטיקות - top initiating MKs ( name + bill count ).
-export const topInitiators: StatItem[] = [
-  { label: "לימור סון הר מלך", count: 53 },
-  { label: "יצחק קרויזר", count: 47 },
-  { label: "משה סעדה", count: 45 },
-  { label: "צביקה פוגל", count: 43 },
-  { label: "אוהד טל", count: 42 },
-  { label: "דן אילוז", count: 41 },
-  { label: "ניסים ואטורי", count: 41 },
-  { label: "משה פסל", count: 41 },
-  { label: "משה סולומון", count: 37 },
-  { label: "מיכל וולדיגר", count: 33 },
-  { label: "מתן כהנא", count: 31 },
-  { label: "ינון אזולאי", count: 30 },
-];
+function billBlocs(billIndex: number): Set<Bloc> {
+  const found = new Set<Bloc>();
+  for (const ini of bills[billIndex].initiators) {
+    if (ini.kind !== "mk" || !ini.partyId) continue;
+    const bloc = blocOf.get(ini.partyId);
+    if (bloc) found.add(bloc);
+  }
+  return found;
+}
+
+export const blocCounts = { coalition: 0, opposition: 0, collaborations: 0 };
+for (let i = 0; i < bills.length; i++) {
+  if (bills[i].type !== "private") continue;
+  const blocs = billBlocs(i);
+  if (blocs.size === 2) blocCounts.collaborations++;
+  else if (blocs.has("coalition")) blocCounts.coalition++;
+  else if (blocs.has("opposition")) blocCounts.opposition++;
+}
+
+// סטטיסטיקות - the MKs who lead the most bills on the site.
+const perInitiator = new Map<string, { label: string; count: number }>();
+for (const bill of bills) {
+  if (bill.type !== "private") continue;
+  for (const ini of bill.initiators) {
+    if (ini.kind !== "mk" || !ini.name) continue;
+    const key = ini.personId ? String(ini.personId) : ini.name;
+    const entry = perInitiator.get(key) ?? { label: ini.name, count: 0 };
+    entry.count++;
+    perInitiator.set(key, entry);
+  }
+}
+export const topInitiators: StatItem[] = [...perInitiator.values()]
+  .sort((a, b) => b.count - a.count)
+  .slice(0, 12);
 
 // The filters drawer's "הצעות חוק חמות עכשיו" - a curated
-// pick, matching the design's hot list.
+// pick, an editorial choice rather than a computed one.
 export const hotBillIds = [
   "judiciary-basic-law",
   "mk-immunity",
@@ -79,12 +103,16 @@ export const hotBillIds = [
   "police-documentation",
 ];
 
-// סטטיסטיקות - party affiliation of initiating MKs.
-export const billsPerParty: StatItem[] = [
-  { label: "הליכוד", count: 121 },
-  { label: "הציונות הדתית", count: 111 },
-  { label: "ש״ס", count: 98 },
-  { label: "עוצמה יהודית", count: 67 },
-  { label: "יהדות התורה", count: 66 },
-  { label: "המחנה הממלכתי", count: 24 },
-];
+// סטטיסטיקות - party affiliation of each private bill's FIRST
+// initiator, largest first.
+const perParty = new Map<string, number>();
+for (const bill of bills) {
+  if (bill.type !== "private") continue;
+  const first = bill.initiators.find((ini) => ini.kind === "mk" && ini.partyId);
+  if (!first || first.kind !== "mk" || !first.partyId) continue;
+  perParty.set(first.partyId, (perParty.get(first.partyId) ?? 0) + 1);
+}
+export const billsPerParty: StatItem[] = parties
+  .map((p) => ({ label: p.name, count: perParty.get(p.id) ?? 0 }))
+  .filter((item) => item.count > 0)
+  .sort((a, b) => b.count - a.count);

@@ -1,7 +1,6 @@
 // סטטיסטיקות - the hemicycle + the bar lists.
-// The numbers here are the design's illustrative aggregates
-// from content/stats.ts ( see the note there ); the seat map
-// is real - it derives from parties.ts.
+// Every number comes computed from the real synced corpus via
+// content/stats.ts; the seat map derives from parties.ts.
 import { BarList } from "@/components/stats/BarList";
 import { Hemicycle } from "@/components/stats/Hemicycle";
 import { PageHeader } from "@/components/shared/PageHeader";
