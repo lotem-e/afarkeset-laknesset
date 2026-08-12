@@ -2,19 +2,30 @@
 // as the agenda page, with the completed card variant ( the
 // periwinkle surface + "תאריך כניסה לספר החוקים" footer ).
 import { useState } from "react";
-import { BillCard } from "@/components/bills/BillCard";
+import { useSearchParams } from "react-router-dom";
+import { ProgressiveBillList } from "@/components/bills/ProgressiveBillList";
 import { FiltersDrawer } from "@/components/filters/FiltersDrawer";
 import { FilterChips } from "@/components/shared/FilterChips";
 import { PageHeader } from "@/components/shared/PageHeader";
 import { billsByStatus } from "@/content/bills";
+import { committees } from "@/content/committees";
 import { headerCounts } from "@/content/stats";
-import { useTracking } from "@/hooks/useTracking";
 import type { CommitteeId } from "@/content/types";
 
+// Same URL-carried filter as the agenda page - restored on back
+// navigation, shareable as a link.
+function useCommitteeParam(): [CommitteeId | null, (id: CommitteeId | null) => void] {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const raw = searchParams.get("committee");
+  const committee = committees.some((c) => c.id === raw) ? (raw as CommitteeId) : null;
+  const setCommittee = (id: CommitteeId | null) =>
+    setSearchParams(id ? { committee: id } : {}, { replace: true });
+  return [committee, setCommittee];
+}
+
 export function CompletedPage() {
-  const [committee, setCommittee] = useState<CommitteeId | null>(null);
+  const [committee, setCommittee] = useCommitteeParam();
   const [filtersOpen, setFiltersOpen] = useState(false);
-  const { isTracked, toggle } = useTracking();
 
   const completed = billsByStatus("completed");
   const visible =
@@ -40,21 +51,11 @@ export function CompletedPage() {
         onSelectCommittee={setCommittee}
       />
 
-      <div className="space-y-6">
-        {visible.map((bill) => (
-          <BillCard
-            key={bill.id}
-            bill={bill}
-            subscribed={isTracked(bill.id)}
-            onToggleSubscribe={() => toggle(bill.id)}
-          />
-        ))}
-        {visible.length === 0 && (
-          <p className="py-10 text-center text-p text-muted-foreground">
-            אין חוקים שהושלמו בוועדה הזאת.
-          </p>
-        )}
-      </div>
+      <ProgressiveBillList
+        bills={visible}
+        listKey={`completed:${committee ?? "all"}`}
+        emptyMessage="אין חוקים שהושלמו בוועדה הזאת."
+      />
     </div>
   );
 }

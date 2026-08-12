@@ -1,22 +1,30 @@
 // על סדר היום - the main list of bills in the pipeline.
 import { useState } from "react";
-import { BillCard } from "@/components/bills/BillCard";
+import { useSearchParams } from "react-router-dom";
+import { ProgressiveBillList } from "@/components/bills/ProgressiveBillList";
 import { FiltersDrawer } from "@/components/filters/FiltersDrawer";
 import { FilterChips } from "@/components/shared/FilterChips";
 import { PageHeader } from "@/components/shared/PageHeader";
 import { billsByStatus } from "@/content/bills";
+import { committees } from "@/content/committees";
 import { headerCounts } from "@/content/stats";
-import { useTracking } from "@/hooks/useTracking";
 import type { CommitteeId } from "@/content/types";
 
-export function AgendaPage() {
-  // Which committee chip is chosen ( null = "הכל" ).
-  const [committee, setCommittee] = useState<CommitteeId | null>(null);
-  const [filtersOpen, setFiltersOpen] = useState(false);
+// The chosen committee lives in the URL ( ?committee=economy ),
+// not in component state: coming BACK from a bill page restores
+// it for free, and a filtered view is shareable as a link.
+function useCommitteeParam(): [CommitteeId | null, (id: CommitteeId | null) => void] {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const raw = searchParams.get("committee");
+  const committee = committees.some((c) => c.id === raw) ? (raw as CommitteeId) : null;
+  const setCommittee = (id: CommitteeId | null) =>
+    setSearchParams(id ? { committee: id } : {}, { replace: true });
+  return [committee, setCommittee];
+}
 
-  // The shared tracking store ( localStorage-backed ) - the
-  // same one the sidebar badge and the tracking page read.
-  const { isTracked, toggle } = useTracking();
+export function AgendaPage() {
+  const [committee, setCommittee] = useCommitteeParam();
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   const agenda = billsByStatus("agenda");
   const visible = committee === null ? agenda : agenda.filter((b) => b.committeeId === committee);
@@ -41,21 +49,11 @@ export function AgendaPage() {
         onSelectCommittee={setCommittee}
       />
 
-      <div className="space-y-6">
-        {visible.map((bill) => (
-          <BillCard
-            key={bill.id}
-            bill={bill}
-            subscribed={isTracked(bill.id)}
-            onToggleSubscribe={() => toggle(bill.id)}
-          />
-        ))}
-        {visible.length === 0 && (
-          <p className="py-10 text-center text-p text-muted-foreground">
-            אין הצעות חוק בוועדה הזאת כרגע.
-          </p>
-        )}
-      </div>
+      <ProgressiveBillList
+        bills={visible}
+        listKey={`agenda:${committee ?? "all"}`}
+        emptyMessage="אין הצעות חוק בוועדה הזאת כרגע."
+      />
     </div>
   );
 }

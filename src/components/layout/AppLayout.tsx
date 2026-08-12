@@ -5,18 +5,21 @@
 // current page ( AgendaPage, BillPage... ) exactly there, so
 // the frame is written once and every route reuses it.
 import { useEffect } from "react";
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet, useLocation, useNavigationType } from "react-router-dom";
 import { Sidebar } from "./Sidebar";
 import { UserChip } from "./UserChip";
 
 // Browsers keep the scroll position when only the URL changes.
-// Moving between pages should start at the top, so we reset on
-// every route change.
+// Moving FORWARD between pages should start at the top - but a
+// back / forward navigation ( POP ) must not: the list pages
+// restore their own position then, and scrolling to top here
+// would fight them ( see ProgressiveBillList ).
 function ScrollToTop() {
   const { pathname } = useLocation();
+  const navigationType = useNavigationType();
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+    if (navigationType !== "POP") window.scrollTo(0, 0);
+  }, [pathname, navigationType]);
   return null;
 }
 
