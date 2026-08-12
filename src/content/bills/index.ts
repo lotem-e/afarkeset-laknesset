@@ -28,8 +28,9 @@ import { equalOpportunitiesEditorial } from "./editorial/equal-opportunities";
 import { schoolBoycottEditorial } from "./editorial/school-boycott";
 import { policeDocumentationEditorial } from "./editorial/police-documentation";
 
-// The curated registry, in display order: fully-written bills
-// lead the list, like in the Figma. Adding editorial for a bill
+// The curated registry. Since Lotem's freshness rule
+// ( 2026-08-12 ) this order no longer drives the page - every
+// list sorts by last movement. Adding editorial for a bill
 // means writing its file and listing it here - nothing else.
 const EDITORIALS: BillEditorial[] = [
   performersRightsEditorial,
@@ -69,11 +70,18 @@ const curated: Bill[] = EDITORIALS.map((editorial) => {
 const curatedIds = new Set(EDITORIALS.map((e) => e.billId));
 const longTail: Bill[] = [...factsById.values()]
   .filter((facts) => !curatedIds.has(facts.billId))
-  .map(buildBillFromFacts)
-  // Freshest first, so the long lists lead with what moved.
-  .sort((a, b) => b.lastUpdated.localeCompare(a.lastUpdated));
+  .map(buildBillFromFacts);
 
-export const bills: Bill[] = [...curated, ...longTail];
+// One order for every list ( Lotem's rule, 2026-08-12 ): the
+// bill that moved most recently sits on top - curated or not.
+// The Knesset's LastUpdatedDate is the freshness signal until
+// the change-log exists; billId breaks ties so the order is
+// stable between builds.
+export const bills: Bill[] = [...curated, ...longTail].sort(
+  (a, b) =>
+    b.lastUpdated.localeCompare(a.lastUpdated) ||
+    (b.billId ?? 0) - (a.billId ?? 0),
+);
 
 export function getBill(id: string): Bill | undefined {
   return bills.find((b) => b.id === id);
