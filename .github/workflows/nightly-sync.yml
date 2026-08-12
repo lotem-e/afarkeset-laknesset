@@ -1,0 +1,92 @@
+# The nightly heartbeat ( SYNC-PLAN phase 4 ): refresh the facts
+# from the Knesset every morning, and only when something actually
+# moved - commit, rebuild, republish.
+#
+# Why this workflow deploys itself instead of leaning on
+# deploy.yml: a push made with the workflow's own GITHUB_TOKEN
+# does not trigger other workflows ( GitHub's recursion guard ),
+# so the deploy steps are repeated here. A quiet night ends after
+# the sync job with a clean tree, no commit and no deploy.
+name: Nightly Knesset sync
+
+on:
+  schedule:
+    # 02:30 UTC - about 05:30 in Israel, after the Knesset's own
+    # overnight data refresh and before anyone's morning coffee.
+    - cron: "30 2 * * *"
+  # Allows a manual run from the repo's Actions tab.
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Share the deploy queue with deploy.yml so a nightly publish and
+# a push publish never collide; never cancel a deploy mid-flight.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Sync the long tail
+        run: node scripts/sync-all.mjs
+
+      - name: Sync the curated bills ( with votes )
+        run: node scripts/sync-curated.mjs
+
+      - name: Commit only what moved
+        id: commit
+        run: |
+          # Facts only - the sync must never sweep anything else
+          # into its commit. Editorial is a human's, always.
+          git add src/content/bills/facts
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nothing moved tonight - no commit, no deploy."
+          else
+            MOVED=$(git diff --cached --name-only | wc -l | tr -d ' ')
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Nightly sync: ${MOVED} bills moved"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "${MOVED} bills moved - deploying."
+          fi
+
+  build-and-deploy:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The sync job just pushed a fresh commit; take the
+          # branch head, not the stale sha that started the run.
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

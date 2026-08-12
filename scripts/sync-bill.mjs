@@ -19,7 +19,8 @@
 //      never silently disappears, because someone was
 //      following it.
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { mkdir } from "node:fs/promises";
+import { writeIfChanged } from "./write-if-changed.mjs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { knesset, anyOf } from "./knesset-api.mjs";
@@ -253,13 +254,17 @@ async function main() {
 
   await mkdir(OUT_DIR, { recursive: true });
   const outPath = resolve(OUT_DIR, `${billId}.ts`);
-  await writeFile(outPath, toTypeScript(facts), "utf8");
+  const outcome = await writeIfChanged(outPath, toTypeScript(facts));
 
   const totalDiscussions = stages.reduce((n, s) => n + s.discussions.length, 0);
   console.log(`Synced bill ${billId}`);
   console.log(`  ${facts.officialName}`);
   console.log(`  status ${facts.status} | ${stages.length} stages | ${totalDiscussions} discussions`);
-  console.log(`  -> ${outPath.replace(process.cwd() + "/", "")}`);
+  if (outcome === "unchanged") {
+    console.log("  nothing moved - file left untouched");
+  } else {
+    console.log(`  -> ${outPath.replace(process.cwd() + "/", "")}`);
+  }
 }
 
 main().catch((err) => {

@@ -22,7 +22,8 @@
 // requests, run nightly - not per visitor.
 //
 // Run it:  node scripts/sync-all.mjs
-import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir } from "node:fs/promises";
+import { writeIfChanged } from "./write-if-changed.mjs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { knesset, anyOf } from "./knesset-api.mjs";
@@ -101,22 +102,6 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = ${body};
 `;
-}
-
-// Writing is diff-aware: syncedAt changes on every run, so two
-// versions are compared WITHOUT it - a file is rewritten only
-// when something real moved. This is what lets the nightly job
-// say "nothing changed, nothing committed" and mean it.
-async function writeIfChanged(path, content) {
-  const stripSyncedAt = (s) => s.replace(/^\s*syncedAt: ".*",?$/m, "");
-  try {
-    const existing = await readFile(path, "utf8");
-    if (stripSyncedAt(existing) === stripSyncedAt(content)) return "unchanged";
-  } catch {
-    // New file - fall through and write it.
-  }
-  await writeFile(path, content, "utf8");
-  return "written";
 }
 
 async function main() {

@@ -143,10 +143,17 @@ without editorial render as cards; the bill page shows the pipeline and an
 honest note that the explainer is not written yet. This is where the site stops
 being a demo.
 
-**Phase 4 - nightly automation.** The GitHub Action, plus a change log: the sync
-already knows what moved, so stamping each bill with what changed and when makes
-"הרשמה לעדכונים" mean something without any backend - the browser remembers when
-you last looked and the site shows you what moved since.
+**Phase 4 - nightly automation. BUILT 2026-08-12** as
+`.github/workflows/nightly-sync.yml`: every morning at 05:30 Israel time it
+runs `sync-all` ( the long tail ) and `sync-curated` ( the eleven, votes
+included ), commits ONLY `src/content/bills/facts` and only when something
+moved, then rebuilds and republishes itself - a push made with the workflow's
+own token cannot trigger deploy.yml, so the nightly carries its own deploy
+steps. Diff-aware writing ( `write-if-changed.mjs`, shared by both sync
+scripts ) ignores the syncedAt stamp, so a quiet night truly ends with no
+commit. Still open from the original idea: the change log - stamping each
+bill with what changed and when, so "הרשמה לעדכונים" means something without
+a backend ( the browser remembers when you last looked ).
 
 **Phase 5 - the derived statistics.** Once everything syncs, the illustrative
 numbers in `src/content/stats.ts` get computed instead of hardcoded, and the
