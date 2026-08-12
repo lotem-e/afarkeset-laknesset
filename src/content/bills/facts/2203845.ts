@@ -8,7 +8,7 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203845,
-  syncedAt: "2026-08-05",
+  syncedAt: "2026-08-12",
   officialName: "חוק זכויות מבצעים ומשדרים (תיקון מס' 10), התשפ\"ו–2026",
   type: "private",
   committeeId: "economy",
@@ -42,7 +42,14 @@ export const facts: BillFacts = {
     {
       stage: "preliminary",
       state: "completed",
-      discussions: []
+      discussions: [],
+      vote: {
+        date: "2023-07-20",
+        inFavor: 23,
+        against: 0,
+        abstained: 0,
+        absent: 97
+      }
     },
     {
       stage: "firstPrep",

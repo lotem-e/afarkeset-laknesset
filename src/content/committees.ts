@@ -1,5 +1,6 @@
 // =========================================================
-// The 12 Knesset committees the design shows.
+// The 12 Knesset committees the design shows, plus ועדת
+// הכנסת - which handles its own domain ( e.g. MK immunity ).
 // =========================================================
 import type { Committee, CommitteeId } from "./types";
 
@@ -16,6 +17,7 @@ export const committees: Committee[] = [
   { id: "womens-status",        name: "הוועדה לקידום מעמד האישה ולשוויון מגדרי",       shortName: "קידום מעמד האישה ושוויון מגדרי" },
   { id: "science-tech",         name: "ועדת המדע והטכנולוגיה",                         shortName: "מדע וטכנולוגיה" },
   { id: "aliyah",               name: "ועדת העלייה, הקליטה והתפוצות",                  shortName: "עלייה, קליטה ותפוצות" },
+  { id: "knesset-committee",    name: "ועדת הכנסת",                                    shortName: "ועדת הכנסת" },
 ];
 
 export function getCommittee(id: CommitteeId): Committee {

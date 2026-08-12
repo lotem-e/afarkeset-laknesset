@@ -23,12 +23,15 @@ export const COMMITTEE_BY_KNESSET_ID = {
   4197: "aliyah",
   4198: "interior-environment",
   4200: "womens-status",
+  4194: "knesset-committee",
 };
 
-// ועדת הכנסת ( 4194 ) is procedural - it decides WHICH committee
-// handles a bill, it does not debate its content. It is not one
-// of our twelve, but its sessions are still real sessions about
-// the bill, so we keep them and label them.
+// ועדת הכנסת ( 4194 ) wears two hats. For most bills it is
+// procedural - it decides WHICH committee handles the bill - so
+// its sessions on OTHER bills are kept and labelled as such. But
+// for its own domain ( MK immunity, Knesset affairs ) it is the
+// handling committee, which is why it also appears in the map
+// above ( added 2026-08-12 for bill 2223561 ).
 export const PROCEDURAL_COMMITTEE_IDS = { 4194: "ועדת הכנסת" };
 
 // ─── Bill types ────────────────────────────────────────────

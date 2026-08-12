@@ -14,7 +14,10 @@ import type { Bill } from "../types";
 export const judiciaryBasicLaw: Bill = {
   id: "judiciary-basic-law",
   name: "חוק יסוד השפיטה",
-  subtitle: "תיקון מס' 3",
+  // The Figma said "תיקון מס' 3"; the Knesset's official name for
+  // this bill ( 2201200, confirmed by its 63-47 first-reading vote )
+  // is תיקון מס' 4. Lotem approved the correction on 2026-08-12.
+  subtitle: "תיקון מס' 4",
   type: "committee",
   committeeId: "constitution",
   initiators: [{ kind: "mk", mkId: "simcha-rothman" }],

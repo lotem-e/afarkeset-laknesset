@@ -138,11 +138,21 @@ function buildDiscussions({ cmtSessions }) {
 
 // The days on which actual READINGS happened - the days worth
 // asking the votes API about. Preparation stages have no votes.
+//
+// Each reading day also contributes the day AFTER it: a sitting
+// that starts on day X often runs past midnight, and the vote is
+// then registered on X+1. Discovered on bill 2201200, whose
+// third reading closed a marathon night at 67-1 on 2025-03-27
+// while its plenum milestone says 2025-03-26.
+const nextDay = (isoDate) =>
+  new Date(Date.parse(`${isoDate}T00:00:00Z`) + 86400000).toISOString().slice(0, 10);
+
 function readingDays(milestones) {
   const days = new Set();
   for (const m of milestones) {
     if (m.stage === "preliminary" || m.stage === "first" || m.stage === "secondThird") {
       days.add(m.date);
+      days.add(nextDay(m.date));
     }
   }
   return [...days];
@@ -252,7 +262,7 @@ async function main() {
   // failure there degrades to "no tallies", never to a broken
   // sync - the pipeline still has everything else.
   try {
-    const votesByStage = await readingVotesForBill(billId, readingDays(milestones));
+    const votesByStage = await readingVotesForBill(billId, readingDays(milestones), bill.Name);
     for (const stage of stages) {
       const vote = votesByStage[stage.stage];
       if (vote) stage.vote = vote;

@@ -87,12 +87,25 @@ export function toVoteCounts(details) {
 // bill ( FK_ItemID is the BillID for bill items ), and for each
 // reading stage keep the DECISIVE vote - the acceptance itself,
 // not the amendment votes around it.
-export async function readingVotesForBill(billId, readingDates) {
+//
+// billName, when given, prefilters by the header's ItemTitle: a
+// marathon sitting carries hundreds of votes ( 237 on
+// 2025-03-27 ), and fetching details for each hammered the API
+// into rate-limiting us. Titles name the bill, so we only fetch
+// details for plausible headers; FK_ItemID in the details stays
+// the authoritative check. Cost if a title ever drifts from the
+// bill name: that vote is missed - same degradation as a failed
+// fetch, and the sync already survives that honestly.
+const normalizeTitle = (s) => String(s ?? "").replace(/[^א-תA-Za-z0-9]/g, "");
+
+export async function readingVotesForBill(billId, readingDates, billName = null) {
+  const nameKey = billName ? normalizeTitle(billName).slice(0, 18) : null;
   const byStage = {};
 
   for (const date of readingDates) {
     const headers = await votesForDay(date);
     for (const header of headers) {
+      if (nameKey && !normalizeTitle(header.ItemTitle).includes(nameKey)) continue;
       const details = await voteDetails(header.VoteId);
       const voteHeader = details.VoteHeader?.[0];
       if (!voteHeader || voteHeader.FK_ItemID !== billId) continue;

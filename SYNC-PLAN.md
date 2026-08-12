@@ -189,10 +189,16 @@ Two things this taught us about the data itself:
   the first reading reads "להעביר את הצעת החוק לוועדה להכנה לקריאה שניה
   ושלישית", so naive keyword matching files it under the wrong reading.
   `stageForDecision()` handles the transfer forms first.
-- **Preliminary readings are often taken by a show of hands** and leave no
-  electronic record. Our demo bill's preliminary ( 19.7.2023 ) has no vote in
-  the data, and its stage honestly shows none. The Figma's "23/0" for a
-  preliminary was real-looking but is not machine-recoverable.
+- **A sitting that runs past midnight registers its votes on the next
+  calendar day.** ( Corrected 2026-08-12 - this bullet previously blamed a
+  show of hands. ) Our demo bill's preliminary sat on 19.7.2023 and its vote
+  is registered on 20.7; it surfaced the moment `readingDays()` started
+  asking about each reading day AND the day after. The recovered tally is
+  23-0 - exactly the Figma's "23/0", which was real after all. The same fix
+  recovered the 67-1 third reading of bill 2201200 at the end of a 237-vote
+  marathon night; a title prefilter in `knesset-votes.mjs` keeps the request
+  count polite on such nights. Show-of-hands readings may still exist
+  elsewhere - a stage without a recorded vote stays honestly empty.
 
 The asterisk: **this API is undocumented** - the website's internal feed, not a
 published contract. It lives openly on the open-data domain, so polite nightly

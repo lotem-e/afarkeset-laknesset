@@ -9,6 +9,7 @@ import {
   GraduationCap,
   HandHeart,
   HeartPulse,
+  Landmark,
   type LucideIcon,
   Plane,
   Shield,
@@ -32,4 +33,5 @@ export const COMMITTEE_ICONS: Record<CommitteeId, LucideIcon> = {
   "womens-status": Users,
   "science-tech": FlaskConical,
   aliyah: Plane,
+  "knesset-committee": Landmark,
 };

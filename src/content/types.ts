@@ -223,7 +223,11 @@ export interface BillEditorial {
 export type CommitteeId =
   | "constitution" | "economy" | "labor-welfare" | "interior-environment"
   | "finance" | "foreign-defense" | "education" | "health"
-  | "national-security" | "womens-status" | "science-tech" | "aliyah";
+  | "national-security" | "womens-status" | "science-tech" | "aliyah"
+  // ועדת הכנסת is usually procedural ( it assigns bills to other
+  // committees ), but for its own domain - MK immunity, Knesset
+  // affairs - it IS the handling committee, so it needs an id.
+  | "knesset-committee";
 
 export interface Committee {
   id: CommitteeId;
