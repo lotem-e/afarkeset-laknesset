@@ -64,6 +64,12 @@ function InitiatorEntry({ initiator }: { initiator: Initiator }) {
 }
 
 export function InitiatorRail({ initiators }: { initiators: Initiator[] }) {
+  // A committee bill has no personal initiators in the Knesset's
+  // data - the committee itself leads it. Until Lotem decides
+  // what such a bill shows here, an empty "בהובלת:" label would
+  // just look broken, so the rail steps aside entirely.
+  if (initiators.length === 0) return null;
+
   return (
     <div className="flex w-36 shrink-0 flex-col gap-4">
       <p className="text-small font-bold">בהובלת:</p>

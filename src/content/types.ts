@@ -217,6 +217,11 @@ export interface BillEditorial {
   sections?: BillSections;
   recentlyUpdated?: boolean;
   discussions?: Record<string, DiscussionContent>; // ISO date -> content
+  // Editorial enrichment of a synced vote ( today: which
+  // absentees get avatars ). Keyed by the vote's REAL date -
+  // the same date-keying rule as discussions, so a re-sync can
+  // never pin the enrichment onto the wrong vote.
+  voteExtras?: Record<string, Pick<Vote, "absentMkIds">>;
 }
 
 // ─── Committees ──────────────────────────────────────────────

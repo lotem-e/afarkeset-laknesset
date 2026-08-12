@@ -1,91 +1,45 @@
 // =========================================================
-// Bill: חוק יסוד השפיטה, תיקון מס' 3 - the second fully-written
-// bill. All editorial text is Lotem's, transcribed from the
-// Figma design ( fix transcription errors only, never rewrite ).
-//
-// A committee bill ( הצעת חוק ועדה ), so it SKIPS the
-// preliminary reading - its stages array starts at firstPrep.
-// The Figma shows two different discussion counts for the
-// second-third prep ( 22 on the card, 13 on the bill page ) -
-// we use 13, per the bill page. Flagged for Lotem.
+// EDITORIAL: חוק יסוד השפיטה - the second fully-written bill.
 // =========================================================
-import type { Bill } from "../types";
+// Every word here is Lotem's, transcribed from her Figma
+// design ( fix transcription errors only, never rewrite ). A
+// sync script must never write to this file.
+//
+// Joins facts/2201200.ts by the bill id. The facts tell the
+// full story the design's snapshot could not: first reading
+// passed 63-47 on 2023-02-20, the bill then froze for two
+// years, thawed in March 2025, and passed its third reading
+// 67-1 at the end of a 237-vote marathon night on 2025-03-27.
+//
+// The Figma's subtitle said "תיקון מס' 3"; the official record
+// says מס' 4. Lotem approved the correction on 2026-08-12.
+import type { BillEditorial } from "../../types";
 
-export const judiciaryBasicLaw: Bill = {
+export const judiciaryBasicLawEditorial: BillEditorial = {
+  billId: 2201200,
   id: "judiciary-basic-law",
   name: "חוק יסוד השפיטה",
-  // The Figma said "תיקון מס' 3"; the Knesset's official name for
-  // this bill ( 2201200, confirmed by its 63-47 first-reading vote )
-  // is תיקון מס' 4. Lotem approved the correction on 2026-08-12.
   subtitle: "תיקון מס' 4",
-  type: "committee",
-  committeeId: "constitution",
-  initiators: [{ kind: "mk", mkId: "simcha-rothman" }],
+
   summary:
     "שינוי של הרכב הוועדה לבחירת שופטים: נשיא בית המשפט העליון יעמוד בראשה, לצד שני שופטים עליונים נוספים, שר המשפטים, שני שרים נוספים וחמישה חברי כנסת - שלושה מסיעות הקואליציה ושניים מסיעות האופוזיציה.",
-  status: "agenda",
-  stages: [
-    {
-      stage: "firstPrep",
-      state: "completed",
-      discussions: [
-        { date: "2022-12-11" },
-        { date: "2022-12-18" },
-        { date: "2022-12-25" },
-        { date: "2023-01-08" },
-        { date: "2023-01-15" },
-        { date: "2023-01-22" },
-        { date: "2023-01-29" },
-        { date: "2023-02-05" },
-        { date: "2023-02-08" },
-        { date: "2023-02-12" },
-        { date: "2023-02-15" },
-        { date: "2023-02-19" },
+
+  // The six absentees whose avatars the Figma shows, attached to
+  // the first-reading vote by its REAL date ( the design drew
+  // 2023-02-26; the recorded vote is 2023-02-20, 63-47, 10 absent ).
+  voteExtras: {
+    "2023-02-20": {
+      absentMkIds: [
+        "yuli-edelstein",
+        "zeev-elkin",
+        "walid-taha",
+        "avigdor-liberman",
+        "yulia-malinovsky",
+        "sharon-nir",
       ],
     },
-    {
-      stage: "first",
-      state: "completed",
-      vote: {
-        date: "2023-02-26",
-        inFavor: 63,
-        against: 47,
-        abstained: 0,
-        absent: 10,
-        // The six absentees whose avatars the Figma shows.
-        absentMkIds: [
-          "yuli-edelstein",
-          "zeev-elkin",
-          "walid-taha",
-          "avigdor-liberman",
-          "yulia-malinovsky",
-          "sharon-nir",
-        ],
-      },
-    },
-    {
-      stage: "secondThirdPrep",
-      state: "inProgress",
-      discussions: [
-        { date: "2023-03-12" },
-        { date: "2023-03-19" },
-        { date: "2023-03-26" },
-        { date: "2023-07-09" },
-        { date: "2023-07-16" },
-        { date: "2024-02-04" },
-        { date: "2024-02-11" },
-        { date: "2024-07-07" },
-        { date: "2024-10-27" },
-        { date: "2024-11-10" },
-        { date: "2025-01-12" },
-        { date: "2025-02-16" },
-        { date: "2025-03-12" },
-      ],
-    },
-    { stage: "secondThird", state: "notReached" },
-  ],
-  lastUpdated: "2025-03-12",
-  recentlyUpdated: true,
+  },
+
   sections: {
     explanation: {
       intro: "שינוי של הרכב הוועדה לבחירת שופטים להרכב הבא:",

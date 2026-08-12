@@ -34,6 +34,21 @@ function attachDiscussionContent(
   }));
 }
 
+// Same date-keying idea for votes: editorial may enrich a synced
+// vote ( absentee avatars ) but never invent or override its
+// counts - only the fields the enrichment carries are added.
+function attachVoteExtras(
+  stages: StageProgress[],
+  extras: BillEditorial["voteExtras"],
+): StageProgress[] {
+  if (!extras) return stages;
+
+  return stages.map((stage) => {
+    const extra = stage.vote && extras[stage.vote.date];
+    return extra ? { ...stage, vote: { ...stage.vote!, ...extra } } : stage;
+  });
+}
+
 export function buildBill(facts: BillFacts, editorial: BillEditorial): Bill {
   return {
     // identity and presentation - editorial owns these
@@ -56,6 +71,9 @@ export function buildBill(facts: BillFacts, editorial: BillEditorial): Bill {
     offPipelineReason: facts.offPipelineReason,
 
     // the one field built from both
-    stages: attachDiscussionContent(facts.stages, editorial.discussions),
+    stages: attachVoteExtras(
+      attachDiscussionContent(facts.stages, editorial.discussions),
+      editorial.voteExtras,
+    ),
   };
 }
