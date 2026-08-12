@@ -16,7 +16,11 @@ import { TrackingPage } from "@/pages/TrackingPage";
 
 export function App() {
   return (
-    <BrowserRouter>
+    // basename follows Vite's base: "/" in dev, the repo subpath
+    // on GitHub Pages ( lotem-e.github.io/afarkeset-laknesset/ ).
+    // The trailing slash is stripped because the router wants
+    // "/afarkeset-laknesset", not "/afarkeset-laknesset/".
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
       {/* TrackingProvider sits above every route, so all pages
           share the same followed-bills list. */}
       <TrackingProvider>

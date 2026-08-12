@@ -96,7 +96,14 @@ the same fact twice.
 
 `npm run dev` - port 5184 ( registered as `knesset` in the workspace
 `.claude/launch.json` ). Build: `npm run build` ( runs `tsc` first; `noEmit`
-is on, so no stray `.js` files next to `.tsx` ).
+is on, so no stray `.js` files next to `.tsx`; also copies `dist/index.html`
+to `dist/404.html`, the GitHub Pages fallback that makes deep routes
+survive a refresh ).
+
+Live site: https://lotem-e.github.io/afarkeset-laknesset/ - published by
+`.github/workflows/deploy.yml` on every push to `main` ( repo
+`lotem-e/afarkeset-laknesset`, public ). The production build carries
+`base: /afarkeset-laknesset/`; dev stays at the root.
 
 ## Writing rule
 
