@@ -14,7 +14,7 @@ export const facts: BillFacts = {
   committeeId: "economy",
   status: "completed",
   lastUpdated: "2025-04-07",
-  completedDate: "2024-12-02",
+  completedDate: "2024-12-09",
   initiators: [
     {
       kind: "ministry",
@@ -73,7 +73,14 @@ export const facts: BillFacts = {
     {
       stage: "secondThird",
       state: "completed",
-      discussions: []
+      discussions: [],
+      vote: {
+        date: "2024-12-10",
+        inFavor: 32,
+        against: 13,
+        abstained: 0,
+        absent: 75
+      }
     }
   ]
 };

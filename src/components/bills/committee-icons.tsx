@@ -3,6 +3,9 @@
 // Content stays pure data; this UI-side map is where a
 // committee id meets a lucide icon.
 import {
+  Baby,
+  Building2,
+  ClipboardCheck,
   Coins,
   FlaskConical,
   Gavel,
@@ -11,7 +14,9 @@ import {
   HeartPulse,
   Landmark,
   type LucideIcon,
+  Pill,
   Plane,
+  Puzzle,
   Shield,
   ShoppingCart,
   Siren,
@@ -34,4 +39,9 @@ export const COMMITTEE_ICONS: Record<CommitteeId, LucideIcon> = {
   "science-tech": FlaskConical,
   aliyah: Plane,
   "knesset-committee": Landmark,
+  "state-control": ClipboardCheck,
+  "public-projects": Building2,
+  "children-rights": Baby,
+  "drugs-alcohol": Pill,
+  special: Puzzle,
 };

@@ -14,7 +14,7 @@ export const facts: BillFacts = {
   committeeId: "labor-welfare",
   status: "completed",
   lastUpdated: "2025-04-29",
-  completedDate: "2024-11-20",
+  completedDate: "2024-11-27",
   initiators: [
     {
       kind: "mk",

@@ -1,28 +1,20 @@
 // =========================================================
 // The single entry point for bills - pages import from here.
 // =========================================================
-// As of 2026-08-12 every bill on the site is assembled the same
-// way: FACTS synced from the Knesset API + EDITORIAL written by
-// Lotem, joined in merge.ts by the Knesset's bill id. There are
-// no hand-kept stages or dates left anywhere.
+// Every bill is FACTS synced from the Knesset API. The curated
+// few also carry EDITORIAL written by Lotem, joined in merge.ts
+// by the Knesset's bill id; the long tail renders from facts
+// alone ( official name, official summary where one exists ).
+//
+// Facts files are loaded automatically: sync-all writes one file
+// per qualifying bill into facts/, and the glob below picks it
+// up - adding a bill to the site is a sync run, not a code edit.
 //
 // ( pa-funds is deliberately absent - see parked.ts: none of its
 // real versions ever cleared a preliminary reading, and the
 // entry rule keeps it off the site. )
-import type { Bill, BillStatus, Discussion, StageKey } from "../types";
-import { buildBill } from "./merge";
-
-import { facts as performersRightsFacts } from "./facts/2203845";
-import { facts as judiciaryBasicLawFacts } from "./facts/2201200";
-import { facts as hospitalsMentalHealthFacts } from "./facts/2227232";
-import { facts as pregnancyGrantFacts } from "./facts/2197296";
-import { facts as mkImmunityFacts } from "./facts/2223561";
-import { facts as aviationServicesFacts } from "./facts/2218572";
-import { facts as crimeOrgsFacts } from "./facts/2214419";
-import { facts as dogsSupervisionFacts } from "./facts/2224337";
-import { facts as equalOpportunitiesFacts } from "./facts/2198458";
-import { facts as schoolBoycottFacts } from "./facts/2220190";
-import { facts as policeDocumentationFacts } from "./facts/2209053";
+import type { Bill, BillEditorial, BillFacts, BillStatus, Discussion, StageKey } from "../types";
+import { buildBill, buildBillFromFacts } from "./merge";
 
 import { performersRightsEditorial } from "./editorial/performers-rights";
 import { judiciaryBasicLawEditorial } from "./editorial/judiciary-basic-law";
@@ -36,22 +28,52 @@ import { equalOpportunitiesEditorial } from "./editorial/equal-opportunities";
 import { schoolBoycottEditorial } from "./editorial/school-boycott";
 import { policeDocumentationEditorial } from "./editorial/police-documentation";
 
-// The fully-written bills come first so they lead the list,
-// like in the Figma; the card-level bills follow in the
-// design's original order.
-export const bills: Bill[] = [
-  buildBill(performersRightsFacts, performersRightsEditorial),
-  buildBill(judiciaryBasicLawFacts, judiciaryBasicLawEditorial),
-  buildBill(hospitalsMentalHealthFacts, hospitalsMentalHealthEditorial),
-  buildBill(pregnancyGrantFacts, pregnancyGrantEditorial),
-  buildBill(mkImmunityFacts, mkImmunityEditorial),
-  buildBill(aviationServicesFacts, aviationServicesEditorial),
-  buildBill(crimeOrgsFacts, crimeOrgsEditorial),
-  buildBill(dogsSupervisionFacts, dogsSupervisionEditorial),
-  buildBill(equalOpportunitiesFacts, equalOpportunitiesEditorial),
-  buildBill(schoolBoycottFacts, schoolBoycottEditorial),
-  buildBill(policeDocumentationFacts, policeDocumentationEditorial),
+// The curated registry, in display order: fully-written bills
+// lead the list, like in the Figma. Adding editorial for a bill
+// means writing its file and listing it here - nothing else.
+const EDITORIALS: BillEditorial[] = [
+  performersRightsEditorial,
+  judiciaryBasicLawEditorial,
+  hospitalsMentalHealthEditorial,
+  pregnancyGrantEditorial,
+  mkImmunityEditorial,
+  aviationServicesEditorial,
+  crimeOrgsEditorial,
+  dogsSupervisionEditorial,
+  equalOpportunitiesEditorial,
+  schoolBoycottEditorial,
+  policeDocumentationEditorial,
 ];
+
+// Vite collects every facts file at build time. `eager` inlines
+// them into the bundle - no network requests at run time.
+const factsModules = import.meta.glob<{ facts: BillFacts }>("./facts/*.ts", {
+  eager: true,
+});
+
+const factsById = new Map<number, BillFacts>();
+for (const module of Object.values(factsModules)) {
+  factsById.set(module.facts.billId, module.facts);
+}
+
+const curated: Bill[] = EDITORIALS.map((editorial) => {
+  const facts = factsById.get(editorial.billId);
+  if (!facts) {
+    throw new Error(
+      `Editorial for bill ${editorial.billId} ( ${editorial.id} ) has no facts file - run: node scripts/sync-bill.mjs ${editorial.billId}`,
+    );
+  }
+  return buildBill(facts, editorial);
+});
+
+const curatedIds = new Set(EDITORIALS.map((e) => e.billId));
+const longTail: Bill[] = [...factsById.values()]
+  .filter((facts) => !curatedIds.has(facts.billId))
+  .map(buildBillFromFacts)
+  // Freshest first, so the long lists lead with what moved.
+  .sort((a, b) => b.lastUpdated.localeCompare(a.lastUpdated));
+
+export const bills: Bill[] = [...curated, ...longTail];
 
 export function getBill(id: string): Bill | undefined {
   return bills.find((b) => b.id === id);

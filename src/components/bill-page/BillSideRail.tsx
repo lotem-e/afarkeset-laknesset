@@ -24,8 +24,9 @@ function RailDivider() {
 
 export function BillSideRail({ bill }: { bill: Bill }) {
   const { isTracked, toggle } = useTracking();
-  const committee = getCommittee(bill.committeeId);
-  const CommitteeIcon = COMMITTEE_ICONS[bill.committeeId];
+  // A bill that departed before a committee was assigned has none.
+  const committee = bill.committeeId ? getCommittee(bill.committeeId) : null;
+  const CommitteeIcon = bill.committeeId ? COMMITTEE_ICONS[bill.committeeId] : null;
 
   return (
     <aside className="w-80 shrink-0 space-y-5">
@@ -48,13 +49,19 @@ export function BillSideRail({ bill }: { bill: Bill }) {
 
       <RailDivider />
 
-      <p className="flex items-center gap-1.5 text-small">
-        <span className="font-bold">ועדה מטפלת:</span>
-        <span>{committee.shortName}</span>
-        <CommitteeIcon className="size-4 text-primary" />
-      </p>
+      {committee && CommitteeIcon && (
+        <>
+          <p className="flex flex-wrap items-center gap-1.5 text-small">
+            <span className="font-bold">ועדה מטפלת:</span>
+            {/* An ad-hoc joint committee shows its full official
+                name here - the one place with room for it. */}
+            <span>{bill.committeeName ?? committee.shortName}</span>
+            <CommitteeIcon className="size-4 shrink-0 text-primary" />
+          </p>
 
-      <RailDivider />
+          <RailDivider />
+        </>
+      )}
 
       <StageAccordion stages={bill.stages} billId={bill.id} />
     </aside>

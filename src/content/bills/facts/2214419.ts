@@ -14,7 +14,7 @@ export const facts: BillFacts = {
   committeeId: "national-security",
   status: "completed",
   lastUpdated: "2025-08-14",
-  completedDate: "2024-11-06",
+  completedDate: "2024-12-11",
   initiators: [
     {
       kind: "mk",

@@ -24,6 +24,14 @@ export const COMMITTEE_BY_KNESSET_ID = {
   4198: "interior-environment",
   4200: "womens-status",
   4194: "knesset-committee",
+  // Discovered by the full Knesset-25 sync ( 2026-08-12 ):
+  4199: "state-control",
+  4209: "children-rights",
+  4210: "drugs-alcohol",
+  4215: "public-projects",
+  // Ad-hoc joint / special committees are NOT listed here - the
+  // sync maps any unlisted-but-real committee to the "special"
+  // bucket and keeps its official name on the bill itself.
 };
 
 // ועדת הכנסת ( 4194 ) wears two hats. For most bills it is

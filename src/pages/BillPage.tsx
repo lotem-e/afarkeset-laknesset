@@ -49,6 +49,9 @@ export function BillPage() {
             )}
           </h1>
 
+          {bill.summaryIsOfficial && (
+            <p className="text-tiny font-medium text-muted-foreground">התקציר הרשמי של הכנסת:</p>
+          )}
           <p className="text-lead">
             <RichText text={bill.intro ?? bill.summary} />
           </p>

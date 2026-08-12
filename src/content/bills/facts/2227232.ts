@@ -14,7 +14,7 @@ export const facts: BillFacts = {
   committeeId: "health",
   status: "completed",
   lastUpdated: "2025-12-31",
-  completedDate: "2025-03-12",
+  completedDate: "2025-03-19",
   initiators: [
     {
       kind: "ministry",

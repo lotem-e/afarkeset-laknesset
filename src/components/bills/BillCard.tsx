@@ -36,8 +36,9 @@ interface BillCardProps {
 }
 
 export function BillCard({ bill, subscribed, onToggleSubscribe, showRibbon }: BillCardProps) {
-  const committee = getCommittee(bill.committeeId);
-  const CommitteeIcon = COMMITTEE_ICONS[bill.committeeId];
+  // A bill that departed before a committee was assigned has none.
+  const committee = bill.committeeId ? getCommittee(bill.committeeId) : null;
+  const CommitteeIcon = bill.committeeId ? COMMITTEE_ICONS[bill.committeeId] : null;
   const completed = bill.status === "completed";
 
   return (
@@ -69,13 +70,18 @@ export function BillCard({ bill, subscribed, onToggleSubscribe, showRibbon }: Bi
 
         <div className="flex flex-wrap items-center gap-3">
           <Chip variant="type">{TYPE_LABEL[bill.type]}</Chip>
-          <span className="flex items-center gap-1.5 text-small">
-            <span className="font-bold">ועדה מטפלת:</span>
-            <span>{committee.shortName}</span>
-            <CommitteeIcon className="size-4 text-primary" />
-          </span>
+          {committee && CommitteeIcon && (
+            <span className="flex items-center gap-1.5 text-small">
+              <span className="font-bold">ועדה מטפלת:</span>
+              <span>{committee.shortName}</span>
+              <CommitteeIcon className="size-4 text-primary" />
+            </span>
+          )}
         </div>
 
+        {bill.summaryIsOfficial && (
+          <p className="text-tiny font-medium text-muted-foreground">התקציר הרשמי של הכנסת:</p>
+        )}
         <p className="text-small font-normal leading-6 text-foreground">{bill.summary}</p>
 
         <StageChips stages={bill.stages} />

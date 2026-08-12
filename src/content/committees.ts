@@ -18,6 +18,13 @@ export const committees: Committee[] = [
   { id: "science-tech",         name: "ועדת המדע והטכנולוגיה",                         shortName: "מדע וטכנולוגיה" },
   { id: "aliyah",               name: "ועדת העלייה, הקליטה והתפוצות",                  shortName: "עלייה, קליטה ותפוצות" },
   { id: "knesset-committee",    name: "ועדת הכנסת",                                    shortName: "ועדת הכנסת" },
+  { id: "state-control",        name: "הוועדה לענייני ביקורת המדינה",                  shortName: "ביקורת המדינה" },
+  { id: "public-projects",      name: "הוועדה למיזמים ציבוריים",                       shortName: "מיזמים ציבוריים" },
+  { id: "children-rights",      name: "הוועדה המיוחדת לזכויות הילד",                   shortName: "זכויות הילד" },
+  { id: "drugs-alcohol",        name: "הוועדה המיוחדת למאבק בשימוש בסמים ובאלכוהול",   shortName: "מאבק בסמים ובאלכוהול" },
+  // The bucket for ad-hoc joint / special committees; the bill
+  // itself carries the full official name ( Bill.committeeName ).
+  { id: "special",              name: "ועדה מיוחדת או משותפת",                         shortName: "ועדה מיוחדת" },
 ];
 
 export function getCommittee(id: CommitteeId): Committee {

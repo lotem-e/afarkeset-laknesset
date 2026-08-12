@@ -64,6 +64,7 @@ export function buildBill(facts: BillFacts, editorial: BillEditorial): Bill {
     billId: facts.billId,
     type: facts.type,
     committeeId: facts.committeeId,
+    committeeName: facts.committeeName,
     initiators: facts.initiators,
     status: facts.status,
     lastUpdated: facts.lastUpdated,
@@ -75,5 +76,31 @@ export function buildBill(facts: BillFacts, editorial: BillEditorial): Bill {
       attachDiscussionContent(facts.stages, editorial.discussions),
       editorial.voteExtras,
     ),
+  };
+}
+
+// The long tail: a bill that has facts but no editorial yet.
+// Everything the card and the bill page need is derived from
+// the record itself - the official name as the display name,
+// and the Knesset's own published summary ( clearly labelled )
+// when one exists. Lotem approved both calls on 2026-08-12.
+export function buildBillFromFacts(facts: BillFacts): Bill {
+  return {
+    id: String(facts.billId),
+    billId: facts.billId,
+    name: facts.officialName,
+    type: facts.type,
+    committeeId: facts.committeeId,
+    committeeName: facts.committeeName,
+    initiators: facts.initiators,
+    summary:
+      facts.summaryOfficial ??
+      "התקציר לחוק זה טרם נכתב. הסבר בגובה העיניים יתווסף בהמשך.",
+    summaryIsOfficial: Boolean(facts.summaryOfficial),
+    status: facts.status,
+    lastUpdated: facts.lastUpdated,
+    completedDate: facts.completedDate,
+    offPipelineReason: facts.offPipelineReason,
+    stages: facts.stages,
   };
 }

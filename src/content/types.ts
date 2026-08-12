@@ -153,9 +153,13 @@ export interface Bill {
   name: string;            // the bold part before the colon
   subtitle?: string;       // the regular part after the colon
   type: BillType;
-  committeeId: CommitteeId;
+  committeeId?: CommitteeId; // absent = never assigned a committee
+  committeeName?: string;    // official name, for the "special" bucket
   initiators: Initiator[]; // first one is the card's "בהובלת"
   summary: string;         // the 2-3 line paragraph on cards
+  // True when summary is the Knesset's official SummaryLaw text
+  // rather than Lotem's writing - the UI labels it as such.
+  summaryIsOfficial?: boolean;
   intro?: string;          // bill-page opening ( RichText markup )
   status: BillStatus;
   stages: StageProgress[]; // in pipeline order; may omit skipped stages
@@ -188,9 +192,20 @@ export interface BillFacts {
   syncedAt: string;        // ISO - when the sync last ran
   officialName: string;    // the full legal name, as published
   type: BillType;
-  committeeId: CommitteeId;
+  // Absent when the Knesset never assigned a committee ( a bill
+  // that departed before assignment ).
+  committeeId?: CommitteeId;
+  // The official committee name, kept when committeeId is the
+  // generic "special" bucket - ad-hoc joint committees carry
+  // paragraph-long names that belong on the bill page, not in
+  // the committees list.
+  committeeName?: string;
   status: BillStatus;
   offPipelineReason?: string;
+  // The Knesset's own published summary of an enacted law
+  // ( KNS_Bill.SummaryLaw ). Editorial-less bills show it,
+  // clearly labelled as the official text, not ours.
+  summaryOfficial?: string;
   lastUpdated: string;
   completedDate?: string;
   initiators: Initiator[];
@@ -232,7 +247,15 @@ export type CommitteeId =
   // ועדת הכנסת is usually procedural ( it assigns bills to other
   // committees ), but for its own domain - MK immunity, Knesset
   // affairs - it IS the handling committee, so it needs an id.
-  | "knesset-committee";
+  | "knesset-committee"
+  // Standing / permanent-special committees discovered by the
+  // full sync of Knesset 25 ( 2026-08-12 ).
+  | "state-control" | "public-projects" | "children-rights" | "drugs-alcohol"
+  // One bucket for ad-hoc joint and special committees that were
+  // assembled for a specific bill - their paragraph-long official
+  // names live on the bill itself ( Bill.committeeName ), not in
+  // the committees list.
+  | "special";
 
 export interface Committee {
   id: CommitteeId;

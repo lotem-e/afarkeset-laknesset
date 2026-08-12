@@ -48,7 +48,14 @@ export const facts: BillFacts = {
     {
       stage: "preliminary",
       state: "completed",
-      discussions: []
+      discussions: [],
+      vote: {
+        date: "2023-07-20",
+        inFavor: 12,
+        against: 0,
+        abstained: 0,
+        absent: 108
+      }
     },
     {
       stage: "firstPrep",
