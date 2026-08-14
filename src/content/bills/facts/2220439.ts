@@ -9,7 +9,7 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2220439,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-14",
   officialName: "חוק סיוע לבני משפחה של נעדרים, התשפ\"ו–2026",
   type: "private",
   committeeId: "national-security",
@@ -80,6 +80,11 @@ export const facts: BillFacts = {
           date: "2026-05-13",
           time: "10:00",
           sessionId: 2243026
+        },
+        {
+          date: "2026-09-07",
+          time: "09:00",
+          sessionId: 2245346
         }
       ]
     },
