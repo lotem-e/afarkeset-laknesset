@@ -9,12 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203644,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-17",
   officialName: "הצעת חוק הגנת הצרכן (תיקון - ביטול עסקת מכר מרחוק למתן שירותי תיירות בישראל), התשפ\"ג-2023",
   type: "private",
   committeeId: "economy",
-  status: "agenda",
-  lastUpdated: "2024-09-17",
+  status: "dropped",
+  offPipelineReason: "נעצרה",
+  lastUpdated: "2026-08-16",
   initiators: [
     {
       kind: "mk",

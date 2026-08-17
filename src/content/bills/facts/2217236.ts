@@ -9,7 +9,7 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2217236,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-17",
   officialName: "הצעת חוק-יסוד: שירות מילואים",
   type: "private",
   committeeId: "foreign-defense",
@@ -32,8 +32,8 @@ export const facts: BillFacts = {
     },
     {
       kind: "mk",
-      personId: 30839,
-      name: "דן אילוז",
+      personId: 30702,
+      name: "חוה אתי עטייה",
       partyId: "likud",
       factionName: "הליכוד"
     }

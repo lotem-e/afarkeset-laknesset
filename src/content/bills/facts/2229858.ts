@@ -9,20 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2229858,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-17",
   officialName: "הצעת חוק לתיקון פקודת התעבורה (מס' 142) (קידום התחרות באמצעות תחבורה שיתופית מקוונת), התשפ\"ו–2026",
   type: "private",
   committeeId: "economy",
   status: "agenda",
   lastUpdated: "2026-03-24",
   initiators: [
-    {
-      kind: "mk",
-      personId: 30839,
-      name: "דן אילוז",
-      partyId: "likud",
-      factionName: "הליכוד"
-    },
     {
       kind: "mk",
       personId: 30877,

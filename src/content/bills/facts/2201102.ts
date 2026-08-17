@@ -9,7 +9,7 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201102,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-17",
   officialName: "הצעת חוק בתי המשפט (תיקון - שקיפות בארגונים נתמכים), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
@@ -25,15 +25,15 @@ export const facts: BillFacts = {
     },
     {
       kind: "mk",
-      personId: 30839,
-      name: "דן אילוז",
-      partyId: "likud",
-      factionName: "הליכוד"
+      personId: 30859,
+      name: "צביקה פוגל",
+      partyId: "rzp",
+      factionName: "הציונות הדתית"
     },
     {
       kind: "mk",
-      personId: 30859,
-      name: "צביקה פוגל",
+      personId: 30830,
+      name: "אוהד טל",
       partyId: "rzp",
       factionName: "הציונות הדתית"
     }

@@ -9,7 +9,7 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2207390,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-17",
   officialName: "הצעת חוק הרשויות המקומיות (תגמול לחברי מועצה), התשפ\"ה–2025",
   type: "private",
   committeeId: "interior-environment",
@@ -22,13 +22,6 @@ export const facts: BillFacts = {
       name: "יעקב אשר",
       partyId: "utj",
       factionName: "יהדות התורה"
-    },
-    {
-      kind: "mk",
-      personId: 30839,
-      name: "דן אילוז",
-      partyId: "likud",
-      factionName: "הליכוד"
     },
     {
       kind: "mk",

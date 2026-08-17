@@ -9,7 +9,7 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198601,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-17",
   officialName: "הצעת חוק עקרונות האסדרה (תיקון) (בחינה תקופתית של אסדרה ואי-הטלת אחריות בשל אי-פרסום אסדרה), התשפ''ד–2024",
   type: "private",
   committeeId: "constitution",
@@ -20,13 +20,6 @@ export const facts: BillFacts = {
       kind: "mk",
       personId: 30832,
       name: "אליהו רביבו",
-      partyId: "likud",
-      factionName: "הליכוד"
-    },
-    {
-      kind: "mk",
-      personId: 30839,
-      name: "דן אילוז",
       partyId: "likud",
       factionName: "הליכוד"
     }

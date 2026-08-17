@@ -9,7 +9,7 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2224080,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-17",
   officialName: "הצעת חוק העונשין (תיקון - הגנה על חושפי שחיתויות ומתריעים בנסיבות ביטחוניות), התשפ\"ה-2024",
   type: "private",
   committeeId: "foreign-defense",
@@ -22,13 +22,6 @@ export const facts: BillFacts = {
       name: "שמחה רוטמן",
       partyId: "rzp",
       factionName: "הציונות הדתית"
-    },
-    {
-      kind: "mk",
-      personId: 30839,
-      name: "דן אילוז",
-      partyId: "likud",
-      factionName: "הליכוד"
     },
     {
       kind: "mk",

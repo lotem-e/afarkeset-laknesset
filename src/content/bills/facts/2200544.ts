@@ -9,20 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200544,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-17",
   officialName: "הצעת חוק יום ציון ממלכתי לוועידת סן רמו, התשפ''ג-2023",
   type: "private",
   committeeId: "education",
   status: "agenda",
   lastUpdated: "2025-02-05",
   initiators: [
-    {
-      kind: "mk",
-      personId: 30839,
-      name: "דן אילוז",
-      partyId: "likud",
-      factionName: "הליכוד"
-    },
     {
       kind: "mk",
       personId: 30710,
@@ -36,6 +29,13 @@ export const facts: BillFacts = {
       name: "עמית הלוי",
       partyId: "likud",
       factionName: "הליכוד"
+    },
+    {
+      kind: "mk",
+      personId: 30830,
+      name: "אוהד טל",
+      partyId: "rzp",
+      factionName: "הציונות הדתית"
     }
   ],
   stages: [

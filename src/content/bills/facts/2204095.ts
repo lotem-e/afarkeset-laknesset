@@ -9,20 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2204095,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-17",
   officialName: "הצעת חוק לתיקון פקודת מס הכנסה (קרנות השקעה), התשפ\"ג-2023",
   type: "private",
   committeeId: "finance",
   status: "agenda",
   lastUpdated: "2024-05-07",
   initiators: [
-    {
-      kind: "mk",
-      personId: 30839,
-      name: "דן אילוז",
-      partyId: "likud",
-      factionName: "הליכוד"
-    },
     {
       kind: "mk",
       personId: 30710,

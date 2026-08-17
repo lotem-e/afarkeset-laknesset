@@ -9,7 +9,7 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2226372,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-17",
   officialName: "הצעת חוק הגנה על קטינים (הזכות למחיקת מידע אישי), התשפ\"ה-2025",
   type: "private",
   committeeId: "constitution",
@@ -25,15 +25,15 @@ export const facts: BillFacts = {
     },
     {
       kind: "mk",
-      personId: 30839,
-      name: "דן אילוז",
+      personId: 23558,
+      name: "דוד ביטן",
       partyId: "likud",
       factionName: "הליכוד"
     },
     {
       kind: "mk",
-      personId: 23558,
-      name: "דוד ביטן",
+      personId: 30706,
+      name: "קטי קטרין שטרית",
       partyId: "likud",
       factionName: "הליכוד"
     }

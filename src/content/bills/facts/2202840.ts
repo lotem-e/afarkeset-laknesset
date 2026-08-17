@@ -9,7 +9,7 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202840,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-08-17",
   officialName: "הצעת חוק שלילת תקציב ממוסדות חינוך המלמדים את תוכנית הלימוד הפלסטינית הכוללים הסתה לטרור (תיקוני חקיקה), התשפ\"ג-2023",
   type: "private",
   committeeId: "education",
@@ -32,10 +32,10 @@ export const facts: BillFacts = {
     },
     {
       kind: "mk",
-      personId: 30839,
-      name: "דן אילוז",
-      partyId: "likud",
-      factionName: "הליכוד"
+      personId: 30852,
+      name: "משה סולומון",
+      partyId: "rzp",
+      factionName: "הציונות הדתית"
     }
   ],
   stages: [
