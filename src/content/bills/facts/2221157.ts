@@ -9,7 +9,7 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2221157,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-09-08",
   officialName: "הצעת חוק תובענות ייצוגיות (תיקון מס' 16), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "special",
@@ -101,6 +101,11 @@ export const facts: BillFacts = {
           date: "2026-09-03",
           time: "14:00",
           sessionId: 2245345
+        },
+        {
+          date: "2026-09-16",
+          time: "09:30",
+          sessionId: 2245384
         }
       ]
     },
