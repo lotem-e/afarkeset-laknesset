@@ -9,19 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2231849,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-09-22",
   officialName: "הצעת חוק הרב יהודה עמיטל והרב אהרון ליכטנשטיין (ציון זכרם ופועלם), התשפ\"ה-2025",
   type: "private",
   status: "agenda",
   lastUpdated: "2026-07-01",
   initiators: [
-    {
-      kind: "mk",
-      personId: 23591,
-      name: "אלעזר שטרן",
-      partyId: "yesh-atid",
-      factionName: "יש עתיד"
-    },
     {
       kind: "mk",
       personId: 30852,
