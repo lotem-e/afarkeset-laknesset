@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2206642,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-09-24",
   officialName: "חוק חופשה שנתית (תיקון מס' 17), התשפ\"ו–2026",
   type: "private",
   committeeId: "labor-welfare",
   status: "completed",
-  lastUpdated: "2026-07-26",
+  lastUpdated: "2026-09-23",
   completedDate: "2026-07-13",
   initiators: [
     {

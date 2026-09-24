@@ -9,7 +9,7 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2222852,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-09-24",
   officialName: "חוק העמדה לדין בשל אירועי טבח 7 באוקטובר 2023 (טבח שמיני עצרת), התשפ\"ו–2026",
   type: "private",
   committeeId: "constitution",
@@ -173,6 +173,11 @@ export const facts: BillFacts = {
           date: "2026-04-29",
           time: "15:00",
           sessionId: 2242561
+        },
+        {
+          date: "2026-10-07",
+          time: "10:00",
+          sessionId: 2245422
         }
       ]
     },
