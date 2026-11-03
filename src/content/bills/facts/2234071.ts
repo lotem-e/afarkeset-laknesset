@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2234071,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק תאגידי מים וביוב (תיקון מס' 21) (הפעלת שירותי מים וביוב על ידי רשות מקומית), התשפ\"ו–2026",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-03-31",
+  lastUpdated: "2026-10-06",
   initiators: [
     {
       kind: "mk",

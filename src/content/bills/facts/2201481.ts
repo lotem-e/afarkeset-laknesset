@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201481,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים) (תיקון מס' 23 – הוראת שעה) (החמרת תנאי שחרור בערובה של חשוד בעבירות חמורות), התשפ\"ד–2024",
   type: "private",
   committeeId: "national-security",
   status: "agenda",
-  lastUpdated: "2024-03-13",
+  lastUpdated: "2026-10-18",
   initiators: [
     {
       kind: "mk",

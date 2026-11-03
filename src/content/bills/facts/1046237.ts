@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1046237,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק איסור הונאה בכשרות (תיקון מס' 5), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "public-projects",
   status: "completed",
-  lastUpdated: "2026-07-26",
+  lastUpdated: "2026-10-19",
   completedDate: "2026-07-13",
   initiators: [
     {

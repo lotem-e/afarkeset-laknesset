@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2245052,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק היועץ המשפטי לממשלה והתובע הכללי (מינוי, כהונה, תפקידים וסמכויות), התשפ\"ו–2026 ",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-07-07",
+  lastUpdated: "2026-10-07",
   initiators: [
     {
       kind: "mk",

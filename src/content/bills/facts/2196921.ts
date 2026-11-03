@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196921,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק עובדים זרים (תיקון - שימוש בכספים שלא הוצאו על ידי עובדים זרים ומסתננים), התשפ''ג-2022",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2026-07-28",
+  lastUpdated: "2026-10-06",
   initiators: [
     {
       kind: "mk",

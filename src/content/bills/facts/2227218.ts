@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2227218,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק רשויות תחבורה ציבורית (רשויות מטרופוליניות ורשות ארצית), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-07-09",
+  lastUpdated: "2026-10-12",
   initiators: [
     {
       kind: "ministry",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2244078,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק בינוי ופינוי של אזורי שיקום (כפר שלם), התשפ\"ו-2026",
   type: "private",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2026-07-08",
+  lastUpdated: "2026-10-20",
   initiators: [
     {
       kind: "mk",

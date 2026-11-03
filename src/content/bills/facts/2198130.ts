@@ -9,14 +9,14 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198130,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק-יסוד: הממשלה (תיקון מס' 11)",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המיוחדת לדיון בהצעת חוק-יסוד: הממשלה (תיקון - שר נוסף במשרד) (פ/81/25) ובהצעת חוק-יסוד: הממשלה (תיקון – כשירותם של שרים) (פ/91/25)",
   status: "completed",
   summaryOfficial: "נוספו הוראות לפיהן ניתן יהיה למנות במשרד שממונה עליו שר, שר נוסף שיהיה אחראי, בכפוף לשר הממונה על המשרד, לתחומים מסוימים בתחומי פעילות המשרד.",
-  lastUpdated: "2023-11-29",
+  lastUpdated: "2026-11-02",
   completedDate: "2022-12-26",
   initiators: [
     {

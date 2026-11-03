@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2218845,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק המועצה להשכלה גבוהה (תיקון - פיטורי סגל אקדמי בשל הסתה או תמיכה בטרור והפחתת תקציב), התשפ\"ד-2024",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2024-11-28",
+  lastUpdated: "2026-10-21",
   initiators: [
     {
       kind: "mk",

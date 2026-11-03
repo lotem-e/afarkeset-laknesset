@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2243217,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק-יסוד: סמכות חקירה והעמדה לדין (תיקוני חקיקה)",
   type: "committee",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-06-02",
+  lastUpdated: "2026-10-18",
   initiators: [],
   stages: [
     {

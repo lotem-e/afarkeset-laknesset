@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2205720,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק לביטול ההפליה ברכישת מקרקעין ביהודה והשומרון, התשפ\"ו–2025",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2025-12-07",
+  lastUpdated: "2026-10-22",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2206912,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק לקידום הנשים בישראל, התשפ\"ג-2023",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המשותפת של ועדת החוקה, חוק ומשפט ושל הוועדה לקידום מעמד האישה ולשוויון מגדרי לדיון בהצעת חוק לקידום הנשים בישראל, התשפ\"ג-2023 (פ/3670/25)",
   status: "agenda",
-  lastUpdated: "2023-07-18",
+  lastUpdated: "2026-10-21",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202840,
-  syncedAt: "2026-08-17",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק שלילת תקציב ממוסדות חינוך המלמדים את תוכנית הלימוד הפלסטינית הכוללים הסתה לטרור (תיקוני חקיקה), התשפ\"ג-2023",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2026-05-04",
+  lastUpdated: "2026-10-21",
   initiators: [
     {
       kind: "mk",

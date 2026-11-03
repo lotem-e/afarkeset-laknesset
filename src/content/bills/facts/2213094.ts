@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2213094,
-  syncedAt: "2026-09-08",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק תובענות ייצוגיות (תיקון - פניה מוקדמת), התשפ\"ד-2024",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המשותפת של ועדת החוקה, חוק ומשפט ושל ועדת הכלכלה לדיון בהצעת חוק תובענות ייצוגיות (תיקון מס' 16) התשפ\"ד-2024 (מ/1785)",
   status: "agenda",
-  lastUpdated: "2024-11-20",
+  lastUpdated: "2026-10-06",
   initiators: [
     {
       kind: "mk",
@@ -111,6 +111,11 @@ export const facts: BillFacts = {
           date: "2026-09-16",
           time: "09:30",
           sessionId: 2245384
+        },
+        {
+          date: "2026-10-15",
+          time: "09:30",
+          sessionId: 2245466
         }
       ]
     },

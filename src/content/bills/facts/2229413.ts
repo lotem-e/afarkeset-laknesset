@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2229413,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק הכרה בשפת הסימנים הישראלית, התשפ\"ו-2026",
   type: "private",
   committeeId: "education",
   status: "completed",
   summaryOfficial: "מטרת החוק היא להכיר בשפת הסימנים הישראלית, על ידי הסמכת האקדמיה ללשון העברית לשמר, לפתח ולקדם את שפת הסימנים הישראלית. שר התרבות והספורט ממונה על ביצוע החוק.",
-  lastUpdated: "2026-07-29",
+  lastUpdated: "2026-10-28",
   completedDate: "2026-06-08",
   initiators: [
     {

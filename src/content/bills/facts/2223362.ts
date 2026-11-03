@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2223362,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק הקמת שדה תעופה בנבטים (הוראות מיוחדות), התשפ\"ה–2025",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2025-04-23",
+  lastUpdated: "2026-10-06",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1046679,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק התקציב לשנת הכספים 2026, התשפ\"ו-2026",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
-  lastUpdated: "2026-07-09",
+  lastUpdated: "2026-10-06",
   completedDate: "2026-03-29",
   initiators: [
     {

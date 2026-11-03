@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202845,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק לתיקון פקודת התעבורה (חובת נשיאת לוחית זיהוי באופניים ממונעים ובקורקינט ממונע), התשפ\"ג-2023",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2024-03-10",
+  lastUpdated: "2026-10-18",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200570,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק רשות המורשת ביהודה והשומרון, התשפ\"ו–2026",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2026-05-12",
+  lastUpdated: "2026-10-08",
   initiators: [
     {
       kind: "mk",

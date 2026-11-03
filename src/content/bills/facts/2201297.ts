@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201297,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק למניעת הטרדה מינית (תיקון מס' 16), התשפ\"ד–2024",
   type: "private",
   committeeId: "womens-status",
   status: "completed",
-  lastUpdated: "2024-07-28",
+  lastUpdated: "2026-10-18",
   completedDate: "2024-07-23",
   initiators: [
     {

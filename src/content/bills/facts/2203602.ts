@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203602,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק אימוץ ילדים (תיקון - איסור הפרדה בין אחים בהליך אימוץ), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2023-06-28",
+  lastUpdated: "2026-10-21",
   initiators: [
     {
       kind: "mk",

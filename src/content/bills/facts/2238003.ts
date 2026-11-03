@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2238003,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק משכן הכנסת, רחבתו ומשמר הכנסת (תיקון מס' 20) (גבולות רחבת הכנסת), התשפ\"ו–2025",
   type: "committee",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2026-01-07",
+  lastUpdated: "2026-10-18",
   initiators: [],
   stages: [
     {

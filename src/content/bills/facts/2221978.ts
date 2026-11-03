@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2221978,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק הפחתת הגירעון והגבלת ההוצאה התקציבית (תיקון מס' 26), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "מוצע לתקן את חוק הפחתת הגירעון והגבלת ההוצאה התקציבית התשנ\"ב-1992, ולהגדיל את ההוצאה הממשלתית בשנת 2024 בסכום של 3,357 מיליארד שקלים חדשים לצורך מימון ההוצאות הדרושות לצרכים אזרחיים הנובעים ממלחמת חרבות ברזל.",
-  lastUpdated: "2024-11-27",
+  lastUpdated: "2026-10-26",
   completedDate: "2024-09-29",
   initiators: [
     {

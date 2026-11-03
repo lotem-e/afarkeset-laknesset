@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202785,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק חובת המכרזים (תיקון - משרד החינוך), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2024-07-29",
+  lastUpdated: "2026-10-21",
   initiators: [
     {
       kind: "mk",

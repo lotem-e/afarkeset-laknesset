@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2168215,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק לתיקון פקודת הראיות (מס' 20) (חיסיון קרימינולוג קליני), התשפ\"ב–2022",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2026-06-08",
+  lastUpdated: "2026-10-06",
   initiators: [
     {
       kind: "mk",

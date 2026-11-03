@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2217355,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק משפחות חיילים שנספו במערכה (תגמולים ושיקום) (תיקון - תגמולי הורים, יתומים ואחים שכולים), התשפ\"ד-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2025-09-17",
+  lastUpdated: "2026-10-21",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2206642,
-  syncedAt: "2026-09-24",
+  syncedAt: "2026-11-03",
   officialName: "חוק חופשה שנתית (תיקון מס' 17), התשפ\"ו–2026",
   type: "private",
   committeeId: "labor-welfare",
   status: "completed",
-  lastUpdated: "2026-09-23",
+  summaryOfficial: "החוק מתקן את התוספת לחוק חופשה שנתית ומאפשר לעובד להיעדר מהעבודה ביום האזכרה של קרוב משפחתו מדרגה ראשונה - הורים, בן זוג, ילדים ואחים ואחיות, על חשבון יום חופשה ממכסת החופשה השנתית.",
+  lastUpdated: "2026-11-02",
   completedDate: "2026-07-13",
   initiators: [
     {

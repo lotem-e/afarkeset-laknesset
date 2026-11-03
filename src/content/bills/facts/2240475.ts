@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2240475,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק לתיקון פקודת העיריות (מס' 163), התשפ\"ו–2026",
   type: "governmental",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "החוק קובע כי עד ליום 31 בדצמבר 2030 לא יוטלו היטלי תיעול וסלילת כבישים, מדרכות ורחובות על מיתקנים פוטו וולטאיים המשמשים לקירוי שטח או מבנה, ובלבד שההיטלים שהוטלו בגין השטח או המבנה שולמו. עוד קובע החוק, הוראת שעה למשך שנה, שלפיה השבחה במקרקעין הנובעת מהקמת מיתקן אגרו וולטאי תהיה פטורה מהיטל השבחה.",
-  lastUpdated: "2026-08-05",
+  lastUpdated: "2026-10-19",
   completedDate: "2026-07-28",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197087,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק איסור לכידת בעלי חיים באמצעות מלכודות אסורות, התשפ\"ה-2025",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2025-02-04",
+  lastUpdated: "2026-10-08",
   initiators: [
     {
       kind: "mk",

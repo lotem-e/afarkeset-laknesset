@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2217246,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק התקנת מצלמות לשם הגנה על פעוטות במעונות יום לפעוטות (תיקון), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2024-04-16",
+  lastUpdated: "2026-10-08",
   initiators: [
     {
       kind: "ministry",

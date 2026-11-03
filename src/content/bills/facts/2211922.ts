@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2211922,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק לתיקון פקודת בתי הסוהר (מס' 73) (מניעת כניסתם של נציגי ארגון הצלב האדום הבין-לאומי והעברת מידע לארגון), התשפ\"ו–2026",
   type: "private",
   committeeId: "national-security",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2026-06-29",
+  lastUpdated: "2026-10-11",
   initiators: [
     {
       kind: "mk",

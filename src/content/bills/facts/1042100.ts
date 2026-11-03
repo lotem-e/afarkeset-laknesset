@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1042100,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק התקשורת (שידורים), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "special",
   committeeName: "הוועדה לדיון בהצעת חוק התקשורת (שידורים), התשפ\"ו-2025 (מ/1898)",
   status: "completed",
-  lastUpdated: "2026-07-30",
+  lastUpdated: "2026-10-07",
   completedDate: "2026-07-13",
   initiators: [
     {

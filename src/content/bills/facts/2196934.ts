@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196934,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק מבקר המדינה (תיקון מס' 50), התשפ''ג-2023",
   type: "private",
   committeeId: "state-control",
   status: "completed",
   summaryOfficial: "התיקון מרחיב את סמכותו של מבקר המדינה, כנציב תלונות הציבור, המאפשרת לו להוציא צו כדי להגן על זכויות עובד, במטרה למנוע את פיטוריו בגין חשיפת שחיתויות ומקרים נוספים המנויים בחוק, כך שתחול גם על משטרת ישראל ועל שירות בתי הסוהר. עוד מוצע כי אם הוגשה תלונה לנציב תלונות הציבור, לא יתאפשר בירור מקביל שלה בידי נציב קבילות שוטרים וסוהרים.",
-  lastUpdated: "2023-09-28",
+  lastUpdated: "2026-10-06",
   completedDate: "2023-07-12",
   initiators: [
     {

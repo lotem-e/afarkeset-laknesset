@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197013,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק למתן הטבות למשרתים במילואים, התשפ\"ה-2024",
   type: "private",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2024-12-18",
+  lastUpdated: "2026-10-19",
   initiators: [
     {
       kind: "mk",

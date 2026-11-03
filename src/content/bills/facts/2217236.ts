@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2217236,
-  syncedAt: "2026-08-17",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק-יסוד: שירות מילואים",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2024-06-19",
+  lastUpdated: "2026-10-21",
   initiators: [
     {
       kind: "mk",

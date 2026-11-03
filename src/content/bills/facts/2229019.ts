@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2229019,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק נוכחות עורך דין בחקירת קטינים ואנשים עם מוגבלות (תיקוני חקיקה והוראת שעה), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
-  lastUpdated: "2026-07-30",
+  lastUpdated: "2026-10-06",
   completedDate: "2026-07-28",
   initiators: [
     {

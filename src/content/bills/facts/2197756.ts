@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197756,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק שימוש בזרע של נפטר לשם הולדה, התשפ\"ג-2022 ",
   type: "private",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2025-01-09",
+  lastUpdated: "2026-10-18",
   initiators: [
     {
       kind: "mk",

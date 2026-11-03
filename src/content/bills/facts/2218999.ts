@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2218999,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק חובת הצגה של נתוני צפייה לצופה, התשפ\"ד-2024",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2024-11-06",
+  lastUpdated: "2026-10-06",
   initiators: [
     {
       kind: "mk",

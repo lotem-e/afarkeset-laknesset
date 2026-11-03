@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2240485,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "סעיפים 85, 87, 89 עד 91 (חוק תכנון משק החלב) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2026), התשפ\"ו-2026 [פוצלה לפי סעיף 84(ב) לתקנון הכנסת]",
   type: "governmental",
   committeeId: "public-projects",
   status: "agenda",
-  lastUpdated: "2026-07-29",
+  lastUpdated: "2026-10-06",
   initiators: [
     {
       kind: "ministry",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2214412,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "פרק א' (מטרת החוק) מתוך הצעת חוק התוכנית המאזנת (תיקוני חקיקה להשגת יעדי התקציב לשנת התקציב 2024), התשפ\"ד-2024 [פוצלה לפי סעיף 84(ב) לתקנון]",
   type: "governmental",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2024-02-14",
+  lastUpdated: "2026-10-11",
   initiators: [
     {
       kind: "ministry",

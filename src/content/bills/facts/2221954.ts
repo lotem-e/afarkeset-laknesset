@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2221954,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק לתיקון פקודת התעבורה (מס' 140), התשפ\"ה–2025",
   type: "governmental",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2025-07-23",
+  lastUpdated: "2026-10-06",
   initiators: [
     {
       kind: "ministry",

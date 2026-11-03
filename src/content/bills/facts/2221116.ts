@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2221116,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק זכויות הסטודנט (תיקון מס' 12), התשפ\"ו–2026",
   type: "private",
   committeeId: "education",
   status: "completed",
   summaryOfficial: "תיקון מס' 12 לחוק זכויות הסטודנט קובע במפורש כי קיום מוסדות לימוד נפרדים או מסלולי לימוד נפרדים לגברים ולנשים מטעמי דת אינו נחשב להפליה, בלימודים לתואר ראשון, לתואר שני ולתואר שלישי. בנוסף, התיקון קובע כי במסלולי לימוד בהפרדה הפועלים בתוך מוסד לימוד שאינו נפרד (מוסד מעורב), ההפרדה בין גברים לנשים מוגבלת לכיתות הלימוד בלבד.",
-  lastUpdated: "2026-07-29",
+  lastUpdated: "2026-10-19",
   completedDate: "2026-07-13",
   initiators: [
     {

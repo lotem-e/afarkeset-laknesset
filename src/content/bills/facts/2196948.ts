@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196948,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק העונשין (תיקון - החמרת הענישה על עבירות כלפי אנשי צוות רפואי), התשפ\"ג-2022",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-07-02",
+  lastUpdated: "2026-10-13",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2208226,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק שירות לאומי־אזרחי (תיקון מס' 4), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "foreign-defense",
   status: "completed",
   summaryOfficial: "החוק מאפשר לתלמידי ישיבות שניתן להן צו דחיית שירות טרם פקיעתו של ההסדר שאפשר זאת ב-30.6.2023, לשרת בשירות לאומי-אזרחי, אם מלאו להם 21 שנים, אם ביקשו לשרת בשירות לאומי-אזרחי ואם בקשה זו אושרה על ידי פוקד. ההסדר נקבע כהוראת שעה לשנה, עד יום 30.6.2024.",
-  lastUpdated: "2024-01-15",
+  lastUpdated: "2026-10-25",
   completedDate: "2023-07-25",
   initiators: [
     {

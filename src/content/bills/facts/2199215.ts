@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2199215,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק הבנקאות (שירות ללקוח) (תיקון - שירות מקוון ללקוח), התשפ\"ג-2023",
   type: "private",
   committeeId: "economy",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-06-08",
+  lastUpdated: "2026-10-12",
   initiators: [
     {
       kind: "mk",

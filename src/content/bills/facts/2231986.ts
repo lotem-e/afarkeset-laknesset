@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2231986,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק החלת ריבונות על מעלה אדומים, התשפ\"ה-2025",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2025-10-23",
+  lastUpdated: "2026-11-02",
   initiators: [
     {
       kind: "mk",

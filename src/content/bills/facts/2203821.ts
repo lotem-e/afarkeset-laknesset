@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203821,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנות התקציב 2023 ו-2024), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק קובע שורה של תיקונים בחוקים שונים בהתאם ליעדי התקציב לשנות התקציב 2023 ו-2024, בין היתר בנושאים: גז טבעי, מערכת החינוך, בנקאות ואשראי, תחבורה ציבורית, התחדשות עירונית, חקלאות, תכנון ובניה.",
-  lastUpdated: "2025-02-16",
+  lastUpdated: "2026-10-29",
   completedDate: "2023-05-22",
   initiators: [
     {

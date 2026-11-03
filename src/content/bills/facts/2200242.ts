@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200242,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק הרשויות המקומיות (מימון בחירות) (תיקון מס' 19), התשפ\"ה–2025",
   type: "private",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "החוק מבטל את האפשרות של מועמד לראשות מועצה אזורית לקבל תרומה מישוב שיתופי הנמצא בתחום המועצה האזורית שבה הוא מועמד. תחילתו של החוק שישה חודשים ממועד פרסומו.",
-  lastUpdated: "2025-07-30",
+  lastUpdated: "2026-10-28",
   completedDate: "2025-03-31",
   initiators: [
     {

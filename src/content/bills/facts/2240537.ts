@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2240537,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "פרק ד' (התחשבנות בין בתי חולים לקופות חולים לשנים 2026 עד 2030) (רק סעיף 16) מתוך הצעת חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנת התקציב 2026) התשפ\"ו-2026 [פוצלה לפי סעיף 84(ב) לתקנון] ",
   type: "governmental",
   committeeId: "health",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-03-18",
+  lastUpdated: "2026-10-06",
   initiators: [
     {
       kind: "ministry",

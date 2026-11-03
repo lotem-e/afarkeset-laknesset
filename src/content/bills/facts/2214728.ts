@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2214728,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק שירות המילואים (תיקון מס' 3) (הטבות בדיור לחיילי מילואים), התשפ\"ה–2025",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2025-05-25",
+  lastUpdated: "2026-10-26",
   initiators: [
     {
       kind: "mk",

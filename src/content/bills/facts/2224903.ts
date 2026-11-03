@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2224903,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק התקציב לשנת הכספים 2025, התשפ\"ה-2025 ",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק קובע כי תקציב ההוצאה לשנת הכספים 2025 יעמוד על 755,906,699,000 שקלים חדשים המורכב מתקציב רגיל בסך 547,406,561,000 שקלים חדשים ומתקציב פיתוח וחשבון הון בסך 208,500,138,000 שקלים חדשים, כי תקציב ההוצאה המותנית בהכנסה יעמוד על 84,593,530,000 שקלים חדשים, וכי שיא כוח האדם יעמוד על 100,964 משרות.",
-  lastUpdated: "2025-08-07",
+  lastUpdated: "2026-11-01",
   completedDate: "2025-03-24",
   initiators: [
     {

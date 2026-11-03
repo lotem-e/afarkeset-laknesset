@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198088,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק זכויות התורמים למדינה, התשפ\"ג-2023",
   type: "private",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2026-07-12",
+  lastUpdated: "2026-10-13",
   initiators: [
     {
       kind: "mk",

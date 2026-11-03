@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2215539,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק סיוע למשפחות נפגעי מאורעות ה-7 באוקטובר, התשפ\"ד-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2024-03-13",
+  lastUpdated: "2026-10-15",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1057378,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק הביטוח הלאומי  (תיקון מס' 268) (הסעת יולדת באמבולנס), התשפ\"ו–2026",
   type: "governmental",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2026-07-29",
+  lastUpdated: "2026-10-19",
   initiators: [
     {
       kind: "ministry",

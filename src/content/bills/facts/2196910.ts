@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196910,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק יום לציון אירועי הפרהוד, התשפ\"ד–2024",
   type: "private",
   committeeId: "education",
   status: "completed",
   summaryOfficial: "נקבע בחוק יום לציון אירועי הפרהוד, הפרעות שהתחוללו ביהודי בגדד בחג השבועות של שנת 1941, אשר יחול מדי שנה ביום החול הראשון שלאחר חג השבועות ואסרו חג. יום זה יצויין בטקס מרכזי לפי החלטת השר לשוויון חברתי וקידום מעמד האישה ובהתייעצות עם שר המורשת, בדיון מיוחד במליאת הכנסת וכן במוסדות החינוך ככל שיחליט על כך שר החינוך.",
-  lastUpdated: "2024-08-06",
+  lastUpdated: "2026-10-25",
   completedDate: "2024-07-02",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197107,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק בתי המשפט (תיקון מס' 107), התשפ\"ו–2026",
   type: "private",
   committeeId: "constitution",
   status: "completed",
-  lastUpdated: "2026-07-05",
+  lastUpdated: "2026-10-07",
   completedDate: "2026-06-09",
   initiators: [
     {

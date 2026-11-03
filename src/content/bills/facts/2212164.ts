@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2212164,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק תקציב נוסף לשנת הכספים 2023, התשפ\"ד-2023",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "נוכח שינוי הנסיבות שמקורו במלחמת חרבות ברזל, המצריך תיקונים משמעותיים ברוב סעיפי חוק התקציב, שינוי בתעדוף הוצאות הממשלה והגדלת מסגרת ההוצאה הממשלתית, החוק קובע תקציב נוסף ביחס לשנת 2023, שהוראותיו יבואו במקום הוראותיו של חוק התקציב לשנת הכספים 2023, התשפ\"ג–2023.",
-  lastUpdated: "2024-05-15",
+  lastUpdated: "2026-10-06",
   completedDate: "2023-12-14",
   initiators: [
     {

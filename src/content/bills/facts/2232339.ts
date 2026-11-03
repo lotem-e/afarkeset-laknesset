@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2232339,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק הטבות מס ליישוב אזור קו עימות מזרחי (הוראת שעה), התשפ\"ו–2026",
   type: "private",
   committeeId: "finance",
   status: "completed",
-  lastUpdated: "2026-06-09",
+  lastUpdated: "2026-10-18",
   completedDate: "2026-06-03",
   initiators: [
     {

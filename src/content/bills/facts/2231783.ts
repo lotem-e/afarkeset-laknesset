@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2231783,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק תשלומים לפדויי שבי ולחטופים ששוחררו (תיקון מס' 7), התשפ\"ה-2025 ",
   type: "governmental",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2025-06-03",
+  lastUpdated: "2026-10-26",
   initiators: [
     {
       kind: "ministry",

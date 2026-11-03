@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1057405,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת בטחון) (תיקון מס' 9), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
-  lastUpdated: "2026-07-30",
+  lastUpdated: "2026-10-11",
   completedDate: "2026-07-28",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2195837,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק הסדרת העיסוק במקצועות הבריאות (תיקון - טיפול באמצעות אמנויות), התשפ\"ג-2022",
   type: "private",
   committeeId: "health",
   status: "agenda",
-  lastUpdated: "2024-01-01",
+  lastUpdated: "2026-10-21",
   initiators: [
     {
       kind: "mk",

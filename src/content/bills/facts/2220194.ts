@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2220194,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק הסדרת העיסוק בייעוץ משכנתאות, התשפ\"ו–2026",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-07-14",
+  lastUpdated: "2026-10-13",
   initiators: [
     {
       kind: "mk",

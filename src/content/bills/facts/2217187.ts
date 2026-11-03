@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2217187,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק ביטוח בריאות ממלכתי (תיקון - ניפוק תכשיר מרשם שניתן במרשם אלקטרוני או ידני בתנאי הסדר בכל בתי המרקחת), התשפ\"ד-2024",
   type: "private",
   committeeId: "health",
   status: "agenda",
-  lastUpdated: "2024-12-11",
+  lastUpdated: "2026-10-20",
   initiators: [
     {
       kind: "mk",

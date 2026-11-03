@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2217526,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק הכניסה לישראל (תיקון מס' 40) (סמכויות קצין ביקורת הגבולות ופקח), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2024-06-10",
+  lastUpdated: "2026-10-18",
   initiators: [
     {
       kind: "ministry",

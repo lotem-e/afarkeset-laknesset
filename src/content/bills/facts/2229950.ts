@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2229950,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק רמת הגולן (תיקון - פיתוח וחיזוק רמת הגולן, וקביעת יום לציון רמת הגולן), התשפ\"ה-2025",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2025-12-17",
+  lastUpdated: "2026-10-21",
   initiators: [
     {
       kind: "mk",

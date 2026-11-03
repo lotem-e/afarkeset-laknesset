@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198907,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק-יסוד: לימוד תורה",
   type: "private",
   committeeId: "knesset-committee",
   status: "completed",
   summaryOfficial: "חוק היסוד קובע כי לימוד התורה הוא ערך יסוד במורשת העם היהודי ובמדינת ישראל.",
-  lastUpdated: "2026-07-20",
+  lastUpdated: "2026-10-07",
   completedDate: "2026-07-13",
   initiators: [
     {

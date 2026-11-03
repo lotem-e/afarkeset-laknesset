@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202135,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "הצעת חוק שירות המדינה (מינויים) (תיקון - מתן העדפה למשרתים בהעדפה מתקנת), התשפ\"ג-2023",
   type: "private",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2026-07-12",
+  lastUpdated: "2026-10-21",
   initiators: [
     {
       kind: "mk",

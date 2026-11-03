@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2231301,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק ביטוח בריאות ממלכתי (תיקון מס' 74), התשפ\"ו–2026",
   type: "private",
   committeeId: "health",
   status: "completed",
   summaryOfficial: "החוק קובע כי בני נוער בגילאי 15 עד 18 יוכלו להיות זכאים לכיסא גלגלים ממונע הניתן להנעה בבטיחות על ידי מלווה, למרות שמצבם הקוגניטיבי, הרפואי או התפקודי אינו מאפשר להם להפעילו בעצמם בבטיחות. הזכאות לתיקונים בכיסא הממונע או להחלפת הכיסא הממונע תסתיים בגיל 18.",
-  lastUpdated: "2026-05-05",
+  lastUpdated: "2026-11-02",
   completedDate: "2026-03-30",
   initiators: [
     {

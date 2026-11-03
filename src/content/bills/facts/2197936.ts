@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197936,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "חוק העונשין (תיקון מס' 155), התשפ\"ו–2026",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המשותפת של ועדת החוקה, חוק ומשפט והוועדה לקידום מעמד האישה לדיון בהצעת חוק לביטול ההתיישנות בעבירות מין (תיקוני חקיקה), התשפ\"ג 2023 (פ/2559/25)",
   status: "completed",
-  lastUpdated: "2026-07-06",
+  lastUpdated: "2026-10-18",
   completedDate: "2026-06-29",
   initiators: [
     {

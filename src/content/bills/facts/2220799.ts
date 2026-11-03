@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2220799,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-03",
   officialName: "ההצעת חוק קבלת ילד למעון יום והשתתפות המדינה בעלות שכר הלימוד בו, התשפ\"ו–2026",
   type: "private",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-07-13",
+  lastUpdated: "2026-10-07",
   initiators: [
     {
       kind: "mk",
