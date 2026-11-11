@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2217179,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק נציב תלונות הציבור על רבנים, התשפ\"ד-2024 ",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2024-06-05",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

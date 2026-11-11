@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1046477,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הפחתת הגירעון והגבלת ההוצאה התקציבית (תיקון מס' 30), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-04-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

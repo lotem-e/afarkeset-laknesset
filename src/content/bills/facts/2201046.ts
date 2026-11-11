@@ -9,14 +9,14 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201046,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק למניעת הטרדה מינית (תיקון - החמרת ענישה בעבירות טרור לאומני), התשפ\"ג-2023",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המשותפת של הוועדה לביטחון לאומי והוועדה לקידום מעמד האישה לדיון בהצעות חוק תקיפה מינית על רקע לאומני (פ/715/25) ו-(פ/2639/25)",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2023-07-03",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

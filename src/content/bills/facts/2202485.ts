@@ -9,14 +9,14 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202485,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק תובענות ייצוגיות (תיקון - הגשת תובענה נגד גוף אשר פעילותו מחייבת רישיון), התשפ\"ג-2023",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המשותפת של ועדת החוקה, חוק ומשפט ושל ועדת הכלכלה לדיון בהצעת חוק תובענות ייצוגיות (תיקון מס' 16) התשפ\"ד-2024 (מ/1785)",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2025-07-22",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

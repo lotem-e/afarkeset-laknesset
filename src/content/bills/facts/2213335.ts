@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2213335,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק התכנון והבנייה (תיקון - הכללת בתים מאזנים בהיתר מגורים לחוסים), התשפ\"ד-2024",
   type: "private",
   committeeId: "interior-environment",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-09-17",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

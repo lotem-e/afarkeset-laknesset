@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2163229,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הרשות הלאומית לביטחון קהילתי (תיקון מס' 2), התשפ\"ד-2023",
   type: "governmental",
   committeeId: "national-security",
   status: "completed",
   summaryOfficial: "נקבעו תיקוני חקיקה המשלימים להחלטת הממשלה בדבר סגירת המשרד לחיזוק וקידום קהילתי והעברת הרשות לביטחון קהילתי למשרד לביטחון הפנים.",
-  lastUpdated: "2025-12-10",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-11-06",
   initiators: [
     {

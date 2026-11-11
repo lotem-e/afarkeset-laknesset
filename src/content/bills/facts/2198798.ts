@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198798,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק זכאות לאבחון לקויות למידה לילדים ממשפחות מעוטות יכולת, התשפ\"ג-2023",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2026-02-01",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

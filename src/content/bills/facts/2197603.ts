@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197603,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק איסור לשון הרע (תיקון - חשיפת פרטי מידע של מנוי ברשת תקשורת אלקטרונית), התשפ\"ג-2022",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2025-01-16",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

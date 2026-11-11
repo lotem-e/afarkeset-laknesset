@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2245297,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "סעיפים 1(3) ו-(4) מתוך הצעת חוק לעידוד פעילות בשוק ההון (תיקוני חקיקה), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-07-28",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

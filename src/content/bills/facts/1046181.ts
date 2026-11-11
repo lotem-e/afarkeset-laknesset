@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1046181,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק המאבק בטרור (תיקון מס' 9 והוראת שעה) (תיקון), התשפ\"ו-2025",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "החוק מאריך את הוראת השעה שקובעת עבירה של צריכת פרסומי טרור בחוק המאבק בטרור, עד 30 בנובמבר 2027.",
-  lastUpdated: "2026-07-22",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-11-26",
   initiators: [
     {

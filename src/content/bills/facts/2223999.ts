@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2223999,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק העונשין (תיקון - שימוש במשבש תדרים), התשפ\"ה-2024",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2025-05-26",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

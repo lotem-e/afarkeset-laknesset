@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2227059,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הביטוח הלאומי (תיקון - דמי לידה לעצמאיות - מתן זכות לעבודה חלקית), התשפ\"ה-2025",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2025-12-25",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

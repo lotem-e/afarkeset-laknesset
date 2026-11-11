@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196149,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק המקרקעין (תיקון מס' 36), התשפ\"ג–2023",
   type: "private",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "התיקון קובע כי בעל דירה רשאי להתקין על חשבונו מנגנון המאפשר הפעלה אוטומטית של משאבת מים בלא חילול שבת ברכוש המשותף והוא יישא בהוצאות החזקתו של המנגנון והפעלתו. עוד נקבע כי ההתקנה לא תותנה בקבלת הסכמת בעלי הדירות האחרים אך תעשה בכפוף לתנאים המנויים בתיקון.",
-  lastUpdated: "2023-09-28",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-05-29",
   initiators: [
     {

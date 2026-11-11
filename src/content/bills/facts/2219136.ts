@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2219136,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק איסור צריכת זנות (הוראת שעה ותיקון חקיקה) (תיקון - עיגון כהוראת קבע), התשפ\"ד-2024",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2025-05-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

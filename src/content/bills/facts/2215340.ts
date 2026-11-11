@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2215340,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק חדלות פירעון ושיקום כלכלי (תיקון מס' 4 – הוראת שעה – נגיף הקורונה החדש) (תיקון מס' 2) (הארכת תוקף – חרבות ברזל), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "החוק מאריך בתשעה חודשים, עד ליום 17 בדצמבר 2024, את ההסדר הזמני המאפשר עיכוב הליכים כנגד החייב לשם גיבוש הסדר חוב. שר המשפטים יהיה רשאי להאריך תקופה זו בצו באישור הוועדה לתקופה שלא תעלה על שלושה חודשים.",
-  lastUpdated: "2024-07-10",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-03-12",
   initiators: [
     {

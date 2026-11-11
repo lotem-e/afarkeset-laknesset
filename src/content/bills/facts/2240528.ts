@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2240528,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "פרק ג' (צמצום ההון השחור), סימן א' (חובת דיווח של זירות מקוונות) מתוך הצעת חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנת התקציב 2026), התשפ\"ו-2026 [פוצלה לפי סעיף 84(ב) לתקנון]",
   type: "governmental",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-04-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

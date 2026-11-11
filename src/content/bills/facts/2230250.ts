@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2230250,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק לשכת עורכי הדין (תיקון מס' 46), התשפ\"ה-2025 ",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "חוק זה קובע כי תקופת ההתמחות במשפטים תעמוד על 12 חודשים, במקום 18 חודשים כפי שהיה נהוג בעבר. החוק ייכנס לתוקף עם סיומה של הוראת שעה הקובעת הסדר זהה להסדר זה, שנחקקה בעקבות מלחמת חרבות ברזל, ושאמורה לפקוע ב-31.12.2025.",
-  lastUpdated: "2025-09-03",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-06-09",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202410,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק ציוד רפואי (תיקון מס' 2 והוראת שעה), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "health",
   status: "agenda",
-  lastUpdated: "2024-03-26",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

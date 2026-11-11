@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2226851,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הביטוח הלאומי (תיקון מס' 254), התשפ\"ה-2025 ",
   type: "governmental",
   committeeId: "labor-welfare",
   status: "completed",
   summaryOfficial: "החוק מאפשר למוסד לביטוח לאומי להעניק לנפגעים מהשבעה באוקטובר ולבני משפחות הנספים מהשבעה באוקטובר, גם אם אינם תושבי ישראל, את ההטבות הסוציאליות שנקבעו בהסכם לפי סעיף 9 בין המדינה ובין המוסד לביטוח לאומי המאמץ את המלצות הוועדה הציבורית בעניין.",
-  lastUpdated: "2025-04-09",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-01-27",
   initiators: [
     {

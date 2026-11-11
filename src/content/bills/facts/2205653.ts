@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2205653,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "פרק כ\"ד (קידום תשתיות לאומיות), רק סעיף 62(21) שבתוך סעיף 94, מתוך הצעת חוק התכנית הכלכלית לשנות התקציב 2023 ו-2024 [פוצלה לפי סעיף 84(ב) לתקנון הכנסת]",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2023-06-07",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

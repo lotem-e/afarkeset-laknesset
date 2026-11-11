@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2195760,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק איסור הלבנת הון (תיקון - איסור גביית דמי שמירה בלא רישיון), התשפ\"ג-2022",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2023-06-08",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

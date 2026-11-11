@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2215371,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק זכויות הסטודנט (תיקון - הקלות בתנאי קבלה ללוחמים ולמשרתי מילואים), התשפ\"ד-2024",
   type: "private",
   committeeId: "education",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-11-05",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

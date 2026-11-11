@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2223826,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנת התקציב 2025) (הקפאת שכר נושאי משרה ברשויות השלטון וברשויות מקומיות בשנת 2025), התשפ\"ה–2024",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "מוצע לקבוע כי בשנת 2025 לא תעודכן משכורתם של נושאי משרה מסוימים ברשויות השלטון וברשויות המקומיות בהתאם לשינוי השכר הממוצע, וכן שלא תעודכן משכורתם של נושאי משרה כאמור שמשכורתם מעודכנת לפי מדד המחירים לצרכן.",
-  lastUpdated: "2025-01-05",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-12-18",
   initiators: [
     {

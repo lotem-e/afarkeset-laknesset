@@ -9,11 +9,11 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200266,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הקמת בית חולים בעיר סח'נין (תיקוני חקיקה), התשפ\"ג-2023",
   type: "private",
   status: "agenda",
-  lastUpdated: "2023-05-03",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

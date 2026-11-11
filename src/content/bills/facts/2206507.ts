@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2206507,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק בתי דין רבניים (סדרי דין בעת מצב חירום מיוחד), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2024-03-12",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

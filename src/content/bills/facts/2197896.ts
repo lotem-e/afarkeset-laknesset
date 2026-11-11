@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197896,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנות התקציב 2017 ו-2018) (תיקון מס' 9), התשפ\"ג-2023",
   type: "private",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק מתקן את המנגנון להקצאת תשלומים לרשויות הסמוכות לנתב\"ג כך שיימחק הסעיף המקצה חלק מהתקציב לרשויות ספציפיות ותבוטל האפשרות לקבוע עבורן כללי חלוקה שונים.",
-  lastUpdated: "2024-05-15",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-06-27",
   initiators: [
     {

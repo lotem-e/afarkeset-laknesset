@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2230805,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שירות המדינה (תיקון - דרך המינוי), התשפ\"ה-2025",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-10-06",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

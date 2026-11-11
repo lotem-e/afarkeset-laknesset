@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2239531,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק-יסוד: הממשלה (תיקון - מינויים בכירים בשירות המדינה)",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-10-06",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

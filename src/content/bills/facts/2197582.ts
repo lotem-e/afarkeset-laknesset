@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197582,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק המקרקעין (תיקון - התקנת עמדת טעינה לרכב חשמלי בבית משותף ודייני מקרקעין), התשפ\"ג-2022",
   type: "private",
   committeeId: "interior-environment",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2026-06-08",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -8,13 +8,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2209053,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת המשטרה (תיעוד חזותי של השימוש באמצעים לפיזור הפגנות), התשפ\"ג-2023",
   type: "private",
   committeeId: "national-security",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-02-17",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

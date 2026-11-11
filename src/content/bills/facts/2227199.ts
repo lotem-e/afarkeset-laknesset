@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2227199,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "סעיפים 9(7), 13 ו-14 (אישור מיזמים משותפים) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2025), התשפ\"ה-2024 [פוצל לפי סעיף 84(ב) לתקנון]",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2025-02-03",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

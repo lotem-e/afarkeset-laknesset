@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2225742,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "העדפה מתקנת מתוך הצעת חוק למתן הטבות למשרתים במילואים, התשפ\"ה-2024",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "לאישור פיצול במליאה",
-  lastUpdated: "2025-07-10",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

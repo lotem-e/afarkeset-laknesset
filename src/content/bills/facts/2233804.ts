@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2233804,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק עידוד יישוב עירוני מעורב (הוראת שעה), התשפ\"ו–2026",
   type: "private",
   committeeId: "finance",
   status: "completed",
-  lastUpdated: "2026-05-05",
+  lastUpdated: "2026-11-04",
   completedDate: "2026-03-30",
   initiators: [
     {

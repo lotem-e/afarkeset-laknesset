@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2208660,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק החברות (תיקון מס' 38), התשפ\"ה-2025",
   type: "governmental",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2025-07-24",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

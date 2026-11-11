@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2218838,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק המים (תיקון - קביעת תעריפי מים לחקלאות), התשפ\"ד-2024",
   type: "private",
   committeeId: "economy",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-12-04",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2212657,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הדחת נציג ציבור התומך במאבק מזוין נגד מדינת ישראל (תיקוני חקיקה), התשפ\"ד-2024",
   type: "private",
   committeeId: "interior-environment",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2025-03-17",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

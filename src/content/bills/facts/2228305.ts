@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2228305,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק העונשין (תיקון - החמרת ענישה בעבירות החזקת נשק שלא כדין), התשפ\"ה-2025",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-01-27",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

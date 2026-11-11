@@ -8,12 +8,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201200,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "חוק-יסוד: השפיטה (תיקון מס' 4) ",
   type: "committee",
   committeeId: "constitution",
   status: "completed",
-  lastUpdated: "2026-11-02",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-03-26",
   initiators: [],
   stages: [

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2205845,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק להפחתת סכום הפיצוי הכספי בשל נסיעה ללא תיקוף כרטיס בתחבורה הציבורית (תיקוני חקיקה), התשפ\"ו–2026",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-10-15",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

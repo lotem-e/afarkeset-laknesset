@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2219671,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק המרכז לגביית קנסות, אגרות והוצאות (תיקון מס' 29) (פריסת תשלום בעד חוב שטרם חלף המועד לתשלומו), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2024-09-17",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

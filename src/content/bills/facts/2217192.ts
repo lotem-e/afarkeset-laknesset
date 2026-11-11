@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2217192,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "החלק שפוצל - הצעת חוק הגנת הסביבה (ייעול הליכי רישוי סביבתי) (תיקוני חקיקה), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2024-04-01",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2204484,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק העונשין (תיקון מס' 153) (החזקה, נשיאה והובלה של כמה כלי נשק), התשפ\"ד–2024",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2025-04-20",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

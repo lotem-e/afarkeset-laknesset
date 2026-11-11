@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202706,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק התובע הכללי, התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-10-07",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

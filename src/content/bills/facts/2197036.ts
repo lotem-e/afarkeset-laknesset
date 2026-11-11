@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197036,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק צער בעלי חיים (הגנה על בעלי חיים) (תיקון מס' 12) (איסור עיסוק ברבייה ובמכירה של כלבים ללא היתר), התשפ\"ד–2024",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2026-10-08",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

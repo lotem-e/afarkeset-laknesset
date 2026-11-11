@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2219355,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק התכנון והבנייה (תיקון מס' 156 - הוראת שעה), התשפ\"ד-2024 ",
   type: "governmental",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "הוחלט שבתקופה שבין ה30.06.24 לבין ה-31.12.25, יוכל שר הפנים לתת רישיון להפעלת מכון בקרה גם ללא בקר מורשה של הגנת הסביבה, תקופה זו ניתנת להארכה בצו של שר הפנים בזמן של עד שנה לכל הארכה, ועד שנתיים במצטבר לכלל ההארכות.",
-  lastUpdated: "2024-08-08",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-08-05",
   initiators: [
     {

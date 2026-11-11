@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2224762,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת הסטטיסטיקה (הפניה לאפיון הרשויות המקומיות), התשפ\"ה-2024",
   type: "private",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2025-02-05",
+  lastUpdated: "2026-11-10",
   initiators: [
     {
       kind: "mk",

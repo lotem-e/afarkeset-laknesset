@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2204253,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "פרק י' (תדרי רדיו) מתוך הצעת חוק התכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנות התקציב 2023 ו-2024), התשפ\"ג-2023 [פוצלה לפי סעיף 84(ב) לתקנון]",
   type: "governmental",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2025-07-01",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

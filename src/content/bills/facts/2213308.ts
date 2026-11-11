@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2213308,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הגנת השכר (תיקון מס' 32) (הגברת האכיפה – ניכויים משכר עבודה), התשפ\"ה–2025",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2025-12-29",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

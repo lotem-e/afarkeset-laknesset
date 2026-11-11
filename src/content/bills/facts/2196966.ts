@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196966,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - מעצרים) (תיקון - מעצר עד תום ההליכים בגין עבירה של החזקת נשק שלא כדין), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2024-03-14",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

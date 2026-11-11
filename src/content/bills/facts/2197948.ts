@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197948,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק רשות מקרקעי ישראל (תיקון - הקצאת קרקעות בנגב ובגליל לחיילים משוחררים), התשפ\"ג-2022",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2025-01-16",
+  lastUpdated: "2026-11-10",
   initiators: [
     {
       kind: "mk",

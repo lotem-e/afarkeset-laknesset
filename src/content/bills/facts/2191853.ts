@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2191853,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה) (תיקון מס' 9), התשפ\"ג-2023 ",
   type: "governmental",
   committeeId: "national-security",
   status: "completed",
   summaryOfficial: "חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה) (תיקון מס' 9) אושר בקריאה השנייה והשלישית ביום כ\"ג בשבט התשפ\"ג (14 בפברואר 2023).\nהחוק מאריך את הוראת השעה המסדירה את מערך השיטור העירוני ברשויות המקומיות עד ליום י\"א בתמוז התשפ\"ג (30 ביוני 2023).",
-  lastUpdated: "2025-04-02",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-02-13",
   initiators: [
     {

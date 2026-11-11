@@ -9,11 +9,11 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2219225,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק המשטרה (חדירה לחומר מחשב), התשפ\"ד-2024",
   type: "private",
   status: "agenda",
-  lastUpdated: "2024-11-14",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

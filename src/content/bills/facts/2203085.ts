@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203085,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הגנה על זכויות ילדים נפגעי עבירת המתה בדירת המשפחה, התשפ\"ד-2024",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-05-21",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

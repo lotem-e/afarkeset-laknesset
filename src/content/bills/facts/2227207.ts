@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2227207,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "סעיף 21(3) ו-(7) (אישור בשתיקה של גורמים מאשרים להיתר) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2025), התשפ\"ה-2024 [פוצל לפי סעיף 84(ב) לתקנון] ",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2025-11-05",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

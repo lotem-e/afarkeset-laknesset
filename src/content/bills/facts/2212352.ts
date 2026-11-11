@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2212352,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לשכת עורכי הדין (תיקון - התמחות ומבחני הסמכה) (הוראת שעה - חרבות ברזל), התשפ\"ד-2023",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2024-02-14",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

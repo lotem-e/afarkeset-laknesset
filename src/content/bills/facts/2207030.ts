@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2207030,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הרשויות המקומיות (ניהול סיכונים תאגידי), התשפ\"ג-2023 ",
   type: "private",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2025-03-25",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198964,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק העונשין (תיקון - תקיפת עובד ציבור מטפל), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-07-02",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

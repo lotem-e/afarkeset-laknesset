@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2225729,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק יום בריאות הלב, התשפ\"ה-2025",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2025-05-12",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

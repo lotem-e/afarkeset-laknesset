@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2211439,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק מניעת מימון לייצוג משפטי בידי מדינת ישראל (חשוד, נאשם או מורשע בעבירת ביטחון - חרבות ברזל), התשפ\"ה–2024",
   type: "private",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "החוק קובע ששכרם של סניגורים שימונו או שמונו החל מה-7 באוקטובר 2023 על ידי בית המשפט למי שחשוד, נאשם או הורשע בעבירת ביטחון הקשורה לאירועי ה-7 באוקטובר או במסגרת מלחמת חרבות ברזל, יקוזז מהכספים אותם מעבירה ממשלת ישראל לרשות הפלסטינית.",
-  lastUpdated: "2025-09-28",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-12-11",
   initiators: [
     {

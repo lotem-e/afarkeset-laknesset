@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2223555,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק חדלות פירעון ושיקום כלכלי (תיקון מס' 4 - הוראת שעה - נגיף הקורונה החדש) (תיקון מס' 3), התשפ\"ה-2025",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "החוק מאריך לתקופה קצרה הוראת שעה שמאפשרת לחייבים לבקש צו שיפוטי ל\"עיכוב הליכים\" לצורך גיבוש הסדר חוב. הוראת השעה פקעה ביום ה-17.03.2025. החוק מאריך את הוראת השעה עד ליום 31.07.2025 ומאפשר לשר המשפטים, באישור ועדת החוקה, להאריך אותה בתקופה של עד 6 חודשים נוספים.",
-  lastUpdated: "2025-09-03",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-05-06",
   initiators: [
     {

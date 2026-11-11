@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2216636,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק תשלומים לפדויי שבי (תיקון - סכומי התשלומים ומועדיהם), התשפ\"ד-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-06-03",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

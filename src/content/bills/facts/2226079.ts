@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2226079,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "סעיף 1(3)-(ג), סעיף קטן (א2) המוצע; סעיף 1(3)-(ה) ההגדרה \"הכנסה חייבת\" המוצעת; וסעיף 4(ג) מתוך הצעת חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנת התקציב 2025) (הקפאת עדכוני מס ומס יסף), התשפ\"ה-2024 (מס יסף על השבח) ",
   type: "governmental",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2025-01-23",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

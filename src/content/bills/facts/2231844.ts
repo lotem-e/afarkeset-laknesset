@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2231844,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנות התקציב 2023 ו-2024) (תיקון מס' 2), התשפ\"ה-2025 ",
   type: "governmental",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2025-06-29",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2219099,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת השותפויות (מס' 6), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2024-10-06",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

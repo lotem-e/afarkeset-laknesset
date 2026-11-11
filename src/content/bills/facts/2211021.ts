@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2211021,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק זיכרון טבח ה-7 באוקטובר - יד עוטף ישראל, התשפ\"ד-2023",
   type: "private",
   committeeId: "education",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-09-25",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

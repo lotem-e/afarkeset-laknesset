@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2224907,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק מסגרות תקציב המדינה (הוראות מיוחדות לשנת 2025) (תיקוני חקיקה), התשפ\"ה-2025",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק קובע כי בשנת 2025 תעמוד תקרת הגירעון על 4.7% מהתוצר, וכי ההוצאה הממשלתית המותרת תוגדל בכ-70 מיליארד ש\"ח, המשקפים גידול של 13.6% ביחס להוצאה התקציבית הבסיסית לשנת 2024. בנוסף, נקבע כי ככל שיוקצו יתרת כספי החירום, תעודכן תקרת הגירעון לשיעור של 4.9%.",
-  lastUpdated: "2025-08-07",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-03-19",
   initiators: [
     {

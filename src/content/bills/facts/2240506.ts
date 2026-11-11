@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2240506,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "פרק י\"ג (ייעול וקידום התחרות במשק הדלק) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2026), התשפ\"ו-2026 [פוצלה לפי סעיף 84(ב) לתקנון]",
   type: "governmental",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-10-06",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

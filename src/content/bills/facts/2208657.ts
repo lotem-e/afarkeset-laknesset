@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2208657,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק לתיקון פקודת בתי הסוהר (הוראות שעה), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "national-security",
   status: "completed",
   summaryOfficial: "הוארכה הוראת השעה בעניין הסדר השחרור המנהלי המורחב הקבוע בפקודת בתי הסוהר עד לתאריך כ\"ה בתמוז התשפ\"ד (31 ביולי 2023), במספר שינויים שעיקרם ביטול השחרור המינהלי לאסירים ביטחוניים והרחבת תקופת השחרור המינהלי לאסירים שנגזרו עליהם 18 עד 36 חודשי מאסר. כן נקבע כי תקן הכליאה בבתי הסוהר יעמוד על 14,5000 מקומות עד יום כ\"א בשבט התשפ\"ד (31 בינואר 2024).",
-  lastUpdated: "2025-10-21",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-07-24",
   initiators: [
     {

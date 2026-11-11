@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2227209,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לקידום הבנייה במתחמים מועדפים (הוראת שעה) (תיקון מס' 9), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2026-07-14",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

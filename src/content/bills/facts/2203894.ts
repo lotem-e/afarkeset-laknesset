@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203894,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק לתיקון דיני הבחירות לרשויות המקומיות, התשפ\"ג-2023",
   type: "governmental",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "החוק מאגד תיקוני חקיקה שונים הנוגעים לייעול הליך הבחירות ברשויות המקומיות, לרבות אפשרות למנוי מזכיר קלפי שני, הסדרת הצבעת בעלי תפקידים, הטלת חובת פרסום הרכב ועדת הבחירות של רשות מקומית והסדרת התהליך לתיקון ליקויים ברשימת מועמדים.",
-  lastUpdated: "2024-01-02",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-07-10",
   initiators: [
     {

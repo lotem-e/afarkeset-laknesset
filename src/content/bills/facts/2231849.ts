@@ -9,11 +9,11 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2231849,
-  syncedAt: "2026-09-22",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הרב יהודה עמיטל והרב אהרון ליכטנשטיין (ציון זכרם ופועלם), התשפ\"ה-2025",
   type: "private",
   status: "agenda",
-  lastUpdated: "2026-07-01",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

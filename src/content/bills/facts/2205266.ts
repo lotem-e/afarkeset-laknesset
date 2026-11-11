@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2205266,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק המרכז לגביית קנסות, אגרות והוצאות (תיקון מס' 30) (פיצויים שהטיל בית משפט צבאי), התשפ\"ד–2024",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-10-18",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

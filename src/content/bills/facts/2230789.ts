@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2230789,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק החלת הריבונות של מדינת ישראל בחבלי יהודה והשומרון, התשפ\"ה-2025",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2026-11-02",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

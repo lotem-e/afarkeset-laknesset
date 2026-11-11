@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2225118,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק העונשין (תיקון מס' 162) (תקיפת חייל), התשפ\"ו–2026",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-03-31",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

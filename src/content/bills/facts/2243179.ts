@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2243179,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק התפזרות הכנסת העשרים וחמש, התשפ\"ו-2026",
   type: "private",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2026-10-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

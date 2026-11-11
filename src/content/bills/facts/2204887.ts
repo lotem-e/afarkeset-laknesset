@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2204887,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הרשויות המקומיות (בחירות) (תיקון מס' 53), התשפ\"ג-2023 ",
   type: "private",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "בוטלה ההוראה האוסרת על מי שכיהן כחבר ועדה ממונה או למי שמונה לעמוד בראש ועדה כאמור, להתמודד בבחירות לרשות המקומית בה כיהן בבחירות הראשונות לאחר מינויו. עוד נקבע כי אדם כאמור שירצה להתמודד באותן בחירות, יידרש להתפטר מתפקידו 90 ימים בטרם מועד הבחירות.",
-  lastUpdated: "2023-09-28",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-07-04",
   initiators: [
     {

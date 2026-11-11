@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198284,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק המקרקעין (תיקון מס' 36) (התקנת עמדת טעינה לרכב חשמלי בבית משותף ודיני מקרקעין), התשפ\"ג-2022 ",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2025-06-03",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

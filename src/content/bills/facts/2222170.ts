@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2222170,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הביטוח הלאומי (תיקון - תגמול מילואים לעובד עצמאי) (הוראת שעה - חרבות ברזל), התשפ''ה-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2025-01-15",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

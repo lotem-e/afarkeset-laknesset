@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198602,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הירושה (תיקון - פסלות לרשת ומניעת עסקאות בזכות יורש שהמית את המוריש), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-05-21",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

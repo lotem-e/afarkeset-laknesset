@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2240523,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "פרק ח' (מס רכוש) מתוך הצעת חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנת התקציב 2026), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-07-29",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

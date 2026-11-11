@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196572,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק חוזה הביטוח (תיקון מס' 12), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "נקבע כי יש לאפשר העברת מוטבים בין תאגידים בנקאיים במסגרת אותו חוזה ביטוח ובכך לחסוך בירוקרטיה רבה מלווי משכנתאות ולמנוע את החסם הקיים במחזור משכנתאות בשל התקדמות גיל הלווה או שינוי במצב רפואי.",
-  lastUpdated: "2024-02-11",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-07-11",
   initiators: [
     {

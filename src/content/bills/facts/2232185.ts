@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2232185,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לציון אירועי ליל הבדולח, התשפ\"ה-2025",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2026-01-14",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

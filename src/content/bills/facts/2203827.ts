@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203827,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנות התקציב 2023 ו-2024), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק קובע שורה של תיקונים בחוקים שונים בהתאם ליעדי התקציב לשנות התקציב 2023 ו-2024, בין היתר בנושאים: מסים, מיסוי בשוק הדיור, ביטוח לאומי, גבייה ממשלתית וגמלאות.",
-  lastUpdated: "2025-02-16",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-12-25",
   initiators: [
     {

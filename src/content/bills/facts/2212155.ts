@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2212155,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק חובת מיגון לנכים, לקשישים, לאלו שידם אינה משגת, לאזרחים שיש בידם דירת מגורים אחת בלבד ולמתגוררים ביישובי קו העימות, התשפ\"ד-2023",
   type: "private",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2024-02-28",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

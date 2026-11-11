@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2219664,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שירות ביטחון (תיקון מס' 27) (העלאת גיל הפטור – חרבות ברזל – הארכת הוראת שעה), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2024-06-25",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

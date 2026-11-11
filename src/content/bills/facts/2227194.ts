@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2227194,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק תקשורת דיגיטלית עם גופים ציבוריים (תיקון מס' 4), התשפ\"ה-2025 ",
   type: "governmental",
   committeeId: "public-projects",
   status: "completed",
-  lastUpdated: "2025-07-30",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-06-16",
   initiators: [
     {

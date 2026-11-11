@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2167379,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שירות לאומי-אזרחי (תיקון מס' 4), התשפ\"ב-2021 ",
   type: "governmental",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2024-06-24",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

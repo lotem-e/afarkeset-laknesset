@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2231885,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק להגנת חיית הבר (תיקון - חילוט כלי ציד), התשפ\"ה-2025",
   type: "private",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2026-07-08",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

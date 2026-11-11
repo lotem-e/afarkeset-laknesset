@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2224634,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק העמותות (תיקון - תרומה מישות מדינית זרה), התשפ\"ה-2024",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2025-03-12",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2209023,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק ביטוח בריאות ממלכתי (תיקון - השתתפות עצמית ברכישת תכשיר מרשם מבית מרקחת שאינו בהסדר עם קופת החולים), התשפ\"ג-2023",
   type: "private",
   committeeId: "health",
   status: "agenda",
-  lastUpdated: "2024-12-11",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198887,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק זכויות החולה (תיקון - הכנסת מזון למוסדות רפואיים בחג הפסח), התשפ\"ג-2023",
   type: "private",
   committeeId: "health",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2023-03-01",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

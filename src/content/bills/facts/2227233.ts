@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2227233,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "סעיף 20 - סעיף 15 המוצע בו (אגרת מיון פסיכיאטרי) מתוך הצעת חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנת התקציב 2025), התשפ\"ה-2024 [פוצל לפי סעיף 84(ב) לתקנון] ",
   type: "governmental",
   committeeId: "health",
   status: "agenda",
-  lastUpdated: "2025-01-16",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2221953,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הרבנות הראשית לישראל (הארכת כהונה של הרבנים הראשיים לישראל ושל חברי מועצת הרבנות הראשית לישראל והוראות נוספות) (הוראת שעה) (תיקון מס' 2), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "הוארך תוקפו של חוק הרבנות הראשית לישראל (הארכת כהונה של הרבנים הראשיים לישראל ושל חברי מועצת הרבנות הראשית לישראל והוראות נוספות( (הוראת שעה), התשפ\"ג–2023, עד לתאריך 28 בפברואר 2025, במקום 15 בספטמבר 2024.",
-  lastUpdated: "2025-04-27",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-09-29",
   initiators: [
     {

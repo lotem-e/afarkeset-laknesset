@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2240486,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "סעיפים 86, 88 (חוק התחרות הכלכלית) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2026), התשפ\"ו-2026 - [פוצלה לפי סעיף 84(ב) לתקנון הכנסת]",
   type: "governmental",
   committeeId: "public-projects",
   status: "agenda",
-  lastUpdated: "2026-07-29",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

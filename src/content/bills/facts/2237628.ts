@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2237628,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק ועדת חקירה ממלכתית-לאומית לאירועי טבח שמיני עצרת התשפ״ד (טבח 7 באוקטובר 2023), התשפ\"ו-2026",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-07-06",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

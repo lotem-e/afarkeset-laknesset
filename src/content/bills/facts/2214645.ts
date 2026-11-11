@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2214645,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק להפסקת יחסי מדינת ישראל עם סוכנות הסעד והתעסוקה של האו\"ם לפליטי פלסטין במזרח הקרוב (אונר\"א) והכרזה עליה כארגון טרור, התשפ\"ד-2024",
   type: "private",
   committeeId: "foreign-defense",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-09-29",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

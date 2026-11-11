@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2217838,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הרשויות המקומיות (מימון בחירות) (הוראת שעה), התשפ\"ד–2024",
   type: "private",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "נקבע שרשימה, סיעה או מועמד שזכאים למימון ולא מסרו הודעה לשר הפנים לעניין מימון הבחירות בבחירות האחרונות, רשאים למסור הודעה בתקופה של 30 יום לאחר כניסת החוק לתוקף, ולקבל את המימון בכפוף לתנאי החוק.",
-  lastUpdated: "2024-07-15",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-06-26",
   initiators: [
     {

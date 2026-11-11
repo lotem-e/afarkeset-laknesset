@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2207023,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הרחבת האמצעים למאבק בארגוני פשיעה (תיקוני חקיקה), התשפ\"ו–2025",
   type: "private",
   committeeId: "national-security",
   status: "agenda",
-  lastUpdated: "2025-11-09",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

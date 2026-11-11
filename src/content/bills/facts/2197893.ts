@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197893,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק גירוש משפחות מחבלים, התשפ\"ג-2023",
   type: "private",
   committeeId: "knesset-committee",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-06-26",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

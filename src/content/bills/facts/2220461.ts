@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2220461,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק נכסי המדינה (תיקון מס' 9) (הרשאת שימוש לשם הקמת מיתקני שידור לתקשורת בשיטה התאית), התשפ\"ה–2025",
   type: "private",
   committeeId: "economy",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2025-07-21",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

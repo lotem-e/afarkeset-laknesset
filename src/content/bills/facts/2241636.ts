@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2241636,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "פרק י\"ב (פיקוח על מוצרי עישון לצורכי מס) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2026), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-04-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

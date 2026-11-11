@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203070,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק התכנון והבנייה (תיקון מס' 152), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "תיקון חוק התכנון והבנייה שעניינו הרכב מוסדות התכנון. בתיקון החוק נקבע שבמועצה הארצית לתכנון ובנייה יהיו 13 נציגים לממשלה. בנוסף, להרכב הוועדות המחוזיות במחוזות הצפון והדרום, נוסף נציג של שר ההתיישבות והמשימות הלאומיות, ונציג שימנה שר הפנים על פי המלצות של הרשויות המקומיות באותו מחוז.",
-  lastUpdated: "2024-05-13",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-03-18",
   initiators: [
     {

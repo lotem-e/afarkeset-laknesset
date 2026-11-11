@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2210782,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הוועדה לטיפול במשפחות נעדרים אזרחיים, התשפ\"ד-2023",
   type: "private",
   committeeId: "national-security",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-05-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

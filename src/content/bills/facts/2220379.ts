@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2220379,
-  syncedAt: "2026-08-12",
-  officialName: "הצעת חוק השידור הציבורי הישראלי (תיקון מס' 11) (תקציב תאגיד השידור הישראלי),  התשפ\"ו–2026",
+  syncedAt: "2026-11-11",
+  officialName: "הצעת חוק השידור הציבורי הישראלי (תיקון מס' 11) (תקציב תאגיד השידור הישראלי), התשפ\"ו–2026",
   type: "private",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-05-28",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2209386,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הבוררות המסחרית הבין-לאומית, התשפ\"ד-2024",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "אומץ בשינויים מסויימים חוק המודל בעניין בוררות מסחרית בין-לאומית המסדיר את השלבים השונים של הליך בוררות מסחרית בין-לאומית, החל בשלב ההסכמה לבוררות ועד לשלב אכיפת פסק הבוררות. החוק יחליף את ההסדרים הנוגעים לבוררות מסחרת בין-לאומית שנידונים היום בהתאם לחוק הבוררות, התשכ\"ח–1968.",
-  lastUpdated: "2024-03-11",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-02-12",
   initiators: [
     {

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2225386,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק לתיקון פקודת מס הכנסה (מס' 275), התשפ\"ה–2024",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק קובע כי שיעור הפטור ממס על קצבה פנסיונית יעלה בהדרגה במהלך השנים, כך שבשנת 2025 יעמוד הפטור על 57%, בשנת 2026 על 57.5%, בשנת 2027 על 62.5%, ובשנת 2028 ואילך יעמוד על 67%.",
-  lastUpdated: "2025-08-07",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-12-18",
   initiators: [
     {

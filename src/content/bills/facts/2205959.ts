@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2205959,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת מסי העירייה ומסי הממשלה (פטורין) (פטור מארנונה למצללה), התשפ\"ג-2023 ",
   type: "private",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-11-01",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200212,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שירות הציבור (מתנות) (תיקון - תרומה למימון הליך משפטי או טיפול רפואי וחובת דיווח), התשפ\"ג-2023",
   type: "private",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2023-03-14",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1046680,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2026), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "knesset-committee",
   status: "completed",
-  lastUpdated: "2026-10-06",
+  lastUpdated: "2026-11-04",
   completedDate: "2026-03-29",
   initiators: [
     {

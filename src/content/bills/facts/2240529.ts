@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2240529,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "פרק ג' (צמצום ההון השחור), סימן ג' (חובת הצהרה של נותני שירותים פיננסיים) מתוך הצעת חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנת התקציב 2026), התשפ\"ו-2026 [פוצלה לפי סעיף 84(ב) לתקנון]",
   type: "governmental",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-03-25",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

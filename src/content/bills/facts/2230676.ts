@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2230676,
-  syncedAt: "2026-08-17",
+  syncedAt: "2026-11-11",
   officialName: "החלק שפוצל- הצעת חוק הרשויות המקומיות (בחירות) (תיקון - הגבלת הזכות להיבחר), התשפ\"ג-2022",
   type: "private",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2025-04-01",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

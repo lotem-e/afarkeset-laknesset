@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198890,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק להרחבת הייצוג ההולם של קבוצות שונות בתאגידים ציבוריים וברשויות מקומיות (תיקוני חקיקה), התשפ\"ג–2023",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2024-07-25",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2236009,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק יום המודעות לתרומת איברים, התשפ\"ו-2025",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2026-01-14",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

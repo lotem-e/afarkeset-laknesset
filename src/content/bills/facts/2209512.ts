@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2209512,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק ביטוח בריאות ממלכתי (תיקון מס' ...) (הגדרת אמבולנס לעניין החזר דמי נסיעה), התשפ\"ב–2023",
   type: "private",
   committeeId: "health",
   status: "agenda",
-  lastUpdated: "2023-07-25",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

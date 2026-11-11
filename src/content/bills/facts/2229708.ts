@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2229708,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הכניסה לישראל (תיקון מס' 46), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "החוק קובע כי ניתן להוסיף לסמכויותיו של שר הפנים באשר להתקנות תקנות לביצוע החוק, את הסמכות לקבוע אגרה בעד הגשת בקשה לאישור מסע אלקטרוני. עוד קובע כי הכנסה מאגרה בעד הגשת בקשה לאישור מסע אלקטרוני, תוכל לשמש את רשות האוכלוסין וההגירה למימון שירות זה.",
-  lastUpdated: "2026-07-26",
+  lastUpdated: "2026-11-04",
   completedDate: "2026-07-13",
   initiators: [
     {

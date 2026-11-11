@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201639,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הסיוע המשפטי (תיקון - סיוע משפטי לתובע בהליך אזרחי), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-09-29",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

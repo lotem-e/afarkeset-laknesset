@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2209251,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הספורט (תיקון מס' 18 והוראת שעה), התשפ\"ה–2025",
   type: "private",
   committeeId: "education",
   status: "completed",
   summaryOfficial: "החוק קובע כי על מדי התחרות של ספורטאי הישגי המייצג את מדינת ישראל בתחרות בין לאומית רשמית יופיע דגל המדינה. ואולם, שר התרבות והספורט רשאי לקבוע שחובה זו לא תחול על ענפי ספורט מסויימים, וכן הוא רשאי לקבוע נוהל לפיו הוראות החוק לא יחולו במקרים מסוימים, בשל נסיבות מיוחדות, לדוגמה נסיבות ביטחוניות.",
-  lastUpdated: "2025-06-10",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-03-31",
   initiators: [
     {

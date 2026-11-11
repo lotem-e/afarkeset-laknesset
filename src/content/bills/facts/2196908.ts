@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196908,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק-יסוד: כניסה, הגירה ומעמד בישראל",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2025-03-25",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

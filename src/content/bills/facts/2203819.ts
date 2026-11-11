@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203819,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "חוק התקציב לשנת הכספים 2023, התשפ\"ג-2023",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק קובע את הסכומים שהממשלה רשאית להוציא בשנת הכספים 2023.",
-  lastUpdated: "2026-10-06",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-05-22",
   initiators: [
     {

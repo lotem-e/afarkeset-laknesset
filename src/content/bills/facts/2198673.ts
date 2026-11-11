@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198673,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "החלק שפוצל מהצעת חוק לתיקון פקודת המשטרה (מס' 39) (סמכויות), התשפ\"ג-2022 - סעיפים ",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המיוחדת לדיון בהצעת חוק לתיקון פקודת המשטרה (סמכויות), התשפ\"ג-2022 (פ/80/25)",
   status: "agenda",
-  lastUpdated: "2022-12-27",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

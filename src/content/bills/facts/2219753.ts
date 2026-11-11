@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2219753,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראת שעה - חרבות ברזל) (תיקון - מניעת שידורים), התשפ\"ד-2024",
   type: "private",
   committeeId: "national-security",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2025-12-15",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

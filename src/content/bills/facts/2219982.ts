@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2219982,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק מעמד המשרת בשירות סדיר או בשירות אזרחי, התשפ\"ד-2024",
   type: "private",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2026-07-12",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

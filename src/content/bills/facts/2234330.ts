@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2234330,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "חוק קיום דיונים בהיוועדות חזותית בעת הכרזה על הגבלה (עצורים, אסירים וכלואים) (הוראת שעה), התשפ\"ו-2026",
   type: "private",
   committeeId: "constitution",
   status: "completed",
-  lastUpdated: "2026-10-18",
+  lastUpdated: "2026-11-04",
   completedDate: "2026-02-25",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2236181,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שיפוט בתי דין רבניים (נישואין וגירושין) (תיקון מס' 6) (סמכות כריכת מזונות ילדים), התשפ\"ה-2025 (החלק שנותר מהפיצול)",
   type: "governmental",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2025-10-30",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

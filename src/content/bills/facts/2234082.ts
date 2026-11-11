@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2234082,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק-יסוד: השפיטה (תיקון - רשות ערעור למדינה על זיכוי אדם בפלילים)",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2025-12-24",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

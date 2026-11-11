@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2204248,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק מקרקעי ציבור (פינוי קרקע) (תיקון מס' 5), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2026-02-26",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1046556,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת ביטחון) (תיקון מס' 8), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "החוק מאריך את תוקף תקנות שעת החירום, המאריכות את תקופות המעצרים המפורטות בחוק המעצרים בנוגע לעצור שחשוד בעבירת ביטחון בשל פעולות האיבה שהתרחשו בין יום ה-7 באוקטובר לבין ה-13 באוקטובר 2023, או מי שנעצר במסגרת פעולות המלחמה בעזה. ההארכה שנקבעה בחוק זה היא עד ליום ה-31 ביולי 2026.",
-  lastUpdated: "2026-07-22",
+  lastUpdated: "2026-11-04",
   completedDate: "2026-01-26",
   initiators: [
     {

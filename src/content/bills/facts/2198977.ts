@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198977,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הסדרת העיסוק במקצועות הבריאות (תיקון - הסדרת העיסוק בפודולוגיה), התשפ\"ג-2023",
   type: "private",
   committeeId: "health",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-01-22",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

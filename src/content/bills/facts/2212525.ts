@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2212525,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק משפחות חיילים שנספו במערכה (תגמולים ושיקום) (תיקון - הכרה בארוסות חיילים שנספו במערכה), התשפ\"ד-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-02-21",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

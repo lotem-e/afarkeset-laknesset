@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2211015,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק נציב תלונות הציבור על שופטים (תיקון מס' 5 - הוראת שעה), התשפ\"ד-2023",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "נקבע בהוראת שעה לתקופה של חצי שנה, כי שר המשפטים ונשיא בית המשפט העליון, יחד, יהיו רשאים להאריך את תקופת כהונתו של נציב תלונות הציבור על שופטים בתקופה של חצי שנה בלבד.",
-  lastUpdated: "2024-02-07",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-11-06",
   initiators: [
     {

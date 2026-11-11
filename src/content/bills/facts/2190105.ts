@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2190105,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק מיסוי מקרקעין (שבח ורכישה) (תיקון מס' 99), התשפ\"ג–2023 ",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק מאריך את תחולת הוראת השעה לגבי ההטבה במיסוי מקרקעין לפרויקטים של תמ\"א 38 ולגבי ההטבה במס ערך מוסף ליזמים בפרויקטים כאמור עד ליום 1 באוקטובר 2022. תחילתו של החוק ביום 1 בינואר 2022.",
-  lastUpdated: "2024-05-01",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-05-15",
   initiators: [
     {

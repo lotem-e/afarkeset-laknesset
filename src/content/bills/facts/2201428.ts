@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201428,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק-יסוד: ירושלים בירת ישראל (תיקון מס' 3) ",
   type: "private",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "התיקון לחוק היסוד קובע כי לא יוקמו בירושלים נציגויות רשמיות של מדינות זרות, אלא אם הן נציגויות דיפלומטיות המאומנות למדינת ישראל, כלומר, שגרירויות. כמו כן, נקבע כי מדינת ישראל תעודד הקמת נציגויות דיפלומטיות (שגרירויות) המאומנות למדינת ישראל בתחומי ירושלים בירת ישראל.",
-  lastUpdated: "2025-04-27",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-10-29",
   initiators: [
     {

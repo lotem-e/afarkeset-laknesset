@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196049,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת בתי הסוהר (שלילת זכאות למימון שירותי בריאות משפרי איכות חיים לאסיר ביטחוני), התשפ\"ג-2022",
   type: "private",
   committeeId: "national-security",
   status: "agenda",
-  lastUpdated: "2024-01-01",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200701,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק-יסוד: הממשלה (תיקון מס' 13)",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המיוחדת לתיקונים לחוק יסוד: הממשלה",
   status: "agenda",
-  lastUpdated: "2026-10-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201314,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון דיני הראיות (הגנת ילדים) (תיקון - הרחבת ההסדרים הקבועים בחוק לילדים אשר עברו את גיל 14 במועד העדות), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2025-12-04",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

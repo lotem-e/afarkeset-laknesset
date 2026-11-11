@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2215477,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק גיל פרישה (הורה שילדו נפטר) (הוראת שעה) (תיקון - הפיכת הוראת שעה להוראה קבועה), התשפ\"ד-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2025-02-04",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2199169,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לעידוד השקעות הון בחקלאות (תיקון - השוואת ההטבות בתעשייה להטבות בחקלאות), התשפ\"ג-2023",
   type: "private",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2024-05-27",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

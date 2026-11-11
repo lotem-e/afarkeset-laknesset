@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196216,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק מיסוי מקרקעין (שבח ורכישה) (תיקון מס' 103), התשפ\"ג–2023",
   type: "private",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק קובע כי ברכישת דירה עבור ילד יתום מאחד מהוריו, יוחרג התא המשפחתי הקיים בין הורה וילד (כפי שהוחרג \"ילד נשוי\") כך שיוטל על רכישה כאמור מס בשיעורים הקבועים לדירה יחידה.",
-  lastUpdated: "2024-05-07",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-07-11",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2216282,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק איסור שהייה וישיבה בישראל שלא כדין (תיקוני חקיקה), התשפ\"ה–2025",
   type: "private",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2025-02-05",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

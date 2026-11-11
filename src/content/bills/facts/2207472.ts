@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2207472,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק-יסוד: השפיטה (תיקון מס' 3) ",
   type: "committee",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "נקבע בחוק-יסוד: השפיטה כי רשות שיפוטית לא תדון בעניין סבירות ההחלטה של הממשלה במליאתה, של ראש הממשלה או של שר אחר ולא תיתן צו בעניין סבירות ההחלטה.",
-  lastUpdated: "2024-02-11",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-07-23",
   initiators: [],
   stages: [

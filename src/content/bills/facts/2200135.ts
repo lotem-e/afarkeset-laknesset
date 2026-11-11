@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200135,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק ההוצאה לפועל (נגיף הקורונה החדש – תיקון מס' 68 והוראת שעה) (תיקון מס' 2), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "נקבעה הוראת קבע המסמיכה את רשמי ההוצאה לפועל לאחד את תיקי החייב בעת מתן צו תשלומים בתיק. בנוסף, בוטל הסעיף המאפשר הוצאת תיק ממסלול מקוצר זאת מכיוון שאין הצדקה להוצאת התיק בתקופה שבה חייב משלם את חובו בהסדר תשלומים במסגרת איחוד תיקים.",
-  lastUpdated: "2024-02-11",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-02-08",
   initiators: [
     {

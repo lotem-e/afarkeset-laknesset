@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2211260,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק המאבק בטרור (תיקון מס' 9 והוראת שעה) (צריכת פרסומי טרור), התשפ\"ד-2023 (פיצול תיקים בין פרקליטות לתביעה משטרתית)",
   type: "governmental",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2023-11-08",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196689,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק עבודת נשים (תיקון - תקופת לידה והורות להורה יחיד), התשפ\"ג-2022",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2026-07-28",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

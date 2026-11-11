@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2213647,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק שיקום נכי נפש בקהילה (תיקון מס' 2), התשפ\"ד-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "completed",
   summaryOfficial: "חוק זה מחליף בחוק שיקום נכי נפש בקהילה, התש\"ס-2000, את המונח \"נכה נפש\" על הטיותיו במונח \"מתמודד נפש\", וכן מתקן בהתאמה אזכורים של חוק שיקום נכי נפש בקהילה בחוקים אחרים.",
-  lastUpdated: "2024-09-11",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-07-16",
   initiators: [
     {

@@ -8,12 +8,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2214419,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הגנה על הציבור מפני ארגוני פשיעה, התשפ\"ה-2024",
   type: "private",
   committeeId: "national-security",
   status: "completed",
-  lastUpdated: "2025-08-14",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-12-11",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2217123,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק למניעת חרם חברתי בבתי ספר, התשפ\"ד-2024",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2025-03-12",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

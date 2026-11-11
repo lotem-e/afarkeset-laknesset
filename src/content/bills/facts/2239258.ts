@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2239258,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק תגמול למשרתים בשירות צבאי או אזרחי באקדמיה, התשפ\"ה-2024",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2026-01-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

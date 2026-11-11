@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197195,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת התעבורה (הגבלת דמי חניה בחניוני בתי חולים), התשפ\"ג-2022",
   type: "private",
   committeeId: "health",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2023-06-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

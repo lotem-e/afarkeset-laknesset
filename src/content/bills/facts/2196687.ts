@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196687,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת העיריות (צדק חלוקתי בכל הרשויות המתוקצבות במדינת ישראל), התשפ\"ג-2022",
   type: "private",
   committeeId: "interior-environment",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2023-10-24",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

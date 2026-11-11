@@ -8,12 +8,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198458,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק שוויון ההזדמנויות בעבודה (תיקון מס' 27), התשפ\"ה–2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "completed",
-  lastUpdated: "2025-04-29",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-11-27",
   initiators: [
     {

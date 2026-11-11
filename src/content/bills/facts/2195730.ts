@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2195730,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק צוותי התערבות במשבר נפשי, התשפ\"ג-2023",
   type: "private",
   committeeId: "health",
   status: "agenda",
-  lastUpdated: "2024-01-01",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

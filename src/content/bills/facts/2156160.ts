@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2156160,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הביטוח הלאומי (תיקון מס' 247), התשפ\"ד–2024",
   type: "private",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק קובע כי חיסכון ארוך טווח לילד שהוריו לא בחרו היכן יופקדו הכספים תוך שישה חודשים מיום לידתו, ינוהל בקופת גמל להשקעה במסלול בסיכון מוגבר עד גיל 15.\nבהגיע הילד לגיל 15, יועבר החיסכון למסלול בסיכון מועט באותה קופת גמל.",
-  lastUpdated: "2025-08-07",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-07-15",
   initiators: [
     {

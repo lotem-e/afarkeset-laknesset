@@ -9,14 +9,14 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2199385,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לביטול אזרחותו או תושבותו של פעיל טרור שמקבל תגמול עבור ביצוע מעשה הטרור (תיקוני חקיקה), התשפ\"ג-2023",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המשותפת של ועדת הכנסת וועדת הפנים והגנת הסביבה לדיון בהצעות חוק בנושא לביטול אזרחותו או תושבותו של פעיל טרור שמקבל תגמול עבור ביצוע מעשה הטרור",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2023-01-18",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

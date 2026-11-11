@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201342,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הקמת מאגר מידע גנטי של כלבים, התשפ\"ג-2023",
   type: "private",
   committeeId: "economy",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-03-06",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2211471,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הענקת אזרחות כבוד לחללי מערכות ישראל, התשפ\"ד-2023",
   type: "governmental",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "נקבע כי שר הפנים, בהמלצת שר הביטחון, יעניק אזרחות כבוד של מדינת ישראל לחלל מערכות ישראל שבמועד פטירתו לא היה אזרח ישראלי. \nעוד נקבע כי במידה והורה, בן זוג, ילד או אח של חלל שהוענקה לו אזרחות כבוד יגיש בקשה לשר הפנים לבטלה, שר הפנים יעשה כן כך שיראוה כאילו לא ניתנה כלל.",
-  lastUpdated: "2023-12-26",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-11-15",
   initiators: [
     {

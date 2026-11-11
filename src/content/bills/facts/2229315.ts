@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2229315,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת מס הכנסה (הטבות במס ליישוב מאוים ביהודה והשומרון), התשפ\"ה-2025",
   type: "private",
   committeeId: "finance",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-06-01",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2210066,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הרשות הארצית לכבאות והצלה (נכים ונספים), התשפ\"ד-2023",
   type: "private",
   committeeId: "national-security",
   status: "agenda",
-  lastUpdated: "2024-01-17",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

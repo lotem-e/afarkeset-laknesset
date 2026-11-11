@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2166248,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק ההוצאה לפועל (תיקון מס' 73), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "הורחב היקף נכסי החייב החוסים תחת הגנה מפני עיקול בידי צד שלישי וצו עיקול במסגרת הליכים בהוצאה לפועל, ולכלול בתוכם כספי סיוע לנכות המגיעים לחייב ממשרד הרווחה והשירותים החברתיים (בנוסף על דמי ליווי לעיוור), כספים המגיעים לחייב ממשרד העלייה והקליטה, וכן כספים המגיעים לחייב במסגרת תכנית ממשלתית שמכוחה ניתן סיוע להורה עצמאי.",
-  lastUpdated: "2024-02-11",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-07-11",
   initiators: [
     {

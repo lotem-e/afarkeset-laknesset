@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2208659,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק שירות ביטחון (הוראת שעה) (הצבת יוצאי צבא בשירות בתי הסוהר) (תיקון מס' 11), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "foreign-defense",
   status: "completed",
   summaryOfficial: "הוראת השעה המסדירה הצבת חיילים בשירות בתי הסוהר צפויה לפקוע ביום כ\"ח באב התשפ\"ג (15 באוגוסט 2023). על כן נקבע כי חיילים שהוצבו בשירות בתי הסוהר לפי יום הפקיעה ימשיכו לשרת גם לאחר יום הפקיעה, עד לתום תקופת שירותם או עד ליום ל' בכסלו התשפ\"ה (31 בדצמבר 2024), לפי המוקדם מבין השניים.",
-  lastUpdated: "2024-01-15",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-07-30",
   initiators: [
     {

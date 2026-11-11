@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2242174,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הבנקאות (שירות ללקוח) (תיקון - קורס חינוך פיננסי ללקוח בחריגה ממסגרת האשראי או בחריגה תזרימית), התשפ\"ו-2026",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-06-17",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

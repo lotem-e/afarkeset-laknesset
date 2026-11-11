@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2227216,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "סעיף 15 (שינוי שיטת המדידה בארנונה) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2025), התשפ\"ה-2024 [פוצל לפי סעיף 84(ב) לתקנון] ",
   type: "governmental",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2025-05-19",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

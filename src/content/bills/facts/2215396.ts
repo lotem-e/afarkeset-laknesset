@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2215396,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הרשות השנייה לטלוויזיה ורדיו (תיקון - הנגשת רדיו בשפה הערבית בכל הארץ), התשפ\"ד-2024",
   type: "private",
   committeeId: "economy",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-06-15",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

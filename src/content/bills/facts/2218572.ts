@@ -8,12 +8,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2218572,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק שירותי תעופה (פיצוי וסיוע בשל ביטול טיסה או שינוי בתנאיה) (תיקון מס' 2 והוראת שעה – חרבות ברזל), התשפ\"ה–2025",
   type: "governmental",
   committeeId: "economy",
   status: "completed",
-  lastUpdated: "2025-04-08",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-02-10",
   initiators: [
     {

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201678,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק שירות ביטחון (הוראת שעה) (הצבת יוצאי צבא בשירות בתי הסוהר) (תיקון מס' 10), התשפ\"ג–2023",
   type: "governmental",
   committeeId: "foreign-defense",
   status: "completed",
   summaryOfficial: "חוק שירות ביטחון (הוראת שעה) (הצבת יוצאי צבא בשירות בתי הסוהר) (תיקון מס' 10), התשפ\"ג-2023 אושר בקריאה השנייה והשלישית ביום 21/02/2023. \nהחוק מאריך בחצי שנה נוספת, עד ה-15/08/2023 את הוראת השעה אשר מסדירה את הצבתם ואת שירותם של חיילים בבתי סוהר ובאגפים בהם מוחזקים אסירים ביטחוניים.",
-  lastUpdated: "2024-01-16",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-02-20",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2219393,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק להגנה על אנשי ציבור ישראלים מפני פעילות של בית הדין הפלילי הבין-לאומי בהאג כנגד מדינת ישראל, התשפ\"ד-2024",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2025-02-19",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

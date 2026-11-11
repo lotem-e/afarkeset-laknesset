@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2222111,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק המאבק בתופעת השימוש בחומרים מסכנים (תיקון מס' 6) (הגבלת שיווק של חומר מסכן שיש לו שימושים מותרים), התשפ\"ה–2025",
   type: "private",
   committeeId: "health",
   status: "agenda",
-  lastUpdated: "2025-07-23",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

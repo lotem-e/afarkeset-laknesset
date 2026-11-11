@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2207085,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק בתי המשפט (תיקון - תקופת צינון למינוי שופט שכיהן כפרקליט), התשפ\"ג- 2023",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2025-03-17",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

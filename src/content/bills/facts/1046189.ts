@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1046189,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק מס חברות מזערי בקבוצה רב-לאומית, התשפ\"ו-2025",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
-  lastUpdated: "2026-01-01",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-12-29",
   initiators: [
     {

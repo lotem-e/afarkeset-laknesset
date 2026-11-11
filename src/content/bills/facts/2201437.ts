@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201437,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הקפאת כספים ששילמה הרשות הפלסטינית בזיקה לטרור מהכספים המועברים אליה מממשלת ישראל (תיקון - חילוט הכספים וניהולם), התשפ\"ג-2023",
   type: "private",
   committeeId: "foreign-defense",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2026-07-26",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

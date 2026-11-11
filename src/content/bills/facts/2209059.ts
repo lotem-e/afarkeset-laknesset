@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2209059,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת הרוקחים (מס' 35), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "health",
   status: "agenda",
-  lastUpdated: "2023-09-05",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

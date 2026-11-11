@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2210753,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק המקרקעין (תיקון מס' 37), התשפ\"ד-2023",
   type: "governmental",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "נקבע כי לשם בניית מרחב מוגן דירתי או מרחב מוגן קומתי במבנה או באגף מסוים בבית מורכב (בית משותף המורכב מכמה מבנים או אגפים), או במקום בו לא ניתן לבנות אחד מאלו, בנייה של שיפורי מיגון, תידרש הסכמה של בעלי דירות שבבעלותם שישים אחוזים מהדירות באותו מבנה או אגף, בהתקיים התנאים המפורטים בחוק. הוראה דומה קיימת כבר היום בחוק ביחס לבית משותף שאיננו בית מורכב.",
-  lastUpdated: "2023-12-26",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-10-30",
   initiators: [
     {

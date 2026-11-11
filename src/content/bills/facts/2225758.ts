@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2225758,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הגנה על בתי תפילה ותיקים (תיקוני חקיקה), התשפ\"ה-2025",
   type: "private",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2026-01-14",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

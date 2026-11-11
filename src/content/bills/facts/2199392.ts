@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2199392,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת האגודות השיתופיות (מספר בתי אב ביישוב קהילתי), התשפ\"ג-2023",
   type: "private",
   committeeId: "public-projects",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2023-06-26",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2221642,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת מס הכנסה (מס' 274), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-10-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

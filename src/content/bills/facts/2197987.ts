@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197987,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הכנסת (תיקון מס' 51), התשפ\"ג-2022",
   type: "private",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "תיקון מס' 51 לחוק הכנסת מבטל את האפשרות של ארבעה חברי כנסת להתפלג מסיעתם, אפשרות שנוספה לחוק בתיקון מס' 49 משנת התשפ\"א-2021. בהתאם, לצורך התפלגות לפי סעיף 59(1) לחוק הכנסת תידרש קבוצה של שני ח\"כים לפחות, המהווים לפחות שליש מחברי הסיעה.",
-  lastUpdated: "2025-11-16",
+  lastUpdated: "2026-11-04",
   completedDate: "2022-12-19",
   initiators: [
     {

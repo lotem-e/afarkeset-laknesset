@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203342,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק פיקוח על בתי ספר (תיקון - איסור העסקת מורשעי ותומכי טרור ופיקוח על תכני הלימוד למניעת הסתה), התשפ\"ג-2023",
   type: "private",
   committeeId: "education",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-03-03",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

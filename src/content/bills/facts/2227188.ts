@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2227188,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "פרק ו' (שירות התעסוקה) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2025), התשפ\"ה-2024 [פוצל לפי סעיף 84(ב) לתקנון]",
   type: "governmental",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2025-01-16",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

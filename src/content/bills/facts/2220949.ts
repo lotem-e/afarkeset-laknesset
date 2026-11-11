@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2220949,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הממשלה (תיקון מס' 14), התשפ''ה–2025",
   type: "committee",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "כתיקון משלים לביטול הסדר ממשלת החילופים בחוק-יסוד: הממשלה, חוק זה מבטל את הסעיפים אשר מתייחסים להסדר של ממשלת חילופים בחוק הממשלה, התשס\"א–2001.",
-  lastUpdated: "2025-09-28",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-05-12",
   initiators: [],
   stages: [

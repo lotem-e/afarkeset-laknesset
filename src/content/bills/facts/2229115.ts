@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2229115,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הכניסה לישראל (תיקון - החמרת ענישה בעבירה של כניסה בלתי חוקית), התשפ\"ה-2025 ",
   type: "private",
   committeeId: "national-security",
   status: "agenda",
-  lastUpdated: "2025-03-19",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2199720,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק המרכז לגביית קנסות, אגרות והוצאות (תיקון מס' 19 והוראת שעה) (תיקון), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "הוראת השעה המסמיכה את שר המשפטים לאשר למרכז לגביית קנסות לגבות קנסות עבור רשות מקומית הוארכה בארבע שנים. כמו כן, הוענקה לשר המשפטים סמכות להאריך בצו, בהסכמת ועדת החוקה, חוק ומשפט את תקופת הוראת השעה בשנתיים נוספות.",
-  lastUpdated: "2024-02-11",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-02-08",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196550,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון מס' 20), התשפ\"ו–2025",
   type: "private",
   committeeId: "finance",
   status: "completed",
-  lastUpdated: "2025-11-27",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-11-25",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2226689,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק משק החשמל (תיקון - טעינת רכב חשמלי באמצעות יישומון תשלום אחוד), התשפ\"ה-2025",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2025-03-17",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

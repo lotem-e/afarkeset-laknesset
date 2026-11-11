@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2225751,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הקפאת תשלום משכנתה מתוך הצעת חוק למתן הטבות למשרתים במילואים, התשפ\"ה-2024",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2024-12-19",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

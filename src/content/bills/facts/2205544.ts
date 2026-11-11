@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2205544,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הדרכונים (תיקון מס' 10), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "התיקון מסמיך את שר הפנים לסרב להעניק דרכון ישראלי לעולה אשר טרם השתקע בישראל. במקום דרכון, יוכל שר הפנים להעניק לו תעודת מעבר. בכך, משיב התיקון את המצב לקדמותו כפי שהיה עד 2017.",
-  lastUpdated: "2023-09-28",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-06-12",
   initiators: [
     {

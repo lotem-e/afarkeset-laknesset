@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2217086,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק העונשין (תיקון מס' 150), התשפ\"ה-2024",
   type: "private",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "התיקון לחוק קובע כי עבירת השוטטות, שהעונש הקבוע בצידה היה שישה חודשי מאסר, אשר הופיעה כאחת מההתנהגויות שנחשבות כעבירה של \"התנהגות פסולה במקום ציבורי\", תימחק מחוק העונשין, התשל\"ז–1977.",
-  lastUpdated: "2025-04-27",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-11-19",
   initiators: [
     {

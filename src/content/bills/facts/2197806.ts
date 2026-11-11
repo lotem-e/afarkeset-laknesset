@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197806,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק מועצת עורכי הדין בישראל, התשפ\"ג-2022",
   type: "private",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2026-01-29",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

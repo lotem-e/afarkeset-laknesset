@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2225748,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "פטור מאגרה בכניסה לאתרים מתוך הצעת חוק למתן הטבות למשרתים במילואים, התשפ\"ה-2024",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2024-12-19",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

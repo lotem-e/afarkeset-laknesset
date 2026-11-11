@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2216840,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק השקעות משותפות בנאמנות (תיקון מס' 31), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק מעודד את השקעת הציבור בקרנות כספיות באמצעות הסדרת הרגולציה, הסרת חסמים והגברת הנגישות.",
-  lastUpdated: "2025-08-07",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-07-01",
   initiators: [
     {

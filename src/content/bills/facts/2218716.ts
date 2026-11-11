@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2218716,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק להנצחת זכרו של מנחם בגין (תיקון מס' 4), התשפ\"ה–2025",
   type: "private",
   committeeId: "education",
   status: "completed",
   summaryOfficial: "בחוק להנצחת זכרו של מנחם בגין, התשנ\"ח–1998, יתווספו הוראות כך שבכל שנה, ב-ד' באדר, יום פטירתו של מנחם בגין, יקויים יום ציון לזכרו. במהלך היום יתקיימו ארועי זכרון והנצחה. במחנות צה\"ל יוקדש זמן להנצחת זכרו וללימוד פועלו בהתאם להחלטת הרמטכ\"ל, ובבתי הספר יוקדש זמן לכך ככל ששר החינוך יחליט על כך.",
-  lastUpdated: "2025-04-20",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-03-31",
   initiators: [
     {

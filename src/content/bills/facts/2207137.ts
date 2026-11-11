@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2207137,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק-יסוד: ירושלים בירת ישראל (תיקון - איסור על פתיחת נציגות דיפלומטית זרה)",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-07-09",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

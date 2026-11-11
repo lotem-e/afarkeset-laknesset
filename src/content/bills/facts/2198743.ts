@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198743,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק זכויות הסטודנט (תיקון מס' 10), התשפ\"ה–2025",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2026-06-15",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

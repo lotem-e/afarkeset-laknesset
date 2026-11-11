@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2234203,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק קליטת חיילים משוחררים (תיקון מס' 26) (הארכת תקופת זכאות להשתתפות במימון שכר לימוד בשל מלחמה), התשפ\"ו–2026",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2026-03-19",
+  lastUpdated: "2026-11-10",
   initiators: [
     {
       kind: "mk",

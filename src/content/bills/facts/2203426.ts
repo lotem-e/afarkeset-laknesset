@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203426,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק מגבלות על חזרתו של מורשע במעשה טרור לסביבת נפגעי העבירה, התשפ\"ג-2023",
   type: "private",
   committeeId: "national-security",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-02-06",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

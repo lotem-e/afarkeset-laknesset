@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2199304,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "חוק לעניין ועדות הכנסת (תיקוני חקיקה והוראת שעה), התשפ\"ג-2023",
   type: "committee",
   committeeId: "knesset-committee",
   status: "completed",
   summaryOfficial: "החוק משלים את תיקון תקנון הכנסת מיום 1.2.2023 שבו הוקמו שלוש ועדות קבועות חדשות: הוועדה לביטחון לאומי, ועדת הבריאות והוועדה למיזמים ציבוריים, ונקבעו שינויים בתחומי ענייניהן של ועדות קבועות אחרות. החוק מתקן בהתאם לכך הוראות בחוקים שונים המעניקות סמכויות ותפקידים לוועדות מסוימות וליושבי הראש שלהן, בעיקר בנוגע לאישור חקיקת משנה ולקבלת דיווחים.",
-  lastUpdated: "2026-10-13",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-02-07",
   initiators: [],
   stages: [

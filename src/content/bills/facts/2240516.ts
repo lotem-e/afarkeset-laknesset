@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2240516,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "סעיף 8 (שימוש ארעי במגרשים ריקים) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2026), התשפ\"ו-2026 [פוצלה לפי סעיף 84(ב) לתקנון]",
   type: "governmental",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2026-02-10",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

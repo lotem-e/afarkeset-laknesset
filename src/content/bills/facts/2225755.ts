@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2225755,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "דיור והקצאת קרקעות מתוך הצעת חוק למתן הטבות למשרתים במילואים, התשפ\"ה-2024",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2025-02-06",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

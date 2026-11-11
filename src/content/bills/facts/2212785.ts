@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2212785,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק התכנון והבנייה (תיקון - היטלי השבחה במיתקני אגירת אנרגיה), התשפ\"ד-2024 ",
   type: "private",
   committeeId: "interior-environment",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2025-03-10",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

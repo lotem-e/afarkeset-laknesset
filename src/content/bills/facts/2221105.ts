@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2221105,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק העסקת עובדים על ידי קבלני כוח אדם (תיקון מס' 13), התשפ\"ו-2025",
   type: "governmental",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2025-11-09",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2234108,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק עסקאות גופים ציבוריים (תיקון מס' 12) (איסור התקשרות עם ספק בשל מעורבות בפשיעה חמורה), התשפ\"ה-2025 ",
   type: "governmental",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-10-06",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

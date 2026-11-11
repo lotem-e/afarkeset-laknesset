@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2210751,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק-יסוד: משק המדינה (תיקון מס' 14)",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "מוצע לאפשר דחיית מועדים למנגנון ההתכנסות הקבוע בסעיף 3א1 לחוק היסוד, בתקופה שלא תעלה על 50 ימים, במצבים בהם התרחש אירוע חריג ובלתי צפוי שיש לו השלכה תקציבית משמעותית בסמוך למועד הגשת דוח ההפרשים.",
-  lastUpdated: "2025-01-05",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-12-14",
   initiators: [
     {

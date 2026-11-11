@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2224462,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הגנת הפרטיות (תיקון מס' 14), התשפ\"ה-2025",
   type: "private",
   committeeId: "national-security",
   status: "agenda",
-  lastUpdated: "2025-06-29",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

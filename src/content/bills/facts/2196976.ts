@@ -9,14 +9,14 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196976,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק-יסוד: הממשלה (תיקון - כשירותם של שרים)",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המיוחדת לדיון בהצעת חוק-יסוד: הממשלה (תיקון - שר נוסף במשרד) (פ/81/25) ובהצעת חוק-יסוד: הממשלה (תיקון – כשירותם של שרים) (פ/91/25)",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2022-12-14",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

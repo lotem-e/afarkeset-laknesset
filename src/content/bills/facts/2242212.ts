@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2242212,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שיקום נזקי מלחמה בדרך של התחדשות עירונית, התשפ\"ו-2025 - החלק שנותר מהפיצול",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2026-04-12",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

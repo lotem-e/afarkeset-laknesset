@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2240080,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק זכויות נפגעי עבירה (תיקון מס' 24) (הבעת עמדה לעניין איסור פרסום שמו של חשוד), התשפ\"ו–2026",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-10-06",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

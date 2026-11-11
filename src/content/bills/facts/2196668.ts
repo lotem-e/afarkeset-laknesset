@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196668,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הסדרת השימוש בקנאביס למטרות רפואיות, התשפ\"ה-2025",
   type: "private",
   committeeId: "drugs-alcohol",
   status: "agenda",
-  lastUpdated: "2026-07-28",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

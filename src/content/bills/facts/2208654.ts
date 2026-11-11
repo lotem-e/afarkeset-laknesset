@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2208654,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק שחרור על-תנאי ממאסר (תיקון מס' 17 – הוראת שעה) (תיקון מס' 3), התשפ\"ד-2023",
   type: "governmental",
   committeeId: "national-security",
   status: "completed",
   summaryOfficial: "נקבעה הארכה להוראת השעה המסדירה את פעילות היחידה לשחרור ממאסרים קצרים, שדנה בבקשות לשחרור מוקדם של אסירים שנגזרו עליהם תקופות מאסר של 3 חודשים עד שנה, עד ליום י\"ד בכסלו התשפ\"ה (15 בדצמבר 2024).",
-  lastUpdated: "2025-08-14",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-09-19",
   initiators: [
     {

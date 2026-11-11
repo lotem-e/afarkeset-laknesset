@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2216582,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הכנסת (תיקון מס' 52), התשפ\"ד–2024",
   type: "committee",
   committeeId: "knesset-committee",
   status: "completed",
   summaryOfficial: "תיקון מס' 52 לחוק הכנסת מסדיר את הליך הערעור על החלטה של ועדת הכנסת שלפיה חבר הכנסת פרש מסיעתו. לפי התיקון, חבר הכנסת שהוגדר כפורש וסיעתו יהיו רשאים לערער לבית המשפט העליון (ולא המחוזי כקבוע היום). כמו כן נקצבו זמנים להליך: הערעור יוגש בתוך 14 ימים מיום ההחלטה, ופסק הדין יינתן בהקדם האפשרי ולא יאוחר מ-30 ימים מיום הגשת הערעור.",
-  lastUpdated: "2024-07-07",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-07-03",
   initiators: [],
   stages: [

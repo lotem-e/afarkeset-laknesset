@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196837,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הפרטת תאגיד השידור הציבורי הישראלי, התשפ\"ג-2022",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-10-11",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

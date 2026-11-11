@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2204251,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "פרק ט' (תיווך בביטוח ובחיסכון פנסיוני), למעט סעיף 36 (בעניין איסור על סירוב בלתי סביר להתקשורת) מתוך הצעת חוק התכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנות התקציב 2023 ו-2024), התשפ\"ג-2023 [פוצלה לפי סעיף 84(ב) לתקנון]",
   type: "governmental",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2025-02-03",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

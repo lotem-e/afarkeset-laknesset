@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2233112,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק זכויות נפגעי עבירה (תיקון מס' 23) (שמירת ערכות ייעודיות ישנות במשטרת ישראל), התשפ\"ו–2026",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-07-19",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

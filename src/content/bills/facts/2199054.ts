@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2199054,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הגנת הצרכן (תיקון - חובת הקלטת שיחות, שמירתן ומסירתן לצרכן), התשפ\"ג-2023",
   type: "private",
   committeeId: "economy",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2025-07-16",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

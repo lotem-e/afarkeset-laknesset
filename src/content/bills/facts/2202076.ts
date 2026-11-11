@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202076,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק ההתיישנות (תיקון - הרחבת הגדרת בן משפחה לעניין תקופת ההתיישנות של תביעה בשל תקיפה מינית או התעללות), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-06-09",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

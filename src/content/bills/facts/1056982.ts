@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1056982,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "חוק התוכנית לסיוע כלכלי (הוראת שעה) (סיוע לעסקים ולמוסדות ציבור), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
-  lastUpdated: "2026-10-07",
+  lastUpdated: "2026-11-04",
   completedDate: "2026-05-04",
   initiators: [
     {

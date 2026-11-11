@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2212869,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק התגמולים לנפגעי פעולות איבה (תיקון מס' 44), התשפ\"ד-2024",
   type: "governmental",
   committeeId: "labor-welfare",
   status: "completed",
   summaryOfficial: "החוק קובע כי המוסד לביטוח לאומי יהיה אחראי לניהולו, להפעלתו ולאחזקתו של היכל ההנצחה לזכר חללי פעולות האיבה שעתיד להיבנות בהר הרצל בירושלים. אוצר המדינה ישפה את המוסד בשל כך בסכום שלא יפחת ממיליון שקלים חדשים מדי שנה, החל בשנת 2026 או בשנת הקמת ההיכל, לפי המאוחר. סכום זה יוצמד מדי שנה למדד המחירים לצרכן.",
-  lastUpdated: "2024-05-08",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-03-26",
   initiators: [
     {

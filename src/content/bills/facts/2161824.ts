@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2161824,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק רכבת תחתית (מטרו) (תיקון), התשפ\"א-2021",
   type: "governmental",
   committeeId: "interior-environment",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2023-03-02",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

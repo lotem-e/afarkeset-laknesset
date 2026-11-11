@@ -9,14 +9,14 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201006,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק המאבק בכלי הנשק הבלתי חוקיים (תיקוני חקיקה) (הוראת שעה), התשפ\"ג-2023",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המשותפת של הוועדה לביטחון לאומי וועדת החוקה, חוק ומשפט לדיון בהצעות חוק המאבק בכלי נשק הבלתי חוקיים (תיקוני חקיקה) (פ/2392/25 ו-פ/2394/25)",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2023-03-15",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200544,
-  syncedAt: "2026-08-17",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק יום ציון ממלכתי לוועידת סן רמו, התשפ''ג-2023",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2025-02-05",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

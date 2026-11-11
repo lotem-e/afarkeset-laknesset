@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201387,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק העונשין (תיקון - הגנה על בסיסי צה\"ל, שטחי אש, תחנות משטרה ומתקנים ביטחוניים), התשפ\"ג-2023 ",
   type: "private",
   committeeId: "national-security",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2025-04-20",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

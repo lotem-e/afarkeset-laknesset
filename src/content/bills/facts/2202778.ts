@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202778,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הגדלת נקודות זיכוי להורים במס הכנסה והגדלת מענק עבודה (הוראת שעה) (תיקון), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק מאריך את תקופת הוראת השעה המעניקה נקודת זיכוי אחת נוספת לכל הורה בעד ילדיו שמלאו להם שש שנים לפחות אך טרם מלאו להם שלוש עשרה שנים בשנת 2022.",
-  lastUpdated: "2024-05-02",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-04-19",
   initiators: [
     {

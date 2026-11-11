@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2216711,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק תגמולים ליתום משני הוריו שאחד מהם נספה במלחמת חרבות ברזל (תיקוני חקיקה), התשפ\"ד-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-01-27",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197279,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק חג המצות (איסורי חמץ) (תיקון - איסור הצגת חמץ בפסח בבתי חולים), התשפ\"ג-2022",
   type: "private",
   committeeId: "health",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2023-09-05",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

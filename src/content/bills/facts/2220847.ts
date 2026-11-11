@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2220847,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק כלי הירייה (תיקון - זכאות לרישיון כלי ירייה ללוחם שסיים את שירותו עקב פציעה בפעילות מבצעית), התשפ\"ד-2024",
   type: "private",
   committeeId: "national-security",
   status: "agenda",
-  lastUpdated: "2024-12-17",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

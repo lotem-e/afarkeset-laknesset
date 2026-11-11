@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2209058,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק שירות המדינה (מינויים) (תיקון מס' 20), התשפ\"ד–2024",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "נקבע כי יש לחייב את מי שמונה על ידי הממשלה למשרת ראש נציגות דיפלומטית או קונסולרית בחוץ לארץ, להצהיר בפני שר החוץ או עובד מדינה שהוסמך לכך בתקנות כי הוא מתחייב לשמור אמונים למדינת ישראל כמדינה יהודית ודמוקרטית ולמלא באמונה את תפקידו.",
-  lastUpdated: "2024-03-20",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-01-03",
   initiators: [
     {

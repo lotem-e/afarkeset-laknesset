@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2230601,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הבנקאות (שירות ללקוח) (תיקון - ביטול פעולה מכוח הרשאה לחיוב בשל היעדר יתרה מספקת בחשבון והגבלת עמלות בשל הרשאה לחיוב), התשפ\"ה-2025",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2025-12-14",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

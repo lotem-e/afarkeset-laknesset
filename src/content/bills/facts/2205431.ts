@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2205431,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "חוק סדר הדין הפלילי (סמכויות אכיפה – נתוני תקשורת) (תיקון מס' 3), התשפ\"ה–2024",
   type: "private",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "התיקון קובע כי חובת הדיווח לועדת החוקה, חוק ומשפט אחת לשנה, בדבר יישומו של החוק, שהייתה בתוקף כהוראת שעה עד שנת 2011, ושלא הייתה בתוקף מאז, תתחדש ותעוגן כהוראת קבע.",
-  lastUpdated: "2026-10-06",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-11-12",
   initiators: [
     {

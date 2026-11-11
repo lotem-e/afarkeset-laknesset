@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196056,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שירות אזרחי (תיקון - הארכת גיל הזכאות של נכה נפש לשרת במסגרת שירות לאומי או התנדבות קהילתית), התשפ\"ג-2022",
   type: "private",
   committeeId: "labor-welfare",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2025-07-02",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

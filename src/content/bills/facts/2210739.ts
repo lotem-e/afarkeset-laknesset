@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2210739,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק חופשה שנתית (תיקון - אי-קיזוז ימי חופשה למתנדב במסגרת כוחות הביטחון וההצלה בשעת חירום), התשפ\"ד-2023",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2024-09-22",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

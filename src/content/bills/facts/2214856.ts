@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2214856,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שירות המדינה (מינויים) (תיקון - עדיפות למשרת מילואים פעיל), התשפ\"ד-2024",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-10-28",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

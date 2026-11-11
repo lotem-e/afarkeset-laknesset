@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203986,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק העבירות המינהליות (תיקון - הפחתת תוספת הפיגור על אי-תשלום קנס), התשפ\"ג-2023 פ/3253/25",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-02-08",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

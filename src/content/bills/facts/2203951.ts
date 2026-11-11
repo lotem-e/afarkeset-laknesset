@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203951,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שירות התעסוקה (תיקון מס' 24) (הגברת התחרות בסיעוד הביתי), התשפ\"ה–2025",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2025-07-24",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

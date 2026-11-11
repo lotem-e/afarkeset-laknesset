@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2224755,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק העונשין (תיקון מס' 140 – הוראת שעה) (תיקון), התשפ\"ה-2025",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "החוק מאריך עד ה-31 בדצמבר 2026, את הוראת השעה לפיה יוטל עונש מינימום של רבע מהעונש המרבי למי שהורשע בעבירות של החזקה, נשיאה וסחר בנשק, וזאת למעט במקרים מיוחדים.",
-  lastUpdated: "2025-09-28",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-01-08",
   initiators: [
     {

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196071,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק ההוצאה לפועל (תיקון - ביטול האפשרות לצוות על עיכוב יציאה מהארץ בגין חוב כספי נמוך), התשפ\"ג-2023",
   type: "private",
   committeeId: "labor-welfare",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2023-03-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

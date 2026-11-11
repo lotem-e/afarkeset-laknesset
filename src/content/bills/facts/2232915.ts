@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2232915,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הנוטריונים (תיקון מס' 12), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "נקבע כי ייפוי כוח שניתן לתאגיד בנקאי לביצוע עסקת משכנתה יהיה תקף גם אם לא נערך על ידי נוטריון וגם אם החתימות שעליו לא אומתו על ידו. ייפוי הכוח האמור יהיה תקף לכלל הפעולות הכרוכות ברישום עסקת המשכנתה, ובכלל זה ביטולה, העברתה או עריכת שינוי בתנאיה.",
-  lastUpdated: "2026-07-28",
+  lastUpdated: "2026-11-04",
   completedDate: "2026-02-02",
   initiators: [
     {

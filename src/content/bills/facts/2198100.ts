@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198100,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לחילוט תקבולי עבירה בשווי בעבירת גניבה חקלאית ובעבירות הגורמות נזק לרכוש חקלאי, התשפ\"ג-2023",
   type: "private",
   committeeId: "national-security",
   status: "agenda",
-  lastUpdated: "2023-03-27",
+  lastUpdated: "2026-11-11",
   initiators: [
     {
       kind: "mk",

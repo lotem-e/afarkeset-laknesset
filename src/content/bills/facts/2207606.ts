@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2207606,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק מיסוי תשלומים בתקופת בחירות (תיקון מס' 9 - הוראת שעה), התשפ\"ג–2023",
   type: "private",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "נקבעה הוראת שעה שתחול לתקופה של שנה, שמטרה לאחד את הכלל בין הבחירות לרשויות המקומיות לבין הבחירות לכנסת, לפיו \"תקופת הבחירות\" לעניין מיסוי תשלומים לעובדים בתקופת בחירות תוגדר כתקופה של 60 ימים המסתיימת ביום ה-14 שלאחר יום הבחירות.\nעוד נקבע, כי המס המיוחד שמשולם בגין עבודה בתקופת בחירות יופחת מ-25% ל-18%.",
-  lastUpdated: "2023-09-28",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-07-30",
   initiators: [
     {

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2215702,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק העונשין (תיקון מס' 151), התשפ\"ה–2024",
   type: "private",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "החוק קובע כי עבירת תקיפת סוהר, שהייתה מוסדרת כחלק מעבירת 'תקיפת עובד ציבור' תקבל התייחסות פרטנית בחוק העונשין, וכי הסימן בחוק העונשין שעניינו בתקיפה או הפרעה לשוטר, יחול בשינויים מסוימים גם על תקיפה או הפרעה לסוהר.",
-  lastUpdated: "2025-09-03",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-11-27",
   initiators: [
     {

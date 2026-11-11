@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2224349,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק ביטוח בריאות ממלכתי (תיקון מס' 72 והוראת שעה), התשפ\"ה-2025",
   type: "governmental",
   committeeId: "health",
   status: "completed",
   summaryOfficial: "חוק זה מפחית ב0.005% את שיעור דמי ביטוח הבריאות ברמת ההכנסה הנמוכה, כך שיעמוד על 3.23%, ומנגד, מגדיל ב0.005% את שיעור דמי ביטוח הבריאות ברמת ההכנסה הגבוהה, כך שיעמוד על 5.17%. הגדלת שיעור דמי ביטוח הבריאות של רמת ההכנסה הגבוהה תחול רק מחודש פברואר של שנת 2025, ובחודש ינואר של שנת 2025, יעמוד אותו שיעור על 5.16%.",
-  lastUpdated: "2025-12-17",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-01-13",
   initiators: [
     {

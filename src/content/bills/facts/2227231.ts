@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2227231,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "סעיף 15 (ביטול איחוד עוסקים) מתוך הצעת חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנת התקציב 2025), התשפ\"ה-2024 [פוצל לפי סעיף 84(ב) לתקנון]",
   type: "governmental",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2025-02-09",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

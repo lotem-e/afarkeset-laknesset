@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2212495,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק גיל פרישה (הורה שילדו נפטר) (הוראת שעה) (תיקון מס' 2), התשפ\"ד-2023",
   type: "governmental",
   committeeId: "labor-welfare",
   status: "completed",
   summaryOfficial: "חוק זה מאריך בשנתיים את תוקף ההוראה לפיה מעסיק לא יחייב עובד שהוא הורה שילדו נפטר לפרוש מעבודתו בשל גילו,  עד ארבע שנים מיום שהגיע לגיל פרישת חובה, כל זאת בהתקיים התנאים הקבועים בחוק. עוד קובע החוק המשך חובת דיווח של הממשלה לוועדת עבודה ורווחה, אחת לשנה, על פעילותם בעניין פרסום הוראות החוק לעובדים ולמעסיקים",
-  lastUpdated: "2026-02-03",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-12-27",
   initiators: [
     {

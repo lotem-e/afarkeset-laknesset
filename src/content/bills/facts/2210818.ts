@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2210818,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הגנה על מענקים מיוחדים (חרבות ברזל), התשפ\"ד-2023",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק קובע הגנה מפני עיקול על המענקים המפורטים בתוספת לחוק, וכן מקנה לשר האוצר ולשר המשפטים סמכות לקבוע מענקים מינהליים נוספים, שכולם או חלקם, יהיו מוגנים מפני עיקול אם נמצא שיש הצדקה לעשות כן בנסיבות.",
-  lastUpdated: "2024-05-15",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-11-01",
   initiators: [
     {

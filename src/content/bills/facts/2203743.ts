@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203743,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק התכנון והבנייה (תיקון - דחיית תשלום היטל השבחה אגב גירושין), התשפ\"ג-2023",
   type: "private",
   committeeId: "interior-environment",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2023-07-12",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

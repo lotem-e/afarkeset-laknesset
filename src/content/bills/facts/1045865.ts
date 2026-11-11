@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1045865,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הטבות מס ליישובים (תיקוני חקיקה), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
-  lastUpdated: "2026-05-05",
+  lastUpdated: "2026-11-04",
   completedDate: "2026-03-30",
   initiators: [
     {

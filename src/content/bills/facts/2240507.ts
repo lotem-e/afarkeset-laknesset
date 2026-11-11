@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2240507,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "פרק י\"ד (שדות תעופה בשיתוף המגזר הפרטי) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2026), התשפ\"ו-2026 [פוצלה לפי סעיף 84(ב) לתקנון]",
   type: "governmental",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-04-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

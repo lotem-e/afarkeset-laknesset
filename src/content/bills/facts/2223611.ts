@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2223611,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק התכנון והבנייה (תיקון מס' 159), התשפ\"ה-2024 ",
   type: "governmental",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "הוחלט להאריך בשנה את הוראת השעה הנותנת סמכות לשר הפנים לתת צו הפוטר, בין השאר, מאישור תכנית וקבלת היתרים לצורך הקמת מתחם שישמש למגורים למי שפונו מביתהם בשל המצב הביטחוני המיוחד.",
-  lastUpdated: "2025-02-25",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-12-04",
   initiators: [
     {

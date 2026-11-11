@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198601,
-  syncedAt: "2026-08-17",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק עקרונות האסדרה (תיקון) (בחינה תקופתית של אסדרה ואי-הטלת אחריות בשל אי-פרסום אסדרה), התשפ''ד–2024",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2025-01-21",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

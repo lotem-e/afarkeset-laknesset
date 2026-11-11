@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2218019,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק איסור החזקת מכשיר המשמש לביצוע עבירה (עקיפה ושיבוש של מערכות טכנולוגיות) (תיקוני חקיקה), התשפ\"ה–2025",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2025-07-30",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

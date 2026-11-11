@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203626,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הבחירות לכנסת (תיקון - הצבעה של אזרחים המשרתים שירות לאומי אזרחי בחוץ לארץ), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2024-03-28",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

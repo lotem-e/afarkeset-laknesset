@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202409,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק חדלות פירעון ושיקום כלכלי (תיקון מס' 4 – הוראת שעה – נגיף הקורונה החדש) (תיקון), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "הוארכה בשנה הוראת השעה המאפשרת לחייבים המעוניינים לגבש הסדר חוב עם הנושים לקבל עיכוב הליכים בזמן המשא ומתן על ההסדר.",
-  lastUpdated: "2024-02-11",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-03-20",
   initiators: [
     {

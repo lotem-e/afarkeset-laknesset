@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2225747,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "סבסוד מוסדות לימוד על-תיכוניים מתוך הצעת חוק למתן הטבות למשרתים במילואים, התשפ\"ה-2024",
   type: "private",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2024-12-18",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

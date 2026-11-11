@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2228785,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק כלי הירייה (תיקון - הודעה בגין חשש לחיי אדם מצד המגיש בקשה להחזיק בכלי ירייה), התשפ\"ה-2025",
   type: "private",
   committeeId: "national-security",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2025-05-13",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

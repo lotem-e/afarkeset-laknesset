@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2210623,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שמירת הניקיון (הוראת שעה), התשפ\"ג-2023 - החלק שנותר",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2023-10-18",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

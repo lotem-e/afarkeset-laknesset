@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2224855,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק מרשם האוכלוסין (תיקון מס' 22), התשפ\"ה-2025",
   type: "governmental",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "נקבע כי ביחס לחטוף שנפטר מחוץ לישראל יחולו כל ההוראות שחלות ביחס לפטירה בישראל כגון: הוראות לעניין מסירת הודעת פטירה, רישום הפטירה והנפקת תעודת פטירה, בשינויים המחויבים.",
-  lastUpdated: "2025-02-25",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-01-07",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198091,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק גנים לאומיים, שמורות טבע, אתרים לאומיים ואתרי הנצחה (תיקון - הגנה על סמלי הנצחה ומורשת), התשפ\"ג-2023",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2025-01-08",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

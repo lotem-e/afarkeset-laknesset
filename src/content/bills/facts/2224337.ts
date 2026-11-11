@@ -8,12 +8,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2224337,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק להסדרת הפיקוח על כלבים (תיקון מס' 6 – הוראת שעה – חרבות ברזל) (תיקון), התשפ\"ה-2024",
   type: "governmental",
   committeeId: "economy",
   status: "completed",
-  lastUpdated: "2025-04-07",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-12-09",
   initiators: [
     {

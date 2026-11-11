@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2221190,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הצבת מכשירי החייאה במקומות ציבוריים (תיקון מס' 3), התשפ\"ה–2025",
   type: "private",
   committeeId: "health",
   status: "completed",
   summaryOfficial: "חוק זה קובע כי החובה להציב מכשיר החייאה במקום ציבורי ולדאוג לתקינותו תחול גם לגבי רכבת ארצית המשמשת להסעת נוסעים, וכן לגבי תחנת רכבת מקומית הנמצאת בתוך מבנה סגור.",
-  lastUpdated: "2025-04-22",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-03-31",
   initiators: [
     {

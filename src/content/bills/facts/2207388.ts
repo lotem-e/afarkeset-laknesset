@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2207388,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון סדרי הדין (חקירת עדים) (תיקון - מתן עדות שלא בפני הנאשם בעבירת נטילת דמי חסות), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2024-12-04",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

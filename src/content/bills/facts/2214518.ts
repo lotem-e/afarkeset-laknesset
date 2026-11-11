@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2214518,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת החסינות וזכויות-היתר של האומות המאוחדות (ביטול החסינויות וזכויות-היתר של סוכנות הסעד והתעסוקה של האו\"ם לפליטי פלסטין במזרח הקרוב (אונר\"א)), התשפ\"ד-2024",
   type: "private",
   committeeId: "foreign-defense",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-07-09",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

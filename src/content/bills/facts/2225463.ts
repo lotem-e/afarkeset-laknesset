@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2225463,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק חינוך ממלכתי (תיקון - איסור נשיאת דברים במוסד חינוך למורשע בעבירת טרור, גזענות או בגידה), התשפ\"ה-2024",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2025-07-16",
+  lastUpdated: "2026-11-10",
   initiators: [
     {
       kind: "mk",

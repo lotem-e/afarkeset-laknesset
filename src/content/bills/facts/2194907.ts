@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2194907,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק העונשין (תיקון מס' 146) (תקיפת עובד ציבור שהוא מטפל או ממלא תפקיד בארגון חירום והצלה טרום אשפוז או בחדר מיון), התשפ\"ב-2022",
   type: "governmental",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2024-07-02",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

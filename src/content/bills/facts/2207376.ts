@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2207376,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק זכויות לאנשים עם מוגבלות המועסקים כמשתקמים, התשפ\"ג-2023",
   type: "governmental",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2026-11-02",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

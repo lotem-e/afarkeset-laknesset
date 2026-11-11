@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200650,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק לתיקון פקודת מס הכנסה (מס' 263), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "public-projects",
   status: "completed",
   summaryOfficial: "נקבע כי סעיף 141(א) לפקודת מס הכנסה (חובת דיווח של חלפני כספים למנהל על ביצוע פעולה בסכום של 50,000 ש\"ח ומעלה) יוסדר כהוראת קבע. בהתאם, עוגן סעיף 195ב(ב) לפקודת מס הכנסה (הטלת עיצום כספי על חלפני כספים שהפרו את חובת הדיווח) הקבוע גם כן כהוראת שעה והוסדר כהוראת קבע.",
-  lastUpdated: "2023-04-20",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-02-08",
   initiators: [
     {

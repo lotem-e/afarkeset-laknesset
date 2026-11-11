@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2206863,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון מס' 6) (תקופת צינון לעובד ציבור ברשויות פיקוח על גופים פיננסיים), התשפ\"ו–2026",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2026-01-08",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

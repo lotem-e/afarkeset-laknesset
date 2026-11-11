@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201084,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק שירות ביטחון (תיקון מס' 7 והוראת שעה) (שירות במשטרה ושירות מוכר) (תיקון מס' 18), התשפ\"ג–2023",
   type: "governmental",
   committeeId: "foreign-defense",
   status: "completed",
   summaryOfficial: "חוק שירות ביטחון (תיקון מס' 7 והוראת שעה) (שירות במשטרה ושירות מוכר) (תיקון מס' 18), התשפ\"ג-2023 אושר בקריאה השנייה והשלישית ביום כ\"ג בשבט התשפ\"ג (14 בפברואר 2023).\nהחוק האריך בשלוש שנים את הוראת השעה המאפשרת להציב חיילים במשטרת ישראל עד ליום י\"א בטבת התשפ\"ו (31 בדצמבר 2025).",
-  lastUpdated: "2024-01-16",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-02-14",
   initiators: [
     {

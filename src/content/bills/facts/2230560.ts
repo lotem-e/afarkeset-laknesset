@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2230560,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שלילת הטבות מבכירים במערכת הביטחון, התשפ\"ה-2025",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2025-12-17",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

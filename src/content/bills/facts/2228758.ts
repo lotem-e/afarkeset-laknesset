@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2228758,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שכר נושאי משרה ברשויות השלטון, התשפ\"ו–2026",
   type: "private",
   committeeId: "knesset-committee",
   status: "agenda",
-  lastUpdated: "2026-10-18",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

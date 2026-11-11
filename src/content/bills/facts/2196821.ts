@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196821,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הבנקאות (שירות ללקוח) (תיקון - הגבלת עמלת ערבות בנקאית שמובטחת בפיקדון כספי מסוים), התשפ\"ג-2022",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2024-03-20",
+  lastUpdated: "2026-11-11",
   initiators: [
     {
       kind: "mk",

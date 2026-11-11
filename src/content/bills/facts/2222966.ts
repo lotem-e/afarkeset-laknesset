@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2222966,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק איסור הפליה ברישוי מחמת מצב בריאותי (תיקוני חקיקה), התשפ\"ה-2024",
   type: "private",
   committeeId: "health",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2025-03-23",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

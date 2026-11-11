@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2221617,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק עזרה משפטית בין מדינות (תיקון מס' 12), התשפ\"ה-2025",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "חוק זה קובע שניתן לאכוף צו חילוט זר הן לגבי רכוש הקשור בעבירה והן לגבי רכוש בשווי רכוש כאמור. אכיפת צו חילוט זר לגבי רכוש בשווי, תיעשה רק אם ניתן לבקש את החילוט של אותו הרכוש לפי הדין בישראל. כמו כן, נקבעה האפשרות למתן סעד זמני לגבי רכוש בשווי הרכוש הקשור לעבירה, לצורך הבטחת חילוט הרכוש בעתיד לבקשת המדינה הזרה.",
-  lastUpdated: "2025-09-28",
+  lastUpdated: "2026-11-04",
   completedDate: "2025-06-03",
   initiators: [
     {

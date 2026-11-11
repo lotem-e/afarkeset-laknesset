@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200898,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק לתיקון פקודת המועצות המקומיות (בחירות לוועד מקומי במועצה אזורית), התשפ\"ג-2023",
   type: "private",
   committeeId: "interior-environment",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2023-06-13",
+  lastUpdated: "2026-11-11",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2214293,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הביטוח הלאומי (תיקון - זכאות לדמי לידה עבור משרתות מילואים), התשפ\"ד-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2024-07-07",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

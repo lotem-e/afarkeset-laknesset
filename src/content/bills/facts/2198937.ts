@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198937,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק קביעת יום לציון הטבעת הספינה אלטלנה, התשפ\"ג-2023",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2026-07-01",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

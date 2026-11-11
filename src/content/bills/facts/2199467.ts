@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2199467,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק להענקת זכויות במקרקעין ביישוב מיעוטים למי שנבצר ממנו להשלים את שירותו הצבאי ולאלמנות צה\"ל (תיקוני חקיקה), התשפ\"ג-2023",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2024-07-18",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

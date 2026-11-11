@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2214546,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק לתיקון פקודת מס הכנסה (מס' 273), התשפ\"ד–2024",
   type: "private",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "החוק קובע כי יחיד, שהוא או בן זוגו שירת שירות מילואים בתקופה שמיום 7 באוקטובר 2023 ועד סוף שנת המס 2023, יהיה רשאי לבקש לראות לעניין הטבות מס, סכומים ששילם לקופת גמל לקצבה או לקרן השתלמות לעצמאיים, כאילו שולמו בשנת המס 2023, אף אם שולמו בשנת 2024.",
-  lastUpdated: "2025-08-07",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-07-23",
   initiators: [
     {

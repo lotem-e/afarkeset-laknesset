@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1046714,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הגנת הסייבר הלאומית, התשפ\"ו-2026",
   type: "governmental",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2026-10-20",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

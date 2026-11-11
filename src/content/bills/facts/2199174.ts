@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2199174,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק-יסוד: הכנסת (תיקון מס' 52)",
   type: "committee",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "הורחב ההסדר המאפשר לחבר הכנסת המעוניין בכך להפסיק זמנית את כהונתו בכנסת כל עוד הוא מכהן במשרת שר או סגן שר, כך שהדבר יתאפשר גם לחברי הכנסת הנמנים עם סיעות קטנות שבהן שלושה חברים או פחות, ובסיעות גדולות, המונות לפחות 18 חברים, יתאפשר ליותר חברי הכנסת לפעול על פי ההסדר.",
-  lastUpdated: "2024-02-11",
+  lastUpdated: "2026-11-04",
   completedDate: "2023-01-23",
   initiators: [],
   stages: [

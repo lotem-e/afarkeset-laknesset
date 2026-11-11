@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2205831,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שירותי הדת היהודיים (בחירות רבני עיר, רבנים אזוריים, רבני יישוב ורבני שכונות), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2023-08-08",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2208200,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "חוק הסיוע המשפטי (תיקון מס' 27 – הוראת שעה), התשפ\"ה–2024",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "החוק קובע הוראת שעה לפיה למשך שלוש שנים, לשכות הסיוע המשפטי במשרד המשפטים יתנו סיוע משפטי בתביעות לפי חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים, התשס\"א–2000, ללא בדיקת זכאות כלכלית.",
-  lastUpdated: "2025-04-27",
+  lastUpdated: "2026-11-04",
   completedDate: "2024-10-29",
   initiators: [
     {

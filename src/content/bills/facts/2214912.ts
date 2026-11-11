@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2214912,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק כליאתם של לוחמים בלתי חוקיים (תיקון - החלפת המונח לוחמים בלתי חוקיים), התשפ\"ד-2024 ",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2024-10-31",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

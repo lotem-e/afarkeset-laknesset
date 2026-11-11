@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2220960,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק שירות המדינה (מינויים) (תיקון - ייצוג הולם ללוחמים), התשפ\"ד-2024",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2024-12-18",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

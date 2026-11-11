@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2195286,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הפטנטים (תיקון מס' 14) (הגברת התחרותיות), התשפ\"ב-2022",
   type: "governmental",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2025-01-23",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "ministry",

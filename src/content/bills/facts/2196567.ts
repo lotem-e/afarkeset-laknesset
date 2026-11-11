@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2196567,
-  syncedAt: "2026-08-12",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק התכנון והבנייה (תיקון - ייצוג הולם לאוכלוסייה החרדית במוסדות התכנון), התשפ\"ג-2022",
   type: "private",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2023-04-02",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2210285,
-  syncedAt: "2026-11-03",
+  syncedAt: "2026-11-11",
   officialName: "הצעת חוק הרשות לפיתוח הנגב (תיקון - הגדרת הנגב), התשפ\"ד-2024",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-10-21",
+  lastUpdated: "2026-11-04",
   initiators: [
     {
       kind: "mk",
