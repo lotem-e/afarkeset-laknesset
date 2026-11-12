@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198161,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-12",
   officialName: "הצעת חוק עידוד מעורבות סטודנטים בפעילות חברתית וקהילתית (תיקון – הקלות למשרתי מילואים), התשפ\"ג–2023",
   type: "private",
   committeeId: "education",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-12",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2216747,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-12",
   officialName: "הצעת חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים) (תיקון - מסירת מידע על עמלות וריביות בידי נותן שירותים פיננסיים), התשפ\"ד-2024",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-11",
   initiators: [
     {
       kind: "mk",

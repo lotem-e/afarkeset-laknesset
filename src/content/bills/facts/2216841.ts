@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2216841,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-12",
   officialName: "הצעת חוק האקלים, התשפ\"ד-2024",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-11",
   initiators: [
     {
       kind: "ministry",

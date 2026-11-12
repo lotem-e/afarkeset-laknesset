@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2221855,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-12",
   officialName: "הצעת חוק התגמולים לנפגעי פעולות איבה (תיקון - זכאות לטיפול פסיכולוגי), התשפ\"ה-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-12",
   initiators: [
     {
       kind: "mk",

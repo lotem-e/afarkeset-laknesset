@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2230612,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-12",
   officialName: "הצעת חוק תשלומים לפדויי שבי ולחטופים ששוחררו (תיקון - העלאת דרגת הנכות ל-100% לחטופים ששוחררו), התשפ\"ה-2025",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-11",
   initiators: [
     {
       kind: "mk",
