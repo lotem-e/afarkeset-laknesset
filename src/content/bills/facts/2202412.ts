@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202412,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-13",
   officialName: "הצעת חוק לתיקון פקודת מס הכנסה (פטור ממס במכירת מטבעות דיגיטליים לתושבי חוץ ובהקצאת מטבעות דיגיטליים לעובדים), התשפ\"ג-2023",
   type: "private",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-12",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2216198,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-13",
   officialName: "הצעת חוק סמכויות שעת חירום (מעצרים) (תיקון - מעצרים מינהליים בגין חברות בארגון טרור), התשפ\"ד-2024",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-12",
   initiators: [
     {
       kind: "mk",

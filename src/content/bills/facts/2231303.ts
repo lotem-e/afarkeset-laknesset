@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2231303,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-13",
   officialName: "הצעת חוק חובת פרסום שמותיהם של אסירים ביטחוניים ששוחררו ממאסר, התשפ\"ה-2025",
   type: "private",
   committeeId: "national-security",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-12",
   initiators: [
     {
       kind: "mk",

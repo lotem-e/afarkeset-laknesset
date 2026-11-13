@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2211694,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-13",
   officialName: "הצעת חוק ההתגוננות האזרחית (תיקון - פיקוח על מקלטים משותפים), התשפ\"ד-2024",
   type: "private",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-12",
   initiators: [
     {
       kind: "mk",
