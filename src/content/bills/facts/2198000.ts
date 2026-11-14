@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198000,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-14",
   officialName: "הצעת חוק שיקים ללא כיסוי (תיקון - הקלות בהגבלת חשבון), התשפ\"ג-2023",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-13",
   initiators: [
     {
       kind: "mk",

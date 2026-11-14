@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2228059,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-14",
   officialName: "הצעת חוק יום המודעות למאבק במחלת הסרטן, התשפ\"ה-2025",
   type: "private",
   committeeId: "education",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-14",
   initiators: [
     {
       kind: "mk",

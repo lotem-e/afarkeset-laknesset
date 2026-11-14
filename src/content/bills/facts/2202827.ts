@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202827,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-14",
   officialName: "הצעת חוק עבודת נשים (תיקון - הארכת תקופת הלידה וההורות להורי פעוט עם מוגבלות מורכבת), התשפ\"ג-2023",
   type: "private",
   committeeId: "labor-welfare",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-14",
   initiators: [
     {
       kind: "mk",
