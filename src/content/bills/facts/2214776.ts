@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2214776,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-15",
   officialName: "חוק תקציב נוסף לשנת הכספים 2024, התשפ\"ד-2024",
   type: "governmental",
   committeeId: "finance",
   status: "completed",
   summaryOfficial: "מוצע לקבוע כי תקציב ההוצאה לשנת הכספים 2024 יעמוד על 724,047,992,000 שקלים חדשים המורכב מתקציב רגיל בסך 520,813,466,000 שקלים חדשים ומתקציב פיתוח וחשבון הון בסך 203,234,526,000 שקלים חדשים.",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-15",
   completedDate: "2024-03-12",
   initiators: [
     {
