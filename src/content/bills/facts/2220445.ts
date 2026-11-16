@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2220445,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-16",
   officialName: "הצעת חוק לתיקון פקודת הבנקאות (מס' 36) (חשבונות ללא תנועה), התשפ\"ו–2026",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-15",
   initiators: [
     {
       kind: "mk",

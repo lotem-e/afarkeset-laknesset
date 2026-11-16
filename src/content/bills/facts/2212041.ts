@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2212041,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-16",
   officialName: "חוק התכנון והבנייה (תיקון מס' 158), התשפ\"ה-2024",
   type: "private",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "נקבע כי ייעוד קרקע למגורים יראו אותו ככולל גם בתים מאזנים (מסגרת טיפולית למתמודדי נפש), זאת בנוסף למסגרות טיפוליות שיקומיות אחרות למתמודדי נפש הכלולות כבר היום על פי חוק.",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-15",
   completedDate: "2024-11-11",
   initiators: [
     {

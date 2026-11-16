@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 1057055,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-16",
   officialName: "הצעת חוק התכנון והבניה (תיקון מס' 169- הוראת שעה), התשפ\"ו-2026",
   type: "governmental",
   committeeId: "interior-environment",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-15",
   initiators: [
     {
       kind: "ministry",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2223834,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-16",
   officialName: "הצעת חוק מיסוי מקרקעין (שבח ורכישה) (תיקון - ייצוג נישום על ידי רואה חשבון ויועץ מס מייצג), התשפ\"ה-2024",
   type: "private",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-16",
   initiators: [
     {
       kind: "mk",

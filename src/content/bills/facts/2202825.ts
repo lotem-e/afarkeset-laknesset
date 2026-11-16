@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2202825,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-16",
   officialName: "הצעת חוק הביטוח הלאומי (תיקון - הגדרת ילד נכה), התשפ\"ג-2023 ",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-15",
   initiators: [
     {
       kind: "mk",

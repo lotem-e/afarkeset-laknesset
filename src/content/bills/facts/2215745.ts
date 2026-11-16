@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2215745,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-16",
   officialName: "הצעת חוק שירות המדינה (גימלאות) (תיקון - קצבה ליתום משני הוריו), התשפ\"ד-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-15",
   initiators: [
     {
       kind: "mk",

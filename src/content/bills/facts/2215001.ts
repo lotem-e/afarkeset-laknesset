@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2215001,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-16",
   officialName: "הצעת חוק הירושה (תיקון מס' 22), התשפ\"ה–2025",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-16",
   initiators: [
     {
       kind: "mk",
