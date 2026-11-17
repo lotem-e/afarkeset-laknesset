@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2236922,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-17",
   officialName: "חוק שיקום נרחב לחבל התקומה כאזור מיקוד לאומי וסיוע ליישובים הסמוכים אליו (תיקון מס' 2), התשפ\"ו–2026",
   type: "private",
   committeeId: "economy",
   status: "completed",
   summaryOfficial: "התיקון לחוק קובע כי מינהלת תקומה תעביר למועצה האזורית שדות נגב סכום של 20 מיליון שקלים חדשים, מתקציב המינהלת, לשם קיום התחייבויות קודמות שניתנו למועצה האזורית שדות נגב ובמסגרת פעולות השיקום הנרחב המתבצעות בחבל התקומה לאחר אירועי ה-7 באוקטובר.",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-16",
   completedDate: "2026-07-01",
   initiators: [
     {

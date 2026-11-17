@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200574,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-17",
   officialName: "הצעת חוק המאבק בטרור (תיקון - אי-החזרת גופות מחבלים), התשפ\"ג-2023",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-16",
   initiators: [
     {
       kind: "mk",

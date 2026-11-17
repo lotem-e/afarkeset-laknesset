@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203622,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-17",
   officialName: "הצעת חוק שירותי רווחה (זכויות נשים ששהו במקלט לנשים מוכות) (תיקון - זכות למגורים בדיור ציבורי), התשפ\"ג-2023",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-16",
   initiators: [
     {
       kind: "mk",

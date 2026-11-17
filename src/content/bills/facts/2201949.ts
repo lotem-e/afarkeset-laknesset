@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201949,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-17",
   officialName: "הצעת חוק לתיקון פקודת התעבורה (סימון מקום חניה לרכב חשמלי), התשפ\"ג-2023",
   type: "private",
   committeeId: "economy",
   status: "dropped",
   offPipelineReason: "נעצרה",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-17",
   initiators: [
     {
       kind: "mk",

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2233581,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-17",
   officialName: "הצעת חוק העונשין (תיקון - ביטול עבירת המטרד על ידי עיסוק בזנות), התשפ\"ה-2025",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-17",
   initiators: [
     {
       kind: "mk",
