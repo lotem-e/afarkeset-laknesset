@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198663,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-18",
   officialName: "הצעת חוק הדיור הציבורי (זכויות רכישה) (תיקון - הארכת תוקף), התשפ\"ג-2023",
   type: "private",
   committeeId: "interior-environment",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-17",
   initiators: [
     {
       kind: "mk",

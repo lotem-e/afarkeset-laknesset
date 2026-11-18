@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203535,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-18",
   officialName: "חוק לתיקון פקודת העיריות (מס' 157) , התשפ\"ד–2024",
   type: "private",
   committeeId: "interior-environment",
   status: "completed",
   summaryOfficial: "תיקון החוק קובע כי סמכות שר הפנים לחלוקת הכנסות מארנונה בין רשויות מקומיות סמוכות או גובלות באזור שאיננו אזור למגורים בלבד, תורחב גם למקרים בהם הרשויות הסמוכות או הגובלות המקבלות נמצאות באזור יהודה ושומרון.",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-18",
   completedDate: "2024-04-01",
   initiators: [
     {

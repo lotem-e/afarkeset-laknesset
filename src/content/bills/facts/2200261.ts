@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200261,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-18",
   officialName: "הצעת חוק הגנת הצרכן (תיקון מס' 68) (שירות טלפוני לביטול עסקה עם חברת תעופה), התשפ\"ג–2023",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-18",
   initiators: [
     {
       kind: "mk",

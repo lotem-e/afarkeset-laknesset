@@ -9,14 +9,14 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2200737,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-18",
   officialName: "הצעת חוק לביטול ההתיישנות בעבירות מין (תיקוני חקיקה), התשפ\"ג-2023",
   type: "private",
   committeeId: "special",
   committeeName: "הוועדה המשותפת של ועדת החוקה, חוק ומשפט והוועדה לקידום מעמד האישה לדיון בהצעת חוק לביטול ההתיישנות בעבירות מין (תיקוני חקיקה), התשפ\"ג 2023 (פ/2559/25)",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-17",
   initiators: [
     {
       kind: "mk",

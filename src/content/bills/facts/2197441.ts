@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197441,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-18",
   officialName: "הצעת חוק הבנקאות (שירות ללקוח) (תיקון - ריבית על יתרת זכות), התשפ\"ג-2023",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-17",
   initiators: [
     {
       kind: "mk",
