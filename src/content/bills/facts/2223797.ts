@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2223797,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-19",
   officialName: "הצעת חוק מסירת מידע סודי לראש הממשלה ולשרים (תיקוני חקיקה), התשפ\"ה-2024",
   type: "private",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-18",
   initiators: [
     {
       kind: "mk",

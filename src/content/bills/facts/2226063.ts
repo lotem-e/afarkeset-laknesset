@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2226063,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-19",
   officialName: "הצעת חוק לתיקון פקודת מס הכנסה (קרן השתלמות לחקלאי שומר שמיטה), התשפ\"ה-2024",
   type: "private",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-19",
   initiators: [
     {
       kind: "mk",

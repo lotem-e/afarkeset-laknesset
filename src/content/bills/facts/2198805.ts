@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198805,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-19",
   officialName: "הצעת חוק הפיקוח על שירותים פיננסיים (קופות גמל) (תיקון - הגדלת הסכום המרבי להפקדה בקופות גמל להשקעה), התשפ\"ג-2023 ",
   type: "private",
   committeeId: "finance",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-18",
   initiators: [
     {
       kind: "mk",
