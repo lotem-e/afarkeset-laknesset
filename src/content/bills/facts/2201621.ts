@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2201621,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-22",
   officialName: "הצעת חוק ביטוח בריאות ממלכתי (תיקון - העברת מידע מלא בעת מעבר בין קופות החולים), התשפ\"ג-2023",
   type: "private",
   committeeId: "health",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-22",
   initiators: [
     {
       kind: "mk",
