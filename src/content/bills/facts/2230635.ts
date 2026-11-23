@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2230635,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-23",
   officialName: "חוק העונשין (תיקון מס' 133 – הוראת שעה) (תיקון מס' 3), התשפ\"ה-2025 ",
   type: "governmental",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "החוק מאריך את הוראת השעה הקובעת שתקופת המאסר המרבית שאותה ניתן לשאת בעבודות שירות היא תשעה חודשים ולא שישה חודשי מאסר, לתקופה של שלוש שנים נוספות.",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-23",
   completedDate: "2025-05-20",
   initiators: [
     {

@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2207029,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-23",
   officialName: "הצעת חוק הגנת הצרכן (תיקון מס' 73) (קבלה דיגיטלית ושובר זיכוי דיגיטלי), התשפ\"ה–2025",
   type: "private",
   committeeId: "economy",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-22",
   initiators: [
     {
       kind: "mk",

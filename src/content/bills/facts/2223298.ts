@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2223298,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-23",
   officialName: "חוק-יסוד: הממשלה (תיקון מס' 13)",
   type: "committee",
   committeeId: "constitution",
   status: "completed",
   summaryOfficial: "ההסדר החוקתי של ממשלת חילופים נחקק בכנסת העשרים ושלוש, נוכח האתגרים השונים שהמדינה עמדה בהם באותה העת. עתה, נוכח הקשיים שהסדר ייחודי זה עורר, חוק היסוד מבטל את הסעיפים בחוק יסוד: הממשלה, הקובעים את ההסדר החוקתי האמור, ובמקביל עורך תיקוני התאמה בסעיפים השונים בחוק היסוד שמתייחסים להסדר האמור. על פי חוק היסוד ההסדר יבוטל החל מתחילת כהונת הכנסת ה–26.",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-23",
   completedDate: "2025-05-12",
   initiators: [],
   stages: [

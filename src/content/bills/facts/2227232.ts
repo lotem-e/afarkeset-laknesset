@@ -8,12 +8,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2227232,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-23",
   officialName: "חוק התחשבנות בין בתי חולים לקופות חולים (בריאות הנפש), התשפ\"ה-2025",
   type: "governmental",
   committeeId: "health",
   status: "completed",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-23",
   completedDate: "2025-03-19",
   initiators: [
     {

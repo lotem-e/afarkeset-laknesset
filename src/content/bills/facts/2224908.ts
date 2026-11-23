@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2224908,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-23",
   officialName: "הצעת חוק סדר הדין הפלילי (תיקון - מניעת ניגודי עניינים בחקירת היועץ המשפטי לממשלה ופרקליט המדינה), התשפ\"ה-2024",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-23",
   initiators: [
     {
       kind: "mk",

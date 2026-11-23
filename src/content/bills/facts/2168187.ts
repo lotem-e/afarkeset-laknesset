@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2168187,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-23",
   officialName: "חוק לתיקון פקודת הרופאים (מס' 15), התשפ\"ג-2023",
   type: "governmental",
   committeeId: "health",
   status: "completed",
   summaryOfficial: "חוק זה מאפשר למנכ\"ל משרד הבריאות להתיר גם לעוזרים מסוימים, כגון  פראמדיקים או פלבוטומיסטים, לבצע פעולות רפואיות בבית החולה וזאת בכפוף לתנאים שייקבעו בתקנות באישור ועדת הבריאות של הכנסת.",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-23",
   completedDate: "2023-03-27",
   initiators: [
     {
