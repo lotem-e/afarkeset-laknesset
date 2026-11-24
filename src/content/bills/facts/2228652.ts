@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2228652,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-24",
   officialName: "הצעת חוק השיפוט הצבאי (תיקון מס' 82) (הארכת משך תחולת החוק לגבי עבירות מין), התשפ\"ה-2025 ",
   type: "governmental",
   committeeId: "foreign-defense",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-24",
   initiators: [
     {
       kind: "ministry",

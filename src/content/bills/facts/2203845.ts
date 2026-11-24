@@ -8,12 +8,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2203845,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-24",
   officialName: "חוק זכויות מבצעים ומשדרים (תיקון מס' 10), התשפ\"ו–2026",
   type: "private",
   committeeId: "economy",
   status: "completed",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-23",
   completedDate: "2026-05-13",
   initiators: [
     {
