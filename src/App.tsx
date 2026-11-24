@@ -11,6 +11,7 @@ import { AgendaPage } from "@/pages/AgendaPage";
 import { BillPage } from "@/pages/BillPage";
 import { CompletedPage } from "@/pages/CompletedPage";
 import { DiscussionPage } from "@/pages/DiscussionPage";
+import { HowItWorksPage } from "@/pages/HowItWorksPage";
 import { StatsPage } from "@/pages/StatsPage";
 import { TrackingPage } from "@/pages/TrackingPage";
 
@@ -36,6 +37,8 @@ export function App() {
           <Route path="/tracking" element={<TrackingPage />} />
           <Route path="/completed" element={<CompletedPage />} />
           <Route path="/stats" element={<StatsPage />} />
+          {/* the "חדשים במשכן?" orientation page */}
+          <Route path="/how-it-works" element={<HowItWorksPage />} />
         </Route>
       </Routes>
       </TrackingProvider>

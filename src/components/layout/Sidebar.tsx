@@ -87,11 +87,24 @@ export function Sidebar() {
         </div>
       </nav>
 
-      {/* Pinned to the bottom */}
+      {/* Pinned to the bottom - the orientation page for
+          first-time visitors. Quieter than the nav rows above,
+          but the active signal ( bold + navy ) is the same
+          language NavItem speaks. */}
       <div className="mt-auto pt-4">
-        <button className="ps-3 text-small font-normal text-foreground/80 underline underline-offset-4 hover:text-foreground">
+        <NavLink
+          to="/how-it-works"
+          className={({ isActive }) =>
+            cn(
+              "block ps-3 text-small underline underline-offset-4",
+              isActive
+                ? "font-bold text-primary"
+                : "font-normal text-foreground/80 hover:text-foreground",
+            )
+          }
+        >
           חדשים במשכן?
-        </button>
+        </NavLink>
       </div>
     </aside>
   );

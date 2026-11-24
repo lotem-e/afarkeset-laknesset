@@ -30,8 +30,9 @@ react-router-dom.
 - `src/content/` - ALL content as typed data, separate from components:
   `types.ts` ( the data model ), `stages.ts` ( the 5-stage pipeline meta ),
   `committees.ts`, `parties.ts`, `mks.ts`, `stats.ts` ( illustrative aggregates ),
-  `bills/` ( `facts/` synced, `editorial/` hand-written, `merge.ts` joining
-  them, plus the not-yet-migrated hand-written bills ).
+  `legislation-process.ts` ( the how-it-works flowchart content, keyed to the
+  five StageKeys ), `bills/` ( `facts/` synced, `editorial/` hand-written,
+  `merge.ts` joining them, plus the not-yet-migrated hand-written bills ).
 - `design/` - the project's design memory: the Figma screens rendered to PNG,
   the design's full extracted text ( the source the Hebrew content was
   transcribed from ), and the render tool. See `design/README.md`. The Figma
@@ -61,10 +62,12 @@ disappearing. Sharpened 2026-08-12: "clears" requires evidence the bill moved
 PAST the hurdle, so a bill rejected at its preliminary discussion never enters
 ( see SYNC-PLAN.md §3 ).
 - `src/components/` - grouped one level: `ui/` ( shadcn ), `layout/`, `shared/`,
-  `bills/`, `bill-page/`, `discussion/`, `filters/`, `stats/`.
+  `bills/`, `bill-page/`, `discussion/`, `filters/`, `process/` ( the
+  how-it-works flowchart ), `stats/`.
 - `src/pages/` - one file per route. Routes: `/`, `/bill/:id`,
   `/bill/:id/discussion/:n` ( n is 1-based across the whole bill, in the order
-  `billDiscussions()` returns ), `/tracking`, `/completed`, `/stats`.
+  `billDiscussions()` returns ), `/tracking`, `/completed`, `/stats`,
+  `/how-it-works` ( the חדשים במשכן? orientation page ).
 - `src/hooks/useTracking.tsx` - followed bills in localStorage
   ( key `knesset.trackedBillIds` ), exposed via React context.
 - `styles/tokens/` - primitives → semantic → groups ( party colors ) →

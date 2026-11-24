@@ -56,6 +56,14 @@ Desktop-first. Built so far:
    button: hot bills ( navigate to the bill ), committees ( applies the page
    filter ), and informational tabs for status / MKs / parties / bloc, plus a
    search box that narrows the visible list.
+8. **חדשים במשכן? ( How it works )** - the orientation page for first-time
+   visitors, reached from the sidebar's bottom link: the legislation process
+   as an accessible flowchart ( a private bill's birth, then the five pipeline
+   stations with pass / fail forks and the entry point of government and
+   committee bills ), a special-cases accordion, and a source-citation line.
+   Content derives from the Knesset Legal Bureau's "הליך החקיקה" document
+   ( September 2016 ) and awaits Lotem's editorial pass. This is the first
+   page designed in code rather than in Figma.
 
 Out of MVP ( designed in Figma, planned later ): real discussion footage; the
 פיקוח ( oversight ) section; global search; filtering by status / MK / party;
@@ -83,6 +91,10 @@ performers' rights, Basic Law: the Judiciary amendment 3 ). Display aggregates
 marked as illustrative until a real API exists. Political seed data ( party
 seats, MK roles, votes ) needs Lotem's verification pass.
 
+Non-bill page content follows the same rule: the how-it-works flowchart lives
+in `src/content/legislation-process.ts` as typed data, keyed to the same five
+`StageKey`s so it can never disagree with the pipeline.
+
 ## 6. Design system
 
 Heebo everywhere, RTL, warm cream surfaces with a navy brand color and an indigo
@@ -101,8 +113,8 @@ accent. Two-layer token base ( Canon-compatible ):
 ## 7. Tech stack
 
 React + TypeScript, Vite, Tailwind v4, shadcn/ui ( base-nova ), react-router-dom
-( routes: `/`, `/bill/:id`, `/tracking`, `/completed`, `/stats` ). Local, single
-user, no backend. Dev server on port 5184.
+( routes: `/`, `/bill/:id`, `/tracking`, `/completed`, `/stats`,
+`/how-it-works` ). Local, single user, no backend. Dev server on port 5184.
 
 ## 8. Open questions
 
@@ -112,3 +124,6 @@ user, no backend. Dev server on port 5184.
 - Notifications: the design shows "הרשמה לעדכונים" - MVP records the follow
   locally; how updates actually reach users ( email? ) is undecided.
 - MK photos: initials avatars for now; real photos need sourcing and rights.
+- חדשים במשכן?: the page currently explains the legislation process; a
+  plain-language glossary of the ~40 Knesset statuses ( a future
+  `src/content/statuses.ts` ) is planned to join it as its own section.
