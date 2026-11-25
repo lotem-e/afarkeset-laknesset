@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2198804,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-25",
   officialName: "הצעת חוק קליטת חיילים משוחררים (תיקון - מימון מלא לתוכנית \"ממדים ללימודים\"), התשפ\"ג-2023",
   type: "private",
   committeeId: "foreign-defense",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-24",
   initiators: [
     {
       kind: "mk",

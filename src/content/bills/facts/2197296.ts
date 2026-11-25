@@ -8,12 +8,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2197296,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-25",
   officialName: "הצעת חוק הביטוח הלאומי (תיקון מס' 255) (תשלום גמלה לשמירת היריון), התשפ\"ה-2024",
   type: "private",
   committeeId: "labor-welfare",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-25",
   initiators: [
     {
       kind: "mk",

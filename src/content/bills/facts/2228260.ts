@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2228260,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-25",
   officialName: "הצעת חוק לתיקון מונחים בחקיקה (יהודה והשומרון), התשפ\"ה-2025",
   type: "private",
   committeeId: "constitution",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-24",
   initiators: [
     {
       kind: "mk",
