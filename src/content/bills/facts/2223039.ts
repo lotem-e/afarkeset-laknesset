@@ -9,13 +9,13 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2223039,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-26",
   officialName: "הצעת חוק לביטול הפליה ברכישת מקרקעין ביהודה והשומרון, התשפ\"ה-2024",
   type: "private",
   committeeId: "foreign-defense",
   status: "dropped",
   offPipelineReason: "מוזגה עם הצעת חוק אחרת",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-26",
   initiators: [
     {
       kind: "mk",

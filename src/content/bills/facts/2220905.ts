@@ -9,12 +9,12 @@ import type { BillFacts } from "../../types";
 
 export const facts: BillFacts = {
   billId: 2220905,
-  syncedAt: "2026-11-11",
+  syncedAt: "2026-11-26",
   officialName: "הצעת חוק העונשין (תיקון - איסור הנפת דגל של מדינת אויב או של הרשות הפלסטינית בגופים המתוקצבים או הנתמכים על ידי המדינה), התשפ\"ד-2024",
   type: "private",
   committeeId: "constitution",
   status: "agenda",
-  lastUpdated: "2026-11-04",
+  lastUpdated: "2026-11-26",
   initiators: [
     {
       kind: "mk",
